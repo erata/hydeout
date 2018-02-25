@@ -37,7 +37,8 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: $section-spacing;
+  /* padding: $section-spacing; */
+  padding: 1.7rem;
 
   .site-title {
     font-family: "Abril Fatface", serif;
@@ -115,7 +116,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 3rem;
     color: white;
   }
 
