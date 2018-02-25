@@ -1,6 +1,16 @@
-Drupal: Açık Kaynak Dünyasının Parlayan Yıldızı
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
-Merhaba arkadaşlar. Sizlerin de bildiği üzere günümüz dünyasında web teknolojilerinde inanılmaz bir gelişme var ve bu gelişmenin hızını ayak uyduramaz durumdayız. Açık kaynak yazılıma ilgilinin hit yapığı bu günlerde açık kaynak ile geliştirilmiş projeler de yoğun ilgi görmekte ve kısa zaman içerisinde çok büyük gelişmeler  göstermekte. Bu açık kaynak projelerden bir tanesi ise hiç kuşkusuz Drupal.
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupal: Açık Kaynak Dünyasının Parlayan Yıldızı'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
+şlar. Sizlerin de bildiği üzere günümüz dünyasında web teknolojilerinde inanılmaz bir gelişme var ve bu gelişmenin hızını ayak uyduramaz durumdayız. Açık kaynak yazılıma ilgilinin hit yapığı bu günlerde açık kaynak ile geliştirilmiş projeler de yoğun ilgi görmekte ve kısa zaman içerisinde çok büyük gelişmeler  göstermekte. Bu açık kaynak projelerden bir tanesi ise hiç kuşkusuz Drupal.
+
+<!--more-->
 
 Drupal’i temelde içerik yönetim sistemi olarak bilsek de günümüzde içerik yönetim sisteminde farklı değişik projeler için de kullanılmaktadır. Drupal’in esnek ve geliştirmeye açık yapısı, güvenlik noktasında kullanıcılarına güven vermesi onun birçok farkılı alanlarda (kamu kurumlarında, şirketlerde ve bireysel) tercih edilmesini sağlamıştır.
 
@@ -18,7 +28,5 @@ WordPress ve Joomla, Drupale göre daha bütünleşik bir yapıda gelmekte ve ek
 
 Peki bir insan bir şeyi wordpress, joomla ve drupalde de yapabiliyor ve de bunlardan wordpress ile daha hızlı yapabiliyor ise neden zorunu tercih etsin ki? Bu soruya genel teamül çerçevesinde cevap verecek olursak drupali tercih edenlerin genelde güvenlik ve geliştirilebilirlik açısından, wordpressi kullananların ise daha hızlı ve daha kolay olması bakımından onu tercih ettikleri görülür.
 
-Kaynaklar:
-https://drupal.org/getting-started/before/overview## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Kaynaklar:
+https://drupal.org/getting-started/before/overview
