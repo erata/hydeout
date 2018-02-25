@@ -1,6 +1,18 @@
-Drupalde Bir Views Üzerine Çoklu Görüntü Ekleme ve Görüntü Kapsamlarını Belirleme (override block or page in multiple displays)
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: >-
+  Drupalde Bir Views Üzerine Çoklu Görüntü Ekleme ve Görüntü Kapsamlarını
+  Belirleme (override block or page in multiple displays)
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün sizlerle bir views oluştururken dikkat etmemiz gereken hususlardan birine değineceğiz. Özetle konu, views kapsamını belirlemekle ilgili. Yani yapacağımız değişikliklerin sadece o an üzerinde çalıştığımız öğede (blok, sayfa, ek, vb.) mi etkili olacağı ya da aynı views içerisindeki diğer öğeleri etkileyip etkilemeyeceği, işte esas konumuz bu.
+
+<!--more-->
 
 bir views ile çoklu görüntü oluşturma
 
@@ -18,6 +30,4 @@ Kapsamı, üzerinde çalışılan görüntü olarak belirlemek için override se
 Master’ı miras alıp görüntü oluşturuyor iken Master’da olmayan faklı bir field eklemek istiyorsanız ya da Master’da olanı çıkarmak istiyorsanız  fakat aynı views içerisindeki diğer görüntülerin bu durumdan etkilenmesini istemiyorsanız…
 Filtreleme yaparken aynı views içindeki her blok görüntüsü için farklı bir kategori eklemek istiyorsanız…
 Kısacası, Master görüntüyü miras alıp her görüntü için özelleştirmek istiyorsanız
-override yapmanız gerekiyor…## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+override yapmanız gerekiyor…
