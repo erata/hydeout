@@ -2,6 +2,7 @@
 layout: category
 category: mobil-programlama
 title: Mobil Programlama
+permalink: /mobil-programlama
 ---
 
 <div class="message">
