@@ -1,8 +1,18 @@
-## A New Post
-
-Popüler Üç Gömülü Veritabanı Sistemi: SQLite, SQL Server Compact ve Access
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Popüler Üç Gömülü Veritabanı Sistemi: SQLite, SQL Server Compact ve Access'
+categories:
+  - veritabani
+tags:
+  - sqllite
+  - ' sql-server-compact '
+  - access
+---
 Merhaba arkadaşlar. Bu yazıda, yazılım geliştiricilerin oldukça çok kullandıkları üç gömülü (embeded) veritanı sistemine değineceğiz: SQLite, SQL Server Compact ve Access.
+
+<!--more-->
 
 Gömülü Veritabanı Sistemi Nedir?
 Çalışabilmesi için herhangi bir veritabanı sunucusuna ihtiyaç duymayan veritabanı sistemleridir. Örneğin SQLite, Microsoft Access, SQL Server Compact, vb. veritabanları herhangi bir sunucuya ihtiyaç duymadan çalışırlar. Aksine; MySQL, PostgreSQL, Oracle, SQL Server, Sybse, vb. veritabanları ise çalışabilmek için veritabanı sunucusuna ihtiyaç duyarlar. Gömülü veritabanı sistemleri, sunucu gerektiren veritabanı sistmleri kadar fonksiyon ihtiva etmezler ve kısıtlı büyüklükteki (sunucu bazlı veritabanına göre) veriyi destekler. Özellikle cep telefonları, internet tarayıcıları, vb. başlıca gömülü veritabanı kullanım alanı olmakla birlikte gömülü veritabanları birçok alanda kullanılırlar.
