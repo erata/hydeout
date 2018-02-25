@@ -1,17 +1,18 @@
-<form action="https://google.com/search" class="search-form">
-  <div class="search-row">
-    <input id="search-bar" type="search" name="q" />
+<!-- Details in https://blog.webjeda.com/instant-jekyll-search -->
+<!-- Html Elements for Search -->
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="ara..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'ara...'">
+  <ul id="results-container"></ul>
+</div>
 
-    {% comment %}
-      Hacky strip of protocol to the sitesearch value we pass to Google
-    {% endcomment %}
-    {% assign url = site.url | replace_first: 'https://', '' %}
-    {% assign url = url | replace_first: 'http://', '' %}
-    {% assign url = url | replace_first: 'spdy://', '' %}
-    {% assign url = url | replace_first: '//', '' %}
-    <input name="sitesearch" type="hidden"
-           value="{{ url }}{{ site.baseurl }}" />
+<!-- Script pointing to search-script.js -->
+<script src="../../assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
 
-    <input type="submit" value="Search" />
-  </div>
-</form>
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '../../search.json'
+})
+</script>
