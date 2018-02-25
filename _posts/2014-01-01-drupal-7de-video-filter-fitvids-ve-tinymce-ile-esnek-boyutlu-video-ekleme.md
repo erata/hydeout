@@ -1,6 +1,16 @@
-Drupal 7’de Video Filter, FitVids ve Tinymce ile Esnek Boyutlu Video Ekleme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupal 7’de Video Filter, FitVids ve Tinymce ile Esnek Boyutlu Video Ekleme'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün sizlerle drupalde nasıl esnek bir şekilde değişik internet ortamlarındaki videoları (youtube, vimeo, dailymotion, flickr, vb.) esnek bir şekilde (responsive) sitemize eklemesini göstermiş olacağım. İlgili eklentileri ekledikten sonra ve gerekli ayarları yaptıktan sonra siz de benim gibi internet ortamındaki farklı video kaynaklarını boyut duyarlı yani responsive bir şekilde ve sadece ilgili videonun url’sini ve istediğiniz boyut ölçüsünü girerek elde edeceksiniz. Lafı fazla uzatmadan bu iş için gerekli eklentilerden ve ayarlamalardan bahsedeyim.
+
+<!--more-->
 
 Not: Ben Wysiwyg eklentisi üzerine Tinymce yazı editörünü kurdum. Ve bu yazıda ona göre anlatacağım.
 
@@ -70,6 +80,4 @@ http://avexdesigns.com/responsive-youtube-embed
 https://drupal.org/project/video_filter
 https://drupal.org/project/fitvids
 https://drupal.org/project/wysiwyg
-http://www.tinymce.com## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+http://www.tinymce.com
