@@ -1,8 +1,17 @@
-## A New Post
-
-Statik-Dinamik Site Farkı ve İçerik Yönetim Sistemleri
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Statik-Dinamik Site Farkı ve İçerik Yönetim Sistemleri
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - statik-site
+  - dinamik-site
+---
 Merhaba arkadaşlar. Bu yazıda statik site ve dinamik site nedir sorusuna cevap aralayacağız ve tabi ki içerik yönetim sistemlerinden bahsedeceğiz.
+
+<!--more-->
 
 Statik Site Nedir?
 HTML, CSS ve Javascript kullanılarak geliştirilen, kullanıcı etkileşimli olmayan sitelerdir. Bu siteler, güncelleme yok denecek kadar azdır ve bir değişiklik yapıldığında değiştirilen dosya sunucuya yüklenerek değişiklikler yansıtılır. Bu anlamda veritabanı kullanımına ihtiyaç  yoktur. İstemciden gelen istekler sunucuya yüklenmiş dosyalar vasıtasıyla cevaplanır. Statik sitelerdeki işleyiş aşağıdaki resimdeki gibidir.
