@@ -1,13 +1,9 @@
 ---
 layout: page
-title: About
+title: Hakkında
 sidebar_link: true
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+Merhaba, ben İbrahim Erata. Bu sitede ağırlıklı olarak web uygulama geliştirme konuları başta olmak üzere diğer bazı diğer konulara değineceğim. Umarım kendim ve sizler için faydalı paylaşımlar sunarım. Saygılarımla,
 </p>
-
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
