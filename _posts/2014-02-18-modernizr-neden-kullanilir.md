@@ -1,6 +1,16 @@
-## Modernizr Neden Kullanılır?
-
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Modernizr Neden Kullanılır?
+categories:
+  - javascript
+tags:
+  - modernizr
+---
 Modernizr günümüzün sık kullanılan javascript frameworklerinden biri, Wappalyzer’e göre ise jQuery’den sonra en fazla kullanılanı. Ne işlev yaptığı ise kendi sayfasındaki açıklama ile “Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser”  yani kullanıcıların kullandıkları tarayıcıların CSS3 ve HTML5’in hangi özelliklerini desteklediğini tespit eden bir javascript kütüphanesidir.
+
+<!--more-->
 
 Modernizr’in tarayıcılardaki CSS3 ve HTML5 özelliklerini tespit etmesi, desteklenmeyen özelliklere yönelik program geliştirmede çok önemlidir. İşte Modernizr tam bu noktada devreye girerek desteklenen özellikler için bunu uygula, desteklenmeyen özellikler için şunu diyerek koşullu bir yaklaşımlara imkan verir ve tarayıcılardan kaynaklanan durumlar için en iyi çözüm yolu ortaya koyabilmenize müsaade eder.
 
