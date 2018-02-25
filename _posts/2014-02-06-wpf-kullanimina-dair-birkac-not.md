@@ -1,8 +1,16 @@
-## A New Post
-
-WPF Kullanımına Dair Birkaç Not
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: WPF Kullanımına Dair Birkaç Not
+categories:
+  - csharp
+tags:
+  - wpf
+---
 Merhaba arkadaşlar. Bu yazıyı, WPF kullanırken takılabileceğimiz bazı noktalarda yardımcı olabiliceği düşüncesiyle ele alıyorum.
+
+<!--more-->
 
 WPF (Windows Presentation Framework), yeni nesil kullanıcı arayüzü geliştirme ve görüntüleme platformudur. Windows Form gibi bir işlevi olmakla birlikte Windows Form’a göre birçok açıdan esnek kullanım sağlar. Özellikle grafik çizimlerinde çok başarılıdır. WPF’i daha iyi anlamak ve Windows Form ile ne gibi farklılıklarının olduğunu öğrenmek için 1, 2, 3, 4, 5, 6 ve 7 nolu yazıları okuyabilirsiniz)
 
