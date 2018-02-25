@@ -10,6 +10,8 @@ tags:
 ---
 Merhaba arkadaşlar. Bu yazıda son zamanlar drupalde üzerinde çokça durulan bir kavram üzerinde duracağız: Entity.
 
+<!--more-->
+
 Node, drupal 6’ya değin drupalle birlikte anılan onun en önemli bir yapısıydı. Drupal 7’den itibaren “entity” denilen bir kavram “node”nin yerini almaya başladı. Öyleki, drupal 7’ye kadar piyasaya sürülen eklentiler (modules) hep “node” bazlıydı ve bu durum drupal 7’den itibaren değişti.
 
 Drupal 6’ya değin drupal “node” bazlı bir yapı üzerine kuruluydu. Bu yapı, drupalin o zamana kadar atılım yapmasını sağlayan en güçlü yanıydı. Fakat gün geçtikçe “node” bazlı bir yapı drupal’in gelişimini sekteye uğratıcı bir hal almaya başladı. Node’nin temelde birçok gerekli gereksiz alanı içeren bir yapıda olması içerik oluşturup kaydetmede veritabanı üzerinde bir yük oluşturuyordu. Node’nin bu durumu node bazlı eklentilerde de kendini daha fazla iş yükü olarak gösteriyordu. Farklı içerik türleri arasındaki ortak yapılar… Bir içerik içerisinde içerik için gerekli olmayan fakat node ile gelen gereksiz alanlar… Kısacası Drupal node bazlı yapıdan gelişimi açısında daha esnek bir yapıya geçmeliydi. Drupal 7 bu eksen değişimi için çok önemli bir geçiş noktası oluşturdu. Şuan node bazlı eklentilerle birlikte entity bazlı eklentiler oluşturulmakta ve entity bazlı eklentilerin sayısı gün geçtikçe daha da fazlalaşmakta.
