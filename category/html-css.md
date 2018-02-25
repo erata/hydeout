@@ -1,8 +1,8 @@
 ---
 layout: category
-title: HTML-CSS
+title: Web Programlama
 ---
 
 <div class="message">
-  Bu kategoride HTML ve CSS ile ilgili popüler konular yer alacaktır. 
+  Bu kategoride HTML, CSS ve Javascript ile ilgili popüler konular yer alacaktır. 
 </div>
