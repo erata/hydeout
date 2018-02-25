@@ -1,6 +1,16 @@
-## A New Post
-
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupalde Spam Kullanıcı Kayıtları ve Spam Yorumları Önleme
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Spam, ticari ya da diğer amaçlarla isteğimiz dışında gelen mesajlardır. Reklam ve propaganda yapma  amacıyla kullanılabilirler.  Günümüzde kullanıcı etkileşiminin yoğun olduğu sitelerin en büyük sıkıntılarından biridir. Özellikle forum siteleri gibi gerek kullanıcı kayıtlarının çok olduğu gerekse de mesajlaşmanın çok olduğu sitelerin en büyük baş ağrılarından biridir. Peki baş edilemez mi?
+
+<!--more-->
 
 Drupalde  Spam’a Karşı Koyma Yolları
 Drupalde spamlara karşı koymanın birçok yolu mevcut. Öyle ki drupalmodules.comde spam diye arattığımızda şuan itibariyle 13 eklenti listelenmekte. Ayrıca bunlar dışında da spamlara karşı hatırı sayılır bir eklentinin olduğunu söylemek mümkün. Önemli olan spamlardan kalıcı bir şekilde en iyi nasıl kurtulabileceğimizi ve bunu hangi eklenti ya da eklenti kombinasyonlarıyla yapabileceğimizi tespit etmek.
@@ -24,7 +34,7 @@ honeypot, botcha, spamicide  ve antispam eklentilerinin de yine spamdan korunmad
 
 Elbette ki spam ile ilgili tüm eklentileri burda ele almamız mümkün değil fakat yukarıdaki seçeneklerden herhangi birini tatbik etmeniz büyük bir oranda sorununuzun çözülmesini sağlayacaktır.
 
-Tavsiye Kaynaklar:
+### Tavsiye Kaynaklar:
 http://www.ostraining.com/blog/drupal/block-spam-registrations-drupal/
 http://getlevelten.com/blog/colin/spam-be-gone-10-spam-blocking-drupal-modules
 http://raisedbyturtles.org/stopping-spam-comments-in-drupal-7/
