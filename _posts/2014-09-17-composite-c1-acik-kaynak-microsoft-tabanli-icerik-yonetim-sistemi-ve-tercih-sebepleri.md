@@ -1,10 +1,18 @@
-## A New Post
-
-Composite C1: Açık Kaynak Microsoft Tabanlı İçerik Yönetim Sistemi ve Tercih Sebepleri
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: >-
+  Composite C1: Açık Kaynak Microsoft Tabanlı İçerik Yönetim Sistemi ve Tercih
+  Sebepleri
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - composite-c1
+---
 Merhaba arkadaşlar. Bu yazıda sizlere Windows tabanlı bir içerik yönetimi olan Composite C1‘den bahsedeceğim. Bildiğiniz üzere şuan piyasada irili ufaklı onlarca içerik yönetim sistemi var gerek ücretli gerekse ücretsiz. Peki o kadar içerik yönetim sistemi arasından Composite C1’in dikkatimi çekmesindeki sebepler ne? İşte bu yazıda Composite C1’i tercih sebebi yapabilecek özelliklere değineceğim.
 
-1. Açık Kaynak (Open Source)
+**1.** Açık Kaynak (Open Source)
 Composite C1, 2010 yılına kadar parayla satılmaktaydı. Sonradan açık kaynak şeklinde piyasaya sürülmeye başladı.
 
 2. En Son Microsoft Teknolojilerini Desteklemesi ve Yeni Teknolojileri Barındırması
@@ -17,18 +25,14 @@ Bootstrap, CSS/LESS
 SQL Server (Eğerki XML Flat File veritabanından geçiş yaparsanız)
 gibi bir çok teknodesteklemekte. Dolayısıyla bu durum geliştiricilerin elini oldukça rahatlatacağı gibi farklı tercik imkanı da verecektir. Composite C1 kurulumu sırasında farklı birçok kurulum modu ile gelmesi (ASP.NET Master Page, Razor, Bare Bones vb.) bu açıdan oldukça geniş bir platform sağlamaktadır.
 
-
-
 Demo modu ile kurulum ise taslak bir site için gerekli yapıları içermesi ve örnek yapıları içermesi açısından yeni başlayanlar için oldukça yol göstericidir.
 
 3. Gerek Editör Gerekse de Admin Olarak Yönetilmesi Kolay
 Sade ve basit yönetim paneli vasıtasıyla hangi kullanıcının hangi haklara sahip olabileceği, hangi eklentilerin ekleme/kaldırırma, veritabanı işlemleri, vb. rahatlıkla yapılabilmekte. Bu açıdan Admin kullanıcı çok rahat edecektir.
 
-
-
 Diğer açıdan ise basit ve kullanışlı yazı editörü sayesinde editör/yazar kullanıcılar hiç zorlanmadan içeriklerini rahatça girebileceklerdir. http://users.composite.net/User-Guide/User-Guide/How-to-use-Composite-C1 sayfasından editör olarak nasıl kolayca içerik eklenendiğini görebilirsiniz.
 
-4. XML Dosyası ve SQL Server Veritabanı Alternatifleri
+**4.** XML Dosyası ve SQL Server Veritabanı Alternatifleri
 Composite C1, kurulumunda veritabanı olarak XML dosyasını kabul etmekte. Yani site içerisindeki tüm veriler XML dosyalarını kaydedilip ordan servis edilmekte. Bu ise küçük ve orta ölçekli sitelere hız ve performan olarak dönecektir. Çünkü XML dosyaları bellekte tutulduğu için oldukça hızlı bir okuma hızı sağlamaktadır. Dolaysıyla XML dosyasının veritabanı olarak kullanılması 10.000 kayda kadar verisi olabilecek küçük ve orta ölçekli siteler için oldukça iyidir (Bu bilgiyi  Composite C1‘e sorduğum bir soru ile öğrendim). Ayrıca XML veritabanına bağımlı değilsiniz. İstediğiniz an XML dosyalarına kaydetmiş olduğunuz verileri SQL Server’a taşıyabilir, SQL Server’dan devam edebilirsiniz. Bu anlamda da oldukça geniş bir manevra alanı sağlamaktadır.
 
 5. İhtiyacı Karşılayacak Yetkinlikte Eklenti (Addons) Barındırma
