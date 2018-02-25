@@ -1,5 +1,6 @@
 ---
 layout: category
+category: mobil-programlama
 title: Mobil Programlama
 ---
 
