@@ -1,8 +1,16 @@
-## A New Post
-
-Drupal 7’de Syntax Highlighter Kullanarak Kodları Renklendirme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7’de Syntax Highlighter Kullanarak Kodları Renklendirme
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün drupal 7’de kodların daha göz alımlı gösterilmesi konusunu ele alacağız. Tabi ki bu işlev için biçilmiş kaftan olan syntaxhighlighter eklentisinin nasıl kurulacağından ve wysiwyg ile entegre tinymce editörü ile nasıl kullanılacağından bahsedeceğiz.
+
+<!--more-->
 
 Öncelikle syntaxhighlighter eklentisi ve wysiwyg ile entegre çalışabilmesi için gerekli bileşenleri listeleyelim.
 
@@ -26,7 +34,7 @@ Editöre bir kod ekleyip renklendirerek göstermek için yukarıda verdiğimiz d
 
 Örneğin aşağıdaki CSS kodunu syntaxhighlighter ile göstercek olursak:
 
-.node-teaser {
+> .node-teaser {
   border-bottom: 1px solid #d3d7d9;
   margin-bottom: 30px;
   padding-bottom: 15px;
@@ -66,10 +74,12 @@ Editöre bir kod ekleyip renklendirerek göstermek için yukarıda verdiğimiz d
  clear: none;
  line-height: 1.6;
 }
+
 şeklinde bir görünüm elde ederiz.
 
 Ayrıca Şu Kaynaklardan da Yararlanabilirsiniz:
 http://jordanjr.com/articles/drupal-7-syntax-highlighting-using-wysiwyg-ckeditor-and-syntax-highlighter
 http://stuartmcgoldrick.com/drupalwysiwyg
 http://zugec.com/2011/03/how-use-syntax-highlighter-module-drupal-7
+
 Umarım yararlı olmuştur.
