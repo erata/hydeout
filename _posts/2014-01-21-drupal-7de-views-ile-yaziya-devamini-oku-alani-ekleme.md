@@ -1,8 +1,16 @@
-## A New Post
-
-Drupal 7’de Views ile Yazıya “Devamını Oku” Alanı Ekleme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7’de Views ile Yazıya “Devamını Oku” Alanı Ekleme
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün sizlerle drupalde views kullanarak bir yazıya nasıl “devamını oku” alanı ekleriz onu göreceğiz. Hemen konuya girersek, views ile yazıya “devamını oku” eklemenin temel olarak iki yolu olduğunu baştan söyleyelim. Ve her iki yolda da bir alan ekleme (ya Content:Link ya da Content:Nid) ile bu işi yapıyoruz.
+
+<!--more-->
 
 Content:Link ve Content:Nid Alanları ile”Devamını Oku” Yapmanın Farkı Ne?
 Content:Link alanını kullanırsanız “devamını oku”, ihtiyaç olup olmadığına bakılmaksızın her halukarda  yazının sonunda görünür. Fakat Content:Nid alanını kullanırsanız “devamını oku”, sadece ihtiyaç duyulduğu zaman yazıya eklenir ve görünür.
