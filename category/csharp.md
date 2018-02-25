@@ -1,6 +1,6 @@
 ---
 layout: category
-title: C#-ASP.NET.MVC-WPF
+title: C#-ASP.NET MVC
 permalink: /dotnet
 ---
 
