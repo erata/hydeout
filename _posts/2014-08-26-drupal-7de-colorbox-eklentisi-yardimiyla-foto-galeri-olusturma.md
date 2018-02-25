@@ -1,6 +1,16 @@
-## A New Post
-
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7'de Colorbox Eklentisi Yardımıyla Foto-Galeri Oluşturma
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bir önceki yazımda birkaç satır CSS kodla drupalde nasıl  resim galerisi yapılabileceğinden bahsetmiştik. Fakat bu galeri tam anlamıyla bir galeri değildi. Çünkü bir thumbnail resme tıkladığımızda otomatik olarak orjinal resim görünüyordu ama diğer resimlere geçiş açılan bu resim üzerinden sağlanamıyordu. Dolayısıyla bu yazıyı bu soruna çözüm sağlayan, lightbox eklentilerinden biri olan Colorbox eklentisiyle ile resim galerisi yapımına değineceğiz. Örnek uygulamamızı ise Bir önceki yazı ile inşa ettiğim Resim Galeri içerik türünün Galeri Resimleri resim alanı üzerinde anlatacağım.
+
+<!--more-->
 
 İlk önce Colorbox eklentisinin kurulması gerekiyor ki bunun için 3 şey gerekiyor.
 
