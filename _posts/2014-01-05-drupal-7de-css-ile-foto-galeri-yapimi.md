@@ -1,8 +1,16 @@
-## A New Post
-
-Drupal 7’de CSS İle Foto-Galeri Yapımı
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7’de CSS İle Foto-Galeri Yapımı
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün sizlere drupalde ekstradan bir modül kullanmaksızın basit bir galeri yapımını göstereceğim. Olay ise temel olarak herhangi içerik türünde galeri şeklinde görünmesini istediğiniz resim alanına biraz sitil vermekten ibaret.
+
+<!--more-->
 
 Biz verdiğimiz örnekte Resim Galeri adında bir içerik türü oluşturarak Manage Fields (Alanların Yönetimi) kısmınsda Galeri Resimleri isimli bir resim alanı ekledik ve bu alanın Number of values (eklenebilecek resim sayısı diyebilirsiniz) kısmına unlimitted (yani sınırsız) dedik ve içerik türümüzü kaydettik. Daha sonra ise Manage Display kısmında Galeri Resimleri için Label (etiket) kısmında Hidden (saklı), Format kısmında Image (resim) ve image ayarları kısmında image style (resim sitili) için thumbnail->file seçtik. Ve böylece içerik türü kısımındaki işlemimiz bitmiş oldu. Resim Galeri içerik türünün Manage display kısmı aşağıdaki resimden incelenebilir.
 
