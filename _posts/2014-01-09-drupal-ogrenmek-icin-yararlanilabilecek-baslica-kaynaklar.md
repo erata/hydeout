@@ -1,10 +1,19 @@
-## A New Post
-
-Drupal Öğrenmek İçin Yararlanılabilecek Başlıca Kaynaklar
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal Öğrenmek İçin Yararlanılabilecek Başlıca Kaynaklar
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Drupal: Açık Kaynak Dünyasının Parlayan Yıldızı yazısında belirttiğim üzere drupalin kendini öğrenmek (çekirdek sürümündeki halini) kolay olsa da ihtiyaçlarımız doğrultusunda gerekli eklentileri bulmak ve bunları doğru bir şekilde kullanmasını bilmek, drupalin kendini öğrenmekten daha zor bir süreçtir. İşte bu süreci daha rahat atlatabilmede takip ettiğiniz kaynakların önemi çok büyüktür. Bu amaçla sizlerin öğrenmesinde olumlu yönde katkı sağlayabileceği düşündüğümüz kaynakları sunuyoruz.
 
-Drupal Öğrenmede Tavsiye Ettiğimiz Kaynaklar
+<!--more-->
+
+### Drupal Öğrenmede Tavsiye Ettiğimiz Kaynaklar
+
 İngilizce Kaynaklar
 DRUPAL.ORG sitesinde Documentation ve Forum (Hiç Kuşkusuz)
 Drupal – Understand
