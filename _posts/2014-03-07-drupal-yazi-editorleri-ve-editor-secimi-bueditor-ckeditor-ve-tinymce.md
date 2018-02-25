@@ -1,7 +1,13 @@
-## A New Post
-
-Drupal: Yazı Editörleri ve Editör Seçimi (Bueditor, CKEditor ve Tinymce)
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupal: Yazı Editörleri ve Editör Seçimi (Bueditor, CKEditor ve Tinymce)'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bu yazıda drupalin en can sıkıcı konularından biri olan yazı editörlerinden bahsedeceğiz. Bildiğiniz üzere drupal 8 e kadar yazı editörleri için İngilizcesi “out of box” denilen bir çözüm mevcut değildi. Dolayısıyla çözüm adına iki seçenek çıkmaktaydı. Bunlar: Yeterli düzeyde HTML ve CSS bilerek içeriğe kod üzerinden müdahale edebilmek ya da 3. parti yazı editörleri kullanmak (yani “out of box” çözüm İngilizcesi). [Drupalde kullanılan editöler ile ilgili genel bilgili için]
 
 drupal.org sitesinde yukarıda bahsettiğimiz çözümlerden ikincisi tercih edilerek bueditor kullanmıştır. Peki bueditor neden tercih edilmiştir dediğinizi duyar gibiyim.
@@ -33,9 +39,8 @@ Drupal 8: CKEditor ve Satır İçi Editör Kullanımı (İnline Editing)
 Drupal 8 ile beraber CKEditor, temel sürümün içerisine dahil edildi. Fakat tek yenilik bu değil: inline editing denen yaklaşım da uygulamaya sokuldu ve böylece seçilen kısmi alanlar üzerindeki değişiklik yapılabilecek. Aşağıdaki örnek videoyu inceleyiniz.
 
 [video:http://www.youtube.com/watch?v=Dlh602DcW-A]
- 
 
-Kaynaklar:
+### Kaynaklar:
 http://drupal.cocomore.com/blog/better-than-wysiwyg_bueditor-drupal-7_use-and-configuration
 http://brighternet.com/articles/review-of-drupal-rich-text-editors/
 http://drupalize.me/blog/201310/drupal-8-wysiwyg-and-line-editing
