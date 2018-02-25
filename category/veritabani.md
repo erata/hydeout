@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Veritabanı
 category: veritabani
+title: Veritabanı
 # permalink: /veritabani
 ---
