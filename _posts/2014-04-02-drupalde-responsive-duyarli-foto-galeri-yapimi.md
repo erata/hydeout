@@ -1,10 +1,19 @@
-## A New Post
-
-Drupalde Responsive (Duyarlı) Foto – Video Galeri Yapımı
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupalde Responsive (Duyarlı) Foto – Video Galeri Yapımı
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Günümüz tasarım yaklaşımlarında responsive (duyarlı) tasarım oldukça önemli bir yer tutuyor. Hal böyle olunca responsive yapılarında bu yaklaşım çerçevesinde önemi daha da bir artıyor. Tasarımı responsive (duyarlı) olan bir sitenin içeriklerinin de bu çerçevede duyarlı olması gerekiyor ki güzel bir sonuç ortaya çıksın. İşte bu yaklaşım içerisinde kritik önem arzeden önemli bir husus foto/video galeri yapımı hususu. Gerek resimlerin gerekse de videoların boyutlarının ekran çözünürlüğüne bağlı olarak yeniden ayarlanması özellikle günümüz mobil teknolojisindeki artan kullanım ivmesi düşünüldüğünde oldukça önemli olduğu anlaşılır diye düşünüyorum.
 
-Responsive (Duyarlı) Foto Galeri Yapımı
+<!--more-->
+
+### Responsive (Duyarlı) Foto Galeri Yapımı
+
 Baştan hatırlatmak gerekirse burada responsive galerinin nasıl yapılacağını adım adım anlatmayacağım. Sadece hangi modülleri ya da yaklaşımları kullanırsanız böyle bir galeriyi yapabileceğinizden bahsedeceğim.
 
 1. Magnific Popup eklentisi ile (tabi ilgili kütüphaneyi indirirmeyi unutmayın) güzel bir foto galeri yapabilmeniz mümkün. Fotoğrafların otomatik olarak ekran boyutuna ayarlanıyor olması ise responsive galeri yapmak için gerekli altyapıyı sağlamış oluyor. Magnific Popup ile ayrıca videolarıda göstermeniz mümkün. Eklenti henüz yeni olduğu için ilgili kütüphane özelliklerini tam yansıtmıyor olabilir. Bunun yanında eklenti kullanmadan da galeri yapım örnekleri var.
@@ -24,8 +33,8 @@ Video galeri yapımında genelde videoyu temsilen bir ön resim (thumbnail) ve r
 İçerik türünüzde biri image, biri body türünde olmak üzere en az iki alan olmalı.
 Image türündeki alanı teaser’da ön yüz resmi (thumbnail) olarak kullanınız. 100X100, 150X150 veya 220X220, vb. bir boyut kullanabilirsiniz bu resimler için. Resimlerin alt alta tek dize şeklinde değilde bir galeri havasında ızgara sisteminde görünmesini istiyorsanız CSS ile galeri yapımı yazısındakine benzer bir CSS kullanımı yapabilirsiniz ya da Views kullanarak da istediğiniz galeri havasını katabilirsiniz.
 Ön yüz resmine tıklandığında ise arkada yani Default görünümde image türündeki alan görünmeyecek, body alanına eklediğimiz  İlgili  yazımızdaki video görünecek.
-Kaynaklar:
 
+### Kaynaklar:
 [1] http://highrockmedia.com/blog/designing-responsive-lightbox-photo-grid-gallery-drupal-7
 [2] http://othermachines.com/blog/drupal-lightbox-overlay-views-3-and-magnific-popup
 [3] http://webwash.net/tutorials/create-responsive-image-galleries-drupal-7-juicebox
