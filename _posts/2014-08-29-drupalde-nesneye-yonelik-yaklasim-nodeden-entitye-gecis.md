@@ -1,5 +1,13 @@
-Drupalde Nesneye Yönelik Yaklaşım: Node’den Entity’e Geçiş
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupalde Nesneye Yönelik Yaklaşım: Node’den Entity’e Geçiş'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bu yazıda son zamanlar drupalde üzerinde çokça durulan bir kavram üzerinde duracağız: Entity.
 
 Node, drupal 6’ya değin drupalle birlikte anılan onun en önemli bir yapısıydı. Drupal 7’den itibaren “entity” denilen bir kavram “node”nin yerini almaya başladı. Öyleki, drupal 7’ye kadar piyasaya sürülen eklentiler (modules) hep “node” bazlıydı ve bu durum drupal 7’den itibaren değişti.
@@ -15,9 +23,7 @@ Aşağıdaki video entity, node ve diğer önemli yapılar üzerinde gayet net a
 [video:http://www.youtube.com/watch?v=coephBu07Ks]
 Özetle entity, drupalin devrimidir. Drupal 6’ya kadar “her şey bir node” idi. Drupal 7’den itibaren bu anlayış değişmeye başladığı gibi drupal 8’de entiy çok daha fazla hissedileceği açık ve net görülmekte. Drupal 8 eklentilerinin entity ağırlıkta oluşturulması bunu kanıtlar nitelikte.
 
-Kaynaklar:
+### Kaynaklar:
 https://www.drupal.org/node/1261744
 http://evolvingweb.ca/story/drupal-7-entities-what-are-they-and-what-are-they-good
-http://www.youtube.com/watch?v=coephBu07Ks## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+http://www.youtube.com/watch?v=coephBu07Ks
