@@ -1,6 +1,7 @@
 ---
 layout: category
 title: C#-ASP.NET
+category: csharp
 permalink: /csharp
 ---
 
