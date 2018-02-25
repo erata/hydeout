@@ -1,8 +1,8 @@
 ---
 layout: category
-title: Gelistirme Araçlari
 category: gelistirme-araclari
-permalink: /gelistirme-araclari
+title: Gelistirme Araçlari
+# permalink: /gelistirme-araclari
 ---
 
 <div class="message">
