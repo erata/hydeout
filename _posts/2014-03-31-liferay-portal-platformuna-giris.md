@@ -1,10 +1,18 @@
-## A New Post
-
-Liferay Portal Platformuna Giriş
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Liferay Portal Platformuna Giriş
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - liferay
+---
 Merhaba arkadaşlar. Bu yazıda j2ee ile geliştirilmiş açık kaynak web portal platformu olan Liferay‘i konu alacağız.
 
 Liferay, bir portal platformudur ve Ücretsiz (Community Edition) ve Ücretli (Enterprise Edition) olmak üzere iki şekilde sunulmaktadır . Liferay’i anlamak portalın ve portletin ne olduğunu anlamakla başlar.
+
+<!--more-->
 
 Not: Portal’a, e-kapı; portlet’e ise e-odacık diyen var bknz)
 
@@ -40,7 +48,7 @@ liferay-portal/6.0/development/-/ai/installation (Eclipse)
 Liferay Weblogic Kurulumu
 sayfalarını ziyaret edebilirsiniz. Dilerseniz kaynaklarda verdiğimiz referanslardan da yararlanma yoluna gidebilirsiniz.
 
-Kaynaklar
+### Kaynaklar
 http://portal.nedir.com
 www.martisoft.com/download/ceturk_liferay.pps‎
 http://vforliferay.blogspot.com.tr/2010/11/liferay-overview.html
