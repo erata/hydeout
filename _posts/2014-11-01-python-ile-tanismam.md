@@ -1,7 +1,11 @@
-## A New Post
-
-Python ile Tanışmam
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Python ile Tanışmam
+tags:
+  - python
+---
 Merhaba arkadaşlar. Bugün TUTEV‘in Ankara’daki python seminerine katıldım. Tabi amacım derinlemesine bir giriş değil sadece bir keşif, farkındalığımı artırmaya yönelik bir serüvendi.
 
 Seminer başladı ben de merak içinde acaba python’un hangi özelliklerine değinilecek, onu öne çıkaracak neler tarzı sorular kafam bunlarla meşgul. Derken beklediğim gibi olmadı, daha çok katılımcıların düşüncelerini paylaştığı bir tarzda gerçekleşti -giriş için yine de idare eder-.
@@ -20,5 +24,5 @@ Python ile ilgili ülkemizde çok geniş bir kaynak imkanı var diyemiyorum. Öz
 
 Her neyse python ile ile ilgilenmek isteyen arkadaşlara Python Türkiye’nin sosyal medya adreslerini vereyim
 
-https://www.facebook.com/pythonturkiye
-https://twitter.com/python_turkiye
+[https://www.facebook.com/pythonturkiye](https://www.facebook.com/pythonturkiye)
+[https://twitter.com/python_turkiye](https://twitter.com/python_turkiye)
