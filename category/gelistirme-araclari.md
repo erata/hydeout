@@ -2,7 +2,7 @@
 layout: category
 category: gelistirme-araclari
 title: Gelistirme Araçlari
-# permalink: /gelistirme-araclari
+permalink: /gelistirme-araclari
 ---
 
 <div class="message">
