@@ -1,6 +1,8 @@
 ---
 layout: category
-title: Markup
+title: Java
 ---
 
-Another sample category page.
+<div class="message">
+  Bu kategoride Java ile yazılım geliştirme konuları ele alınacaktır. Özellikle de REST servis geliştirme, api testleri ve diğer önemli başlıklar bu kapsamda değerlendirilecektir. 
+</div>
