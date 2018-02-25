@@ -2,7 +2,7 @@
 layout: category
 category: icerik-yonetim-sistemleri
 title: İçerik Yönetim Sistemleri
-# permalink: /icerik-yonetim-sistemleri
+permalink: /icerik-yonetim-sistemleri
 ---
 
 <div class="message">
