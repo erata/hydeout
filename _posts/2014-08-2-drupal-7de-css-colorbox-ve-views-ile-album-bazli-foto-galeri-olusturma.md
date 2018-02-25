@@ -1,6 +1,16 @@
-Drupal 7’de CSS, Colorbox ve Views ile Album Bazlı Foto-Galeri Oluşturma
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupal 7’de CSS, Colorbox ve Views ile Album Bazlı Foto-Galeri Oluşturma'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bu yazıda views ile nasıl album bazlı foto galeri yapılır onu göstereceğiz.  Bu yazıyı hazırlarken şu kaynaktan esinlendiği belirteyim ki isteyenler bir de oradan incelesin. Bu arada konuya başlamadan önce Drupal 7’de CSS İle Foto-Galeri Yapımı ve Drupal 7’de Colorbox Eklentisi Yardımıyla Foto-Galeri Oluşturma yazılarını okumanızda fayda var çünkü bu yazı önceki iki yazı ile ortaya çıkan yapının üzerine kurulu.
+
+<!--more-->
 
 Yukarıda da değindiğim gibi CSS ve Colorbox ile ilgili yazılarımı okuyup galeri yapma aşamasını halletti iseniz sırada tek tek oluşturduğunuz galerileri views yardımıyla nasıl album şeklinde gösterebileceğimiz. Bunu ise özetle şu şekilde oluşturuyoruz:
 
@@ -25,11 +35,7 @@ Album bazlı galeri oluşturma: resim_galeri fotoğraf alanımızdaki işlemler
 
 Son durumda ise aşağıdaki yapı geliyor. Yani Galeri 1, Galeri 2, Galeri 3, Galeri 4, Galeri 5 olarak eklediğimiz galeri içerikleri anasayfada (eğerki Promoted to front page tiki işaretliyse yayınlama seçeneklerinde) aşağıdaki gibi görünür
 
-
-
 Galeri sayfasında ise bu içeriklerdeki (Galeri 1,2,3,4,5) ilk resimler galeriyi temsil eden resimler yer alır. Galerileri temsil eden bu resimlerden herhangi birine tıkladığımızda bizi doğrudan ilgili içerikteki tüm resimlere ve yazıya götürecektir.
-
-
 
 Eğer galeriyi temsil eden fotoğrafı değiştirmek istiyorsanız ilgili içerikteki yüklemiş olduğunuz resimlerden istediğinizi  1. resim (en üst sıraya taşıyarak) yaparak dileğiniz gerçekleştirebilirsiniz.
 
@@ -37,7 +43,5 @@ Eğer Galerilerin anasayfada değilde sadece Galeri sayfasında görünmesini is
 
 Umarım yararlı olmuştur.
 
- Kaynaklar:
-http://jamestombs.co.uk/2011-05-26/create-album-based-image-gallery-drupal-7-using-fields-and-views## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Kaynaklar:
+http://jamestombs.co.uk/2011-05-26/create-album-based-image-gallery-drupal-7-using-fields-and-views
