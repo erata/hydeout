@@ -1,8 +1,18 @@
-## A New Post
-
-Drupal 7: Imce ve File Field Sources Eklentileriyle Dosyaların Yeniden Kullanımı
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: >-
+  Drupal 7: Imce ve File Field Sources Eklentileriyle Dosyaların Yeniden
+  Kullanımı
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bu yazıda, Drupal 7’de mevcut kaynakların nasıl yeniden kullanılabileceğine değineceğim. Bu iş için biçilmiş kaftan ise imce ve file field sourcess eklentileri. Imce eklentisine bir yazımızda değinmiştik. Bu eklentiler vasıtasıyla daha önceden yüklemiş olduğumuz (upload) dosyalara standart dosya/resim yükleme  bölümünden ulaşıp dosyaya referans vererek aynı dosyanın tekrar yüklenmesinin önüne geçmiş oluyoruz ve yeniden kullanımı sağlamış oluyoruz. Böylece kaynaktan tasarruf sağladığımız gibi dosya yönetimini de kolaylaştırmış oluyoruz.
+
+<!--more-->
 
 Kaynakların (resim, text, pdf, vb. dosyalar) yeniden kullanımına olan ihtiyaç, yoğun dosya yüklenme işleminin yapıldığı sitelerde daha çok hissedilmektedir. Özellikle yoğun olarak resim galerisi yapıyorsanız ve önceden yüklemiş olduğunuz resimleri tekrar kullanmak durumunda iseniz bu yazıyı dikkatlice okuyun derim. Ayrıca drupal‘deki birçok resim galerisi eklentisi standart resim yükleme mekanizmasına göre çalışmakta ve resim galerisi oluştururken mevcut resimleri kullanmamıza izin vermemekte dolayısıyla aynı resimleri tekrar yüklemek durumunda kalmaktayız. O zaman ne yapmalı? İşte cevabı:
 
