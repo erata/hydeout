@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Web Ritmi
+title:            WebRitmi
 tagline:          'An IT Blog'
 description:      'Web Dünyasının Ritmi'
 url:              http://webritmi.com
