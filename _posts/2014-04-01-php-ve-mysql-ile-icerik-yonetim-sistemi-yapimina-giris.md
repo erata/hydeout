@@ -1,8 +1,17 @@
-## A New Post
-
-PHP ve MySQL ile İçerik Yönetim Sistemi Yapımına Giriş
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: PHP ve MySQL ile İçerik Yönetim Sistemi Yapımına Giriş
+categories:
+  - php
+  - icerik-yonetim-sistemleri
+tags:
+  - mysql
+---
 Merhaba arkadaşlar. Web sitesi yapımı ile ilgilenen birçoğumuz genelde içerik yönetim sistemlerini tercih etmekteyiz. Tabi bunun için geçerli bir çok sebebimiz var kendimize göre (örneğin şu yazıma bakabilirsiniz).  Ayrıca dünya geneli yapılan sitelerin genelinde içerik yönetim sistemleri kullanılmakta ve yeni içerik yönetim sistemleri gün be gün piyasaya sürülmekte. Birçoğumuz kod düzeyinde olmasa da Blogger gibi platformlar vasıtasıyla içerik yönetim sistemlerini kullanmakta. Birçoğumuz ise farklı birçok içerik yönetim sistemlerini kurup evirip çevirmekte ve bin takla atabilmekte. Ben bunu kullanarak site yapıyorum, o şunu kullanarak site yapıyor lafları etrafta uçuşmakta. Her neyse esas mevzu bu değildi çok dalmışım:D
+
+<!--more-->
 
 Konumuz içerik yönetim sisteminin gerçekte ne olduğuna anlayabilmek. Aşağıdaki sorular ise muhtemel sorulabilecek sorular:
 
@@ -56,7 +65,7 @@ Nihaide, php-mysql-temelleri-icerik-yonetim-sistemi-yapisi-planlama sayfasındak
 
 Dikkat: MySQL ile yaptığınız veritabanı işlemlerinde Türkçe karakter sorunu yaşamanız kuvvetle muhtemel. Ondan dolayı çözüm adına şu yazıyı okumanızı tavsiye ederim.
 
-Kaynaklar:
+### Kaynaklar:
 http://css-tricks.com/php-for-beginners-building-your-first-simple-cms/
 http://www.elated.com/articles/cms-in-an-afternoon-php-mysql/
 http://baylorrae.com/blog/2012/03/14/the-basics-of-creating-a-cms-with-php/
