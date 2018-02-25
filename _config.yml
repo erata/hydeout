@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            WebRitmi
-tagline:          'Web Ritmi'
+title:            Web Ritmi
+tagline:          'An IT Blog'
 description:      'Web Dünyasının Ritmi'
 url:              http://webritmi.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
