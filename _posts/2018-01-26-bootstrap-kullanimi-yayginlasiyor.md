@@ -12,7 +12,7 @@ Merhaba arkadaşlar. Bir zamanlar web uygulamaları ve web tasarımları gelişt
 
 <!--more-->
 
-Bootstrap, en çok kullanılan –bakınız – frameworklerden (web çatısı) biridir. Twitter’ın yaygınlaşmasına paralel bootstrap kullanımı da yaygınlaşmıştır. Öyle ki şu an ZK, ASP.NET MVC, vb. frameworkler bootstrapa tam destek vermektedir.
+Bootstrap, en çok kullanılan –[bakınız](https://www.sitepoint.com/most-popular-frontend-frameworks-compared)– frameworklerden (web çatısı) biridir. Twitter’ın yaygınlaşmasına paralel bootstrap kullanımı da yaygınlaşmıştır. Öyle ki şu an ZK, ASP.NET MVC, vb. frameworkler bootstrapa tam destek vermektedir.
 
 Bootstrapla her ne kadar bu kadar genek kabul görmüşse de internette onun kullanımı noktasında tartışmalar da yok değil. Kimi; kullanmaya gerek yok, kullanmayın, kullanmamak için X sayıda neden derken (1, 2, 3, 4) kimisi ise kullanmak için Y sayıda neden (1, 2, 3 ) diyor. Bootstrap’a yapılan eleştirilerde özellikle Bootstrap’ın tasarımları tekdüzeleştirdiği dikakt çekiyor. Bir başkası ise çıkıp boostrap ortak bir tasarım şablonu sağlasa da siz onu da özelleştirebilirsiniz diyor, ve tartışmaya devam… bu iş çok su götürür.
 
