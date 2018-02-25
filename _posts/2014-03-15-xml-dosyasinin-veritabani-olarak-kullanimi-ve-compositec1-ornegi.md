@@ -1,8 +1,16 @@
-## A New Post
-
-XML Dosyasının Veritabanı Olarak Kullanımı ve CompositeC1 Örneği
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: XML Dosyasının Veritabanı Olarak Kullanımı ve CompositeC1 Örneği
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - composite-c1
+---
 Merhaba arkadaşlar. Bu yazıda XML dosyalarının farklı bir kullanımından yani veritabanı olarak kullanımından bahsedeceğiz. Sanki XML dosyaları veritabanı olarak kullanılmaz, napıyon? der olduğunuzu duyar gibiyim. Evet, yaptığım araştırmalar ve okuduğum onlarca yazı XML dosyalarının veritabanı olarak kullanılabileceğini ortaya koyuyor. Kanıt mı istiyorsunuz o zaman Composite C1 içerik yönetim sisteminin veritabanı olarak XML dosyalarını kullandığını söyliyeyim. Örneğin aşağıdaki resimde  Composite C1 deki  blog yazılarının XML veritabanında nasıl tutulduğu görünmektedir.
+
+<!--more-->
 
 CompositeC1 ve XML Veritabanı Kullanımı
 CompositeC1 içerik yönetim sisteminin verilerini XML dosyalarda tutmasını anlatan örnek resim
@@ -26,7 +34,7 @@ Evet, aldığım bu cevapla araştırmalarıma yeni bir yön vermiş oldum (Art�
 
 Ayrıca XML veritanı ile ilgili http://en.wikipedia.org/wiki/XML_database sayfasını ziyaret ettiğimde şaşkınlığım bir kat daha arttı. Öyle ki XML veritabanlarında sorgu yapabileceğimiz XQuery adında bir dil bile vardı bildiğimiz veritabanlarında SQL dili olduğu gibi. Dedim kendi kendime: Sen neymişsin be XML!
 
-Tavsiye Kaynaklar:
+### Tavsiye Kaynaklar:
 http://tr.wikipedia.org/wiki/XML
 http://en.wikipedia.org/wiki/XML_database
 http://en.wikipedia.org/wiki/Document-oriented_database
