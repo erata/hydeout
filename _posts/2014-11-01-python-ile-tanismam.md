@@ -10,6 +10,8 @@ Merhaba arkadaşlar. Bugün TUTEV‘in Ankara’daki python seminerine katıldı
 
 Seminer başladı ben de merak içinde acaba python’un hangi özelliklerine değinilecek, onu öne çıkaracak neler tarzı sorular kafam bunlarla meşgul. Derken beklediğim gibi olmadı, daha çok katılımcıların düşüncelerini paylaştığı bir tarzda gerçekleşti -giriş için yine de idare eder-.
 
+<!--more-->
+
 Seminerde python’un ülkemizdeki yerinden biraz bahsedildi. Anladığım kadarıyla python ülkemizde fazla rövaçta olan bir dil olmamakla birlikte en fazla İstanbul’da tercih ediliyor.
 
 Seminerde edindiğim izlenimde pythonun hızlı geliştirmeye imkan vermesi ve Big Data tarzı güncel yaklaşımlarla iyi gidiyor olması avantajlı yönlerinden. Öyle ki Google’ın desteklediği iki dilden biri imiş: Phthon ve Java.
