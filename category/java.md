@@ -2,6 +2,7 @@
 layout: category
 category: java
 title: Java
+permalink: /java
 ---
 
 <div class="message">
