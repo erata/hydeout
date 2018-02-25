@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hakkında
+permalink: /hakkinda
 sidebar_link: true
 ---
 
