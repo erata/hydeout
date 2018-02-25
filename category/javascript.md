@@ -2,6 +2,7 @@
 layout: category
 category: javascript
 title: Javascript
+permalink: /javascript
 ---
 
 <div class="message">
