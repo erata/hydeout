@@ -1,16 +1,10 @@
-.search-row {
-  display: flex;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  padding: 2px;
+input {
+  border: 0;
+}
 
-  input {
-    border: 0;
-  }
-
-  input + input { margin-left: 2px; }
-
-  input[type="text"], input[type="search"] {
-    flex-grow: 1;
-  }
+input[type="text"]{
+  flex-grow: 1;
+  width: 80%;  
+ /*-webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out; */
 }
