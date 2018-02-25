@@ -2,5 +2,5 @@
 layout: category
 title: Veritabanı
 category: veritabani
-permalink: /veritabani
+# permalink: /veritabani
 ---
