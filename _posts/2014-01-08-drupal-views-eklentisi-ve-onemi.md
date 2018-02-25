@@ -1,10 +1,18 @@
-## A New Post
-
-Drupal Views Eklentisi ve Önemi
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal Views Eklentisi ve Önemi
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bugün sizlere drupaldeki Views eklentisinden ve neden drupal için çok önemli bir eklenti olduğundan bahsedeceğim.
 
 Views eklentisi drupal ile geliştirilen büyük projelerin olmazsa olmazlarından biridir. Drupali drupal yapan, onu anlamlı yapan sac ayaklarından biridir.
+
+<!--more-->
 
 Peki Ne İş Yapar Views, Nedir Views’i Bu Kadar Önemli Yapan?
 Views, veritabanındaki kayıtları sizin belirtilediğiniz kıstaslar doğrultusunda çeker ve yine sizin belirlediğiniz görüntü formatı içerisinde ekrana getirir. Bu anlamda Views hakkıda bilmemiz gereken en öncelikli şey onun sorgu oluşturucu olmasıdır (Views is a query builder).
