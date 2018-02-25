@@ -1,6 +1,18 @@
-Wappalyzer ile Sitelerde Kullanılan Teknolojileri ve Web Uygulamalarını Tespit Etme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: >-
+  Wappalyzer ile Sitelerde Kullanılan Teknolojileri ve Web Uygulamalarını Tespit
+  Etme
+categories:
+  - gelistirme-araclari
+tags:
+  - wappalyzer
+---
 Merhaba arkadaşlar. Bu yazıda, özellikle  web uygulamaları geliştirenler için faydalı olacağını düşündüğüm bir uygulumayı tanıtacağım: Wappalyzer.
+
+<!--more-->
 
 Web uygulamaları üzerinde ilgisi olanlar zaman zaman ziyaret ettiği bir sitede hangi uygulamaların kullanıldığını merak edebilir. Bu, ilk başta imkansız gibi gözükmesine rağmen wappalyzer ile mümkündür. Wappalyzer ile ziyaret ettiğiniz sitenin;
 
