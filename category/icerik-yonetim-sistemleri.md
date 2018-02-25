@@ -1,8 +1,8 @@
 ---
 layout: category
-title: İçerik Yönetim Sistemleri
 category: icerik-yonetim-sistemleri
-permalink: /icerik-yonetim-sistemleri
+title: İçerik Yönetim Sistemleri
+# permalink: /icerik-yonetim-sistemleri
 ---
 
 <div class="message">
