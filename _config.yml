@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io/hydeout
+title:            WebRitmi
+tagline:          'Web Ritmi'
+description:      'Web Dünyasının Ritmi'
+url:              http://webritmi.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -14,17 +14,21 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'İbrahim Erata'
+  url:            https://twitter.com/...
 
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
+permalink:        /:year/:month/:day/:title
+
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Custom vars
 version:            3.5.3
@@ -34,4 +38,117 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/erata
+  
+disqus:
+  shortname: erata61
+
+google_analytics: 'UA-38557310-1'
+
+# languages: &languages
+#  - name: 'Türkçe'
+#    value: 'tr'
+#  - name: 'İngilizce'
+#    value: 'en'  
+    
+prose:
+  rooturl: "_posts"
+  siteurl: "http://webritmi.com"
+  relativeLinks: 'http://webritmi.com/links.jsonp'
+  media: 'assets/media'
+  #ignore: ['CNAME', '_config.yml', '*.json', '.gitignore', 'readme.md', '*.xml', 'admin.html']
+  metadata:
+    _posts:
+    #  - name: "lang"
+    #    field:
+    #      element: "select"
+    #      label: "Select language"
+    #      placeholder: "Tükçe"
+    #      options: *languages
+    #      selected: "tr"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish now"
+          help: "Keep this unchecked if you do not want to   publish the article right now"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Enter title of the Article"
+          placeholder: "Enter Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+   #  - name: "last_modified_at"
+   #    field:
+   #      element: "text"
+   #      label: "Date"
+   #      value: "CURRENT_DATETIME"
+   #   - name: "author"
+   #     field:
+   #       element: "hidden"
+   #       value: "Aybüke Erata"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          placeholder: "Add Category"
+          options:
+            - name: "Yazılım"
+              value: "yazilim"
+            - name: "Veri Tabanı"
+              value: "veritabani"
+            - name: "Bilgi Güvenliği"
+              value: "bilgi-guvenligi"  
+            - name: "İncelemeler"
+              value: "incelemeler"
+            - name: "Diğer"
+              value: "diger"  
+          alterable: true
+     #   field:
+     #     element: "hidden"
+     #     value: "blog"
+     #     alterable: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Add Tags"
+          options:
+            - name: "Angular"
+              value: "angular"
+            - name: "Ionic"
+              value: "ionic"  
+            - name: "Drupal"
+              value: "drupal"
+            - name: "Port 80 Çakışması"
+              value: "port-80-cakismasi"
+            - name: "Kaynak Önerisi"
+              value: "kaynak-onerisi"  
+            - name: "SQLServer"
+              value: "sqlserver" 
+            - name: "MySQL"
+              value: "mysql"
+            - name: "Java"
+              value: "java"  
+            - name: "Prose.io"
+              value: "prose.io" 
+            - name: "Jetty"
+              value: "jetty"
+            - name: "JPA"
+              value: "jpa"  
+            - name: "Rest Web Servis"
+              value: "ret-web-servis"   
+          alterable: true
+      - name: "excerpt_separator"
+        field:
+          element: "text"
+          value: "<!--more-->"
