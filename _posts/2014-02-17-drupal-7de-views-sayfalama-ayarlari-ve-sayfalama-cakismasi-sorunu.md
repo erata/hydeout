@@ -1,8 +1,16 @@
-## A New Post
-
-Drupal 7’de Views Sayfalama Ayarları ve Sayfalama Çakışması Sorunu
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7’de Views Sayfalama Ayarları ve Sayfalama Çakışması Sorunu
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Bu yazıda views sayfalama ayarlarına ve birden çok views kullanım durumunda olası sayfalayıcı çakışmalarına nasıl bir çözüm bulacağımıza değineceğiz. Bu arada anlatım, tam sayfalama (full pager) seçeneğine göre yapılmıştır.
+
+<!--more-->
 
 Tam Sayfalama Ayarları
 Tam sayfalama (full pager) temel olarak 3 ayar kısmından oluşur.
@@ -31,15 +39,7 @@ Tüm İçerikleri Göster (Include all item option) : Üstte veridiğimiz yapıd
 Ötelenen Gösterim (Expose offset): Baştan kaç içeriğin gösterilmeden geçileceğini ayarlıyoruz.
 Exposed Options ile Sayfalama
 
-Resimde yukarıdaki resimde verdiğimiz Exposed Options (gösterim opsiyonları) ayarları ile nasıl bir görünüm elde edebileceğimize yer veriliyor.
-
- 
-
- 
-
- 
-
- 
+Resimde yukarıdaki resimde verdiğimiz Exposed Options (gösterim opsiyonları) ayarları ile nasıl bir görünüm elde edebileceğimize yer veriliyor. 
 
 Esnek Sayfalama İçin AJAX Kullanımı
 Sayfalar arası geçişin esnek olmasını istiyorsanız en iyi yol AJAX kullanımıdır ve bunun için tek yapmanız gereken şey viewsde Gelişmiş (advanced) -> AJAX kullan (use AJAX) -> Yes seçimini yapmaktır.
