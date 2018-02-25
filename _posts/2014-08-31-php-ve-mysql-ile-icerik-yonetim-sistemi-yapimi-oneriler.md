@@ -3,6 +3,10 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: PHP ve MySQL ile İçerik Yönetim Sistemi Yapımı – Öneriler
+categories:
+  - php
+  - icerik-yonetim-sistemleri
+  - veritabani
 ---
 Merhaba arkadaşlar. PHP ve MySQL ile İçerik Yönetim Sistemi Yapımına Giriş yazımızda içerik yönetim sistemi nasıl yapılıra dair kavramsal çerçevede birkaç noktaya değinmiştik. Bu yazıda ise içerik yönetim sistemi yapımında işinize yarayabilcek bazı noktalara değineceğim.
 
