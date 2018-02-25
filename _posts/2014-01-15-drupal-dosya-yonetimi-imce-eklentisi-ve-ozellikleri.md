@@ -1,6 +1,16 @@
-## A New Post
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal Dosya Yönetimi Imce Eklentisi ve Özellikleri
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
+IMCE eklentisi şuan drupalde en çok kullanılan dosya yönetim aracıdır. Elfinder gibi zorlu rakipleri olsa da IMCE‘nin, farklı platformlar ile rahat çalışılabilmesi ve farklı durumlara yönelik farklı ayarlamaların yapılabilmesi onu IMCE drupalin vazgeçilmezlerinden biri haline getirmiştir.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting helIMCE eklentisi şuan drupalde en çok kullanılan dosya yönetim aracıdır. Elfinder gibi zorlu rakipleri olsa da IMCE‘nin, farklı platformlar ile rahat çalışılabilmesi ve farklı durumlara yönelik farklı ayarlamaların yapılabilmesi onu IMCE drupalin vazgeçilmezlerinden biri haline getirmiştir.
+<!--more-->
 
 imce
 
