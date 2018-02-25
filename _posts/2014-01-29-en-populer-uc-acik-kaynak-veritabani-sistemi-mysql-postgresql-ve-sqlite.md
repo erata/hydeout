@@ -1,7 +1,18 @@
-## A New Post
-En Popüler Üç Açık Kaynak Veritabanı Sistemi: MySql, PostgreSQL ve SQLite
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'En Popüler Üç Açık Kaynak Veritabanı Sistemi: MySql, PostgreSQL ve SQLite'
+categories:
+  - veritabani
+tags:
+  - postgresql
+  - sqlite
+  - mysql
+---
 Merhaba arkadaşlar. Bu yazıda sizlerle açık kaynak veritabanı sistemlerinden en popüler üçünü ele alacağız. Her ne kadar biz burada üç tanesini ele alacak olsak da piyasada onlarca veritabanı sistemi olduğunu, bunlar içinde de hatırı sayılır sayıda açık kaynak veritabanı sistemi olduğunu baştan belirtelim.
+
+<!--more-->
 
 MySQL
 Genel bir bilgi için MySQL’in Wiki Sayfası‘nı inceleyebilirsiniz. MySQL, açık kaynak veritabanı sistemlerinde en popüler olanıdır ve web uygulamaları için çok iyi olanaklar sağladığı için web sunucularında oldukça yaygın olarak kullanılmaktadır. Açık kaynak bir veritabanı sistemine ihtiyaç duyanlar genelde MySQL’i tercih ederler.
@@ -10,7 +21,7 @@ MySQL, web uygulamaları için gerekli tüm fonksiyonelliği sağlasa da bazı e
 
 MySQL küçükten büyüğe yüzlerce site tarafından aktif olarak kullanılmaktadır.
 
-  Büyük Kullanıcıları (daha detaylı olarak):
+Büyük Kullanıcıları (daha detaylı olarak):
 Youtube
 Twitter
 Facebook
@@ -42,7 +53,6 @@ Dropbox
 Google
 Microsoft
 Skype
- 
 
 MySQL-PostgreSQL ve SQLite’ın;
 
