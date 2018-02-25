@@ -1,8 +1,16 @@
-## A New Post
-
-Drupal 7 İçerik Yayınlama ve Kaydetme Seçenekleri ve Ek Talepler
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7 İçerik Yayınlama ve Kaydetme Seçenekleri ve Ek Talepler
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Drupalin çekirdek sürümünde temel ihtiyaçlarımızı karşılayacak içerik kaydetme ve yayınlama seçenekleri mevcuttur. Fakat bazı durumlar bu seçenekleri yetersiz kılmaktadır. Dolayısıyla biz ilk önce çekirdek sürümyle sunulan kaydetme ve yayınlama seçeneklerini ele alacağız. Sonra bu seçeneklerin hangi durumlarda yetersiz kaldığına değinerek ve çözümler sunmaya çalışacağız.
+
+<!--more-->
 
 Temel Yayınlama ve Kaydetme Seçenekleri
 Yayın Seçenekleri
@@ -68,5 +76,5 @@ Scheduler eklentisiyle bu sorunu çözebilir ve yayın zamanını baştan belirl
 6- Editör-Moderatör-Yazar İlişkisi İçinde Kapsamlı Bir Yayın Politikası Sunma
 Bu iş için workflow  ve onunla entegre çalışan workflow_extensions tarzı eklentileri incelemeniz gerekiyor. Bu eklentiler ile gazete veya başka yayın politikasının gerektiği yerler için bir çözüm sunabilirsiniz.
 
-Tavsiye Kaynaklar:
+### Tavsiye Kaynaklar:
 https://groups.drupal.org/node/214898
