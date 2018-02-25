@@ -1,5 +1,6 @@
 ---
 layout: category
+category: java
 title: Java
 ---
 
