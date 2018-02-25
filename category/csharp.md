@@ -1,7 +1,7 @@
 ---
 layout: category
-title: C#-ASP.NET MVC
-permalink: /dotnet
+title: C#-ASP.NET
+permalink: /csharp
 ---
 
 <div class="message">
