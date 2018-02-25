@@ -1,8 +1,16 @@
-## A New Post
-
-WebMatrix ile Web Uygulamaları Geliştirme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: WebMatrix ile Web Uygulamaları Geliştirme
+categories:
+  - gelistirme-araclari
+tags:
+  - webmatrix
+---
 Merhaba arkadaşlar. Bugün sizlere web uygulamaları geliştirme sırasında çok faydalı olacağını düşündüğüm bir programdan bahsedeceğim: WebMatrix. Bildiğiniz üzere piyasada bir sürü web uygulaması var ki bunların kimi Windows tabanlı sunucularda çalışıyor kimi ise Linux tabanlı işletim sistemlerinde. Windows işletim sistemli bir bilgisayar kullandığımız düşünürseniz biz Linux tabanlı sunucuda çalışan uygulamar için XAMPP, WAMP Server, Easy PHP tarzı bütünleşik programlar kurarak hallediyoz. Benzer bir şekilde Windows sunucu ihtiyacını ise IIS kurarrak hallediyoruz. Peki hiç düşündünüz mü acaba hem Linux hem de Windows sunucu ihtiyacımızı gideren tek bir uygulama var mıdır diye (Çünkü diğer türlü XAMPP ve IIS olmak üzere en az iki uygulama kurmalıyız).  İşte WebMatrix tam bu anda devreye giriyor ve farklı platformlarlar için bir şemsiye görevi görerek tek bir çatı altında gerek ASP.NET ve  PHP ile yazılımış uygulamaları tek bir arayüzden test etmemize olanak veriyor.
+
+<!--more-->
 
 Nasıl Kurulur?
 WebMatrix‘in ana sayfasından indirdiğimiz program vasıtasıyla ya da Web Platformu Yükleyicisi(Microsoft Web Platform Installer) üzerinden WebMatrix seçilerek kurulabilir. Kurulum esnasında ek bir program daha kurmak gerekiyorsa size uyarı vererek bunu da kuralım mı der. Siz de gereken ne varsa kur deyip kurulumu bitirirsiniz.
@@ -22,11 +30,9 @@ WebMatrix ile Orchard CMS
 
 Yukarıda da değindiğim gibi WebMatrix hazır olarak kurduğumuz uygulamar üzerinde değişiklik yapma fırsatını bize veriyor. Aşağıdaki resimde Orchar CMS dosalarının görünümü veriliyor.
 
-
-
 Kısacası WebMatrix, farklı platformlar üzerinde çalışabilecek uygulamar için ortak bir altyapı sağlıyor. Basit ve anlaşılır menüleriyle yeni bir şey öğrenmenin sancısından korkan biz kullanıcıların işini oldukça kolaylaştırıyor.
 
-Konuyla İlgili Tavsiye Kaynaklar:
+### Konuyla İlgili Tavsiye Kaynaklar:
 http://www.microsoft.com/web/webmatrix/features.aspx
 http://www.microsoft.com/web/post/web-development-101-using-webmatrix
 http://weblogs.asp.net/scottgu/archive/2010/07/06/introducing-webmatrix.aspx
