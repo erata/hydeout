@@ -1,6 +1,16 @@
-Drupal 7’de Font Awesome Eklentisiyle İkon Ekleme
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: Drupal 7’de Font Awesome Eklentisiyle İkon Ekleme
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Günümüz web uygulamalarında ikon kullanımı oldukça yaygınlaştı. Şöyle bir araştırayım dediğinizde siteniz için kullanabileceğiniz onlarca bedava ikon paketini bulmanız içten bile değil. İşte bu yazıda drupal ile entegre çalışabilen meşhur ikon paketlerinden birini yani Font Awesome‘u ele alacağız. Font Awesome,  4.0.3 versiyonuyla şuan 369 ikonu barındırmakta ve zamanla da daha yeni ikonlar eklenmekte olan bir ücretsiz ikon paketi. Font Awesome; Web uygulamaları, form kontrolleri, para birimleri, yazı editörleri, yönler, video player, meşhur siteler ve medya gibi değişik kategorilerde tatmin edecek boyutta ikona ev sahipliği yapmaktadır. Kısacası web uygulamalar için gerekli temel ikonları içerdiği rahatlıkla söylenebilir.
+
+<!--more-->
 
 Drupal’de Font Awesome‘u Nasıl Kullanacağız?
 Font Awesome‘u kullanabilmek için eklenti sayfasında belirtilen eklentileri ve kütüphaneyi talimatlarına uygun bir şekilde kurmalısınız. Eklenti kurumu hakkında şu yazımızı okuyabilirsiniz. Eklentiyi kurduktan sonra yapmanız gereken şey beğendiğiniz ikonları şu sayfadaki gibi kullanmak. Ama yol gösterici olması açısından ifade edlim: http://fortawesome.github.io/Font-Awesome/examples‘nı inceleyiniz…
@@ -23,7 +33,4 @@ Kısacası <i class=” … “></i> Görünmesini İstediğiniz Metin böyle bi
 
 ortaya çıkan sonuçta ikonun görünümü…
 
-Yazarın Diğer Yazıları
-Umarım katkı sağlar.## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Umarım katkı sağlar.
