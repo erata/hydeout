@@ -2,7 +2,7 @@
 layout: category
 category: csharp
 title: C#-ASP.NET
-# permalink: /csharp
+permalink: /csharp
 ---
 
 <div class="message">
