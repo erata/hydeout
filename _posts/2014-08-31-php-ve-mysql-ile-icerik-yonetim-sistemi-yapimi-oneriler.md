@@ -85,7 +85,7 @@ http://en.wikipedia.org/wiki/Online_rich-text_editor
 
 Basit bir içerik yönetim sistemini yaptıktan sonra yavaştan yavaşa onu geliştirmek gerek. Dolayısıyla içeriği sadece yetkili kullanıcılar girebileceği için sizin kullanıcılar bölümünüz olmalı ve içerik girerken kullanıcılar içerik girecekleri sayfaya kullanıcı adı ve şifre ile girebilmeli. Dolyısıyla session kısmını da  ekliyor olmanız gerek.
 
-{% youtube "http://www.youtube.com/watch?v=p-uH9c828R8" %}
+{% youtube v=p-uH9c828R8 %}
 
 Bundan sonra ise diğer önemli parçaları sırasıyla ekler, ziyaretçiye gösterdiğiniz ekran ile yönetimsel (içerik girişi ve diğer işler) ekranı birbirinden tam ayırarak farklı temalar kullanır ve yola devam…
 
