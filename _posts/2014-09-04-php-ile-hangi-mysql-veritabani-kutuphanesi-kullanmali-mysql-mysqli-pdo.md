@@ -6,17 +6,16 @@ title: 'PHP ile Hangi MySQL Veritabanı Kütüphanesi Kullanmalı: MySQL, MySQLi
 categories:
   - veritabani
 tags:
+  - mysql
   - php
   - pdo
-  - mysql
   - mysqli
-  - mysql
 ---
 Merhaba arkadaşlar. Bu yazıda PHP ile kullanabileceğimiz MySQL kütüphanelerinden ve kodlama yaparken hangi kütüphaneyi tercih etmemiz gerektiğinden bahsedeğim.
 
-Bu yazıyı yazarken şu yazıdan esinlendiğimi baştan söyleyeyim. Bildiğiniz üzere PHP ile MySQL veritabanı üzerinde işlem yaparaken MySQL’in bize sağlamış olduğu bağlantı yapıları (fonksiyonları) kullanmaktaydık. Fakat zamanla bu yapı piyasaya sonradan giren MySQLi, PDO yapıları ile gözden düştü. Sonuçta MySQL’in PHP ile kullanılan bu bağlantı yapısı için artık desteklenmeme kararı alındı. Dolayısıyla PHP ile MySQL veritabanı işlemlerini gerçekleştirmek için artık iki seçeneğimiz kalıyor: MySQLi ve PDO. Peki özetle bunlar hangi açıdan birbirinden ayrılıyor ve hangisini seçmeliyiz derseniz anlatmaya başlayayım.
-
 <!--more-->
+
+Bu yazıyı yazarken şu yazıdan esinlendiğimi baştan söyleyeyim. Bildiğiniz üzere PHP ile MySQL veritabanı üzerinde işlem yaparaken MySQL’in bize sağlamış olduğu bağlantı yapıları (fonksiyonları) kullanmaktaydık. Fakat zamanla bu yapı piyasaya sonradan giren MySQLi, PDO yapıları ile gözden düştü. Sonuçta MySQL’in PHP ile kullanılan bu bağlantı yapısı için artık desteklenmeme kararı alındı. Dolayısıyla PHP ile MySQL veritabanı işlemlerini gerçekleştirmek için artık iki seçeneğimiz kalıyor: MySQLi ve PDO. Peki özetle bunlar hangi açıdan birbirinden ayrılıyor ve hangisini seçmeliyiz derseniz anlatmaya başlayayım.
 
 PHP ile MySQL Veritabantı İşlemleri İçin Kütüphaneler:
 
