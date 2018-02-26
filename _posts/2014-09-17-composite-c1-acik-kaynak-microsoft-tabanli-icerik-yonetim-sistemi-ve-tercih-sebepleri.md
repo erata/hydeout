@@ -10,7 +10,7 @@ categories:
 tags:
   - composite-c1
 ---
-Merhaba arkadaşlar. Bu yazıda sizlere Windows tabanlı bir içerik yönetimi olan Composite C1‘den bahsedeceğim. Bildiğiniz üzere şuan piyasada irili ufaklı onlarca içerik yönetim sistemi var gerek ücretli gerekse ücretsiz. Peki o kadar içerik yönetim sistemi arasından Composite C1’in dikkatimi çekmesindeki sebepler ne? İşte bu yazıda Composite C1’i tercih sebebi yapabilecek özelliklere değineceğim.
+Merhaba arkadaşlar. Bu yazıda sizlere Windows tabanlı bir içerik yönetimi olan Composite C1‘den bahsedeceğim. Bildiğiniz üzere şuan piyasada irili ufaklı onlarca içerik yönetim sistemi var gerek ücretli gerekse ücretsiz. Peki o kadar içerik yönetim sistemi arasından [Composite C1](https://c1.orckestra.com/)’in dikkatimi çekmesindeki sebepler ne? İşte bu yazıda Composite C1’i tercih sebebi yapabilecek özelliklere değineceğim
 
 <!--more-->
 
@@ -56,7 +56,7 @@ Composite C1 ile tek bir yönetim panelinden birçok site açıp yönetebilirsin
 
 ### 8. İyi bir Dökümantasyona Sahip Olması
 
-Gerek http://docs.composite.net/ sayfasında gerekse http://users.composite.net/ sayfasında Composite C1 ile ilgili oldukça geniş, güzel hazırlanmış dökümantasyona ulaşabilirsiniz. Gerek kullanıcılar gerekse de uygulama geliştiriciler bu dökümanlar yardımıyla başka ek bir kaynağa gereksinim duymadan istediklerini yapabilecek seviyeye gelebilir.
+Gerek http://docs.composite.net/ sayfasında gerekse http://users.composite.net/ sayfasında Composite C1 ile ilgili oldukça geniş, güzel hazırlanmış dökümantasyona ulaşabilirsiniz. Gerek kullanıcılar gerekse de uygulama geliştiriciler bu dökümanlar yardımıyla başka ek bir kaynağa gereksinim duymadan istediklerini yapabilecek seviyeye gelebilir. 
 
 Özetle Composite C1 beni en çok yönetim panelindeki o inanılmaz derecedeki sadelik ve kullanım kolaylığı ile cezbetti, İçerdiği değişik son moda Microsoft teknolojileri ile bir aşama daha etkiledi ve etkilemeye devam ediyor. Eğer bir Microft kulalnıcısı iseniz bu içerik yönetim sitemini gözardı etmemenizi önenirim.
 
