@@ -87,12 +87,6 @@ Basit bir içerik yönetim sistemini yaptıktan sonra yavaştan yavaşa onu geli
 
 {% youtube "http://www.youtube.com/watch?v=p-uH9c828R8" %}
 
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
 Bundan sonra ise diğer önemli parçaları sırasıyla ekler, ziyaretçiye gösterdiğiniz ekran ile yönetimsel (içerik girişi ve diğer işler) ekranı birbirinden tam ayırarak farklı temalar kullanır ve yola devam…
 
 ### 6.  Bootstrap Tarzı CSS Framework Kullanın
