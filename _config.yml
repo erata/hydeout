@@ -29,6 +29,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-html5-youtube
 
 # Custom vars
 version:            3.5.3
