@@ -7,12 +7,15 @@ categories:
   - php
   - icerik-yonetim-sistemleri
   - veritabani
+youtubeId: jofNR_WkoCE
 ---
 Merhaba arkadaşlar. PHP ve MySQL ile İçerik Yönetim Sistemi Yapımına Giriş yazımızda içerik yönetim sistemi nasıl yapılıra dair kavramsal çerçevede birkaç noktaya değinmiştik. Bu yazıda ise içerik yönetim sistemi yapımında işinize yarayabilcek bazı noktalara değineceğim.
 
 Konuyla ilgili önceki yazımda basit bir içerik yönetim sistemi yapımı için PHP de form ile ekleme, silme, güncelleme, listeleme ile biraz da HTML bilginizin yeterli olacağından bahsetmiştim. Şimdi ise içerik yönetim sistemi yapımı ve daha da geliştirilmesi açısından araştırma notlarımdan size tavsiye edebileceğim bazı noktaları sizinle paylaşacağım.
 
 <!--more-->
+
+{% include youtube.html id=page.youtubeId %}
 
 ### 1. Hazır Kodlardan (Snippets) Yararlanmayı Bilin
 
