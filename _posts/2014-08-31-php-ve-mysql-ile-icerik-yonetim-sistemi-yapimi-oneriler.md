@@ -77,8 +77,9 @@ Herhangi bir içerik girerken içeriği bir editör kullanarak yazmak size içer
 
 **Örneğin:**
 
-http://www.webdesignerdepot.com/2008/12/20-excellent-free-rich-text-editors/
-http://en.wikipedia.org/wiki/Online_rich-text_editor
+- http://www.webdesignerdepot.com/2008/12/20-excellent-free-rich-text-editors/
+- http://en.wikipedia.org/wiki/Online_rich-text_editor
+
 İlgili linklerde değişik yazı editörleri mevcut. Günümüzde ençok tinymce, ckeditor editörleri yaygın.
 
 ### 5. İçerik Yönetim Sistemi ile İlgili Diğer Yapıları Eklemeye Başlayın
@@ -87,7 +88,9 @@ Basit bir içerik yönetim sistemini yaptıktan sonra yavaştan yavaşa onu geli
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/p-uH9c828R8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-{% youtube bi_U04ZGFD4 %}
+{% include youtubePlayer.html id=bi_U04ZGFD4 %}
+{% include youtubePlayer.html id=3K5ZPUxugsI %}
+{% include vimeoPlayer.html id=254174356 %}
 
 Bundan sonra ise diğer önemli parçaları sırasıyla ekler, ziyaretçiye gösterdiğiniz ekran ile yönetimsel (içerik girişi ve diğer işler) ekranı birbirinden tam ayırarak farklı temalar kullanır ve yola devam…
 
@@ -97,10 +100,11 @@ Web geliştiricilerin en büyük sıkıntısı farklı ekranlarda çalışabilec
 
 Örneğin:
 
-http://modernweb.com/2014/02/17/8-bootstrap-alternatives/
-http://www.sitepoint.com/beyond-bootstrap-foundation-frameworks-never-heard/
-http://alternativeto.net/software/bootstrap/
-http://www.tonylea.com/2013/top-5-alternatives-to-twitter-bootstrap/
+- http://modernweb.com/2014/02/17/8-bootstrap-alternatives/
+- http://www.sitepoint.com/beyond-bootstrap-foundation-frameworks-never-heard/
+- http://alternativeto.net/software/bootstrap/
+- http://www.tonylea.com/2013/top-5-alternatives-to-twitter-bootstrap/
+
 İlgili linklerde de gördüğünüz üzere birçok alternatif framework sizi bekliyor.
 
 ### 7.  jQuery Tarzı Javascript Framework Kullanın
