@@ -90,11 +90,8 @@ Basit bir içerik yönetim sistemini yaptıktan sonra yavaştan yavaşa onu geli
 
 {% include youtubePlayer.html id=bi_U04ZGFD4 %}
 {% include youtubePlayer.html id=WLp3Ig4Khnw %} 
-{% include vimeoPlayer.html id=254174356 
+{% include vimeoPlayer.html id=254174356 %}
 
-<div class="embed-container">
-  <iframe width="640" height="480" src="https://www.youtube.com/embed/WLp3Ig4Khnw" frameborder="0" allowfullscreen></iframe>
-</div>
 
 Bundan sonra ise diğer önemli parçaları sırasıyla ekler, ziyaretçiye gösterdiğiniz ekran ile yönetimsel (içerik girişi ve diğer işler) ekranı birbirinden tam ayırarak farklı temalar kullanır ve yola devam…
 
