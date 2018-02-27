@@ -15,8 +15,6 @@ Konuyla ilgili önceki yazımda basit bir içerik yönetim sistemi yapımı içi
 
 <!--more-->
 
-{% include youtube.html id="jofNR_WkoCE" %}
-
 ### 1. Hazır Kodlardan (Snippets) Yararlanmayı Bilin
 
 Tekerleği tekrar tekrar keşfetmek hiç kimseye fayda sağlamaz. Var olanı kullanabilmek daha hızlı ve etkili çözümler elde etmenizde yardım sağlayabilecektir. Tabi sıfırdan kendim yazacam, inat ettim dersen o başka:D. Her neyse, yukarıda da değindiğim gibi madem basit bir içerik yönetim sistemi form aracılığıyla verileri veritabanına ekleme, silme, güncelleme ve veritabanındaki verilerin ekranda gösterilmesinden ibaret o zaman bunlar ile ilgili kodları hazır bulabilir, hemen uygulamanızı geliştirip test edebilirsiniz.
