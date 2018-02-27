@@ -15,7 +15,7 @@ Konuyla ilgili önceki yazımda basit bir içerik yönetim sistemi yapımı içi
 
 <!--more-->
 
-{% include youtube.html id=page.youtubeId %}
+{% include youtube.html id=jofNR_WkoCE %}
 
 ### 1. Hazır Kodlardan (Snippets) Yararlanmayı Bilin
 
