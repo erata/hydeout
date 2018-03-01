@@ -19,7 +19,6 @@ Merhaba arkadaşlar. Bugün drupal 7’de kodların daha göz alımlı gösteril
 - http://alexgorbatchev.com/SyntaxHighlighter/ (syntaxhighlighter kütüphanesinin anasayfası)
 - https://drupal.org/project/syntaxhighlighter_insert (syntaxhighlighter eklentisinin wysiwyg ile entegre tinymce editörü ile kullanılabilmesini sağlıyor)
 
-
 ### Eklentilerin Kurulması ve Gerekli Ayarlamaların Yapılması
 
 Sisteminizde wysiwyg üzerinde kurulu tinymce (ya da ckeditör) olduğunu kabul ederek anlatım yapıyorum. Öncelikle ilgili eklentileri (syntaxhighlighter, syntaxhighlighter_insert) sites/all/modules kılasörüne, eklenti kütüphanesini ise sites/all/libraries kılasörüne adı syntaxhighlighter olacak şekilde çıkarıyoruz. Eklentileri aktifleştiriyoruz.
