@@ -28,6 +28,9 @@ Kısacası, temel filtreleme mekanizmasında filtreler baştan el ile atanarak b
 Konuyla ilgili daha fazla bilgili almak için özellikle bu yazıdan ve aşağıda verdiğim diğer yazılardan yararlanabilirsiniz.
 
 ### Konuyla İlgili Tavsiye Kaynaklar:
-https://drupal.org/node/1578558 (*** Contextual Filters)
-http://marcdrummond.com/drupal/2011/05/20/new-views-interface-david-rothstein-drupal-camp-twin-cities-2011
-Drupal 7 Advanced Views Tip: Contextual Filters (her iki filtreleme yönetemini konu alan bir video)
+
+- https://drupal.org/node/1578558 (*** Contextual Filters)
+- http://marcdrummond.com/drupal/2011/05/20/new-views-interface-david-rothstein-drupal-camp-twin-cities-2011
+
+Drupal 7 Advanced Views Tip: Contextual Filters (her iki filtreleme yönetemini konu alan bir video
+
