@@ -8,7 +8,7 @@ categories:
 tags:
   - drupal
 ---
-şlar. Sizlerin de bildiği üzere günümüz dünyasında web teknolojilerinde inanılmaz bir gelişme var ve bu gelişmenin hızını ayak uyduramaz durumdayız. Açık kaynak yazılıma ilgilinin hit yapığı bu günlerde açık kaynak ile geliştirilmiş projeler de yoğun ilgi görmekte ve kısa zaman içerisinde çok büyük gelişmeler  göstermekte. Bu açık kaynak projelerden bir tanesi ise hiç kuşkusuz Drupal.
+Merhaba arkadaşlar. Sizlerin de bildiği üzere günümüz dünyasında web teknolojilerinde inanılmaz bir gelişme var ve bu gelişmenin hızını ayak uyduramaz durumdayız. Açık kaynak yazılıma ilgilinin hit yapığı bu günlerde açık kaynak ile geliştirilmiş projeler de yoğun ilgi görmekte ve kısa zaman içerisinde çok büyük gelişmeler  göstermekte. Bu açık kaynak projelerden bir tanesi ise hiç kuşkusuz Drupal.
 
 <!--more-->
 
