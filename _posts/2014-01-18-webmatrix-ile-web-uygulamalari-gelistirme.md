@@ -33,9 +33,10 @@ Yukarıda da değindiğim gibi WebMatrix hazır olarak kurduğumuz uygulamar üz
 Kısacası WebMatrix, farklı platformlar üzerinde çalışabilecek uygulamar için ortak bir altyapı sağlıyor. Basit ve anlaşılır menüleriyle yeni bir şey öğrenmenin sancısından korkan biz kullanıcıların işini oldukça kolaylaştırıyor.
 
 ### Konuyla İlgili Tavsiye Kaynaklar:
-http://www.microsoft.com/web/webmatrix/features.aspx
-http://www.microsoft.com/web/post/web-development-101-using-webmatrix
-http://weblogs.asp.net/scottgu/archive/2010/07/06/introducing-webmatrix.aspx
-http://net.tutsplus.com/tutorials/asp-net/the-ins-and-outs-of-webmatrix-an-introduction
-http://www.hanselman.com/blog/WebMatrix2FrontEndWebDevelopersTakeNoteASPNETPHPNodejsAndMore.aspx
-http://www.sitepoint.com/building-dynamic-websites-with-webmatrix
+- http://www.microsoft.com/web/webmatrix/features.aspx
+- http://www.microsoft.com/web/post/web-development-101-using-webmatrix
+- http://weblogs.asp.net/scottgu/archive/2010/07/06/introducing-webmatrix.aspx
+- http://net.tutsplus.com/tutorials/asp-net/the-ins-and-outs-of-webmatrix-an-introduction
+- http://www.hanselman.com/blog/WebMatrix2FrontEndWebDevelopersTakeNoteASPNETPHPNodejsAndMore.aspx
+- http://www.sitepoint.com/building-dynamic-websites-with-webmatrix
+
