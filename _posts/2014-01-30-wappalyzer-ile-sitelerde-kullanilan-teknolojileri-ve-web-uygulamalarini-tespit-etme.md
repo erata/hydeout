@@ -31,4 +31,3 @@ Ayrıca http://wappalyzer.com sayfasını ziyaret ederek internet ortamındaki k
 
 Resimde http://wappalyzer.com‘da kullanılan teknolojiler ve uygulamalar gösterilmektedir.## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
