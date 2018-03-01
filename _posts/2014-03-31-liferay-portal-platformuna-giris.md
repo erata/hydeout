@@ -49,16 +49,17 @@ Liferay Weblogic Kurulumu
 sayfalarını ziyaret edebilirsiniz. Dilerseniz kaynaklarda verdiğimiz referanslardan da yararlanma yoluna gidebilirsiniz.
 
 ### Kaynaklar
-http://portal.nedir.com
-www.martisoft.com/download/ceturk_liferay.pps‎
-http://vforliferay.blogspot.com.tr/2010/11/liferay-overview.html
-http://www.iucoders.com/article_detail.jsp?nid=61
-http://www.liferay.com/documentation/liferay-portal/6.2/user-guide
-http://belgeler.cs.hacettepe.edu.tr/yayinlar/eski/LiferayJ2EEPortal_20122072_SonRapor.pdf
-https://www.liferay.com/community/forums/-/message_boards/category/3159556 (Liferay Türkçe forum sayfası )
-http://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/installing-liferay
-http://liferayguru.blogspot.com.tr
-https://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/installation
-http://www.liferaysavvy.com/2013/12/liferay-62-portal-installation_11.html
-http://howwhywhat.in/liferay-6-1-installation-steps-on-jboss
-http://abdulcebar-on.blogspot.com.tr/2013/08/liferay-weblogic-kurulumu.html
+- http://portal.nedir.com
+- www.martisoft.com/download/ceturk_liferay.pps‎
+- http://vforliferay.blogspot.com.tr/2010/11/liferay-overview.html
+- http://www.iucoders.com/article_detail.jsp?nid=61
+- http://www.liferay.com/documentation/liferay-portal/6.2/user-guide
+- http://belgeler.cs.hacettepe.edu.tr/yayinlar/eski/LiferayJ2EEPortal_20122072_SonRapor.pdf
+- https://www.liferay.com/community/forums/-/message_boards/category/3159556 (Liferay Türkçe forum sayfası )
+- http://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/installing-liferay
+- http://liferayguru.blogspot.com.tr
+- https://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/installation
+- http://www.liferaysavvy.com/2013/12/liferay-62-portal-installation_11.html
+- http://howwhywhat.in/liferay-6-1-installation-steps-on-jboss
+- http://abdulcebar-on.blogspot.com.tr/2013/08/liferay-weblogic-kurulumu.html
+
