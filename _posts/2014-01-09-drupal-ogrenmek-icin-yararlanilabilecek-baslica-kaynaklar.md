@@ -16,15 +16,16 @@ Merhaba arkadaşlar. Drupal: Açık Kaynak Dünyasının Parlayan Yıldızı yaz
 
 İngilizce Kaynaklar
 DRUPAL.ORG sitesinde Documentation ve Forum (Hiç Kuşkusuz)
-Drupal – Understand
-Drupal – Install
-Drupal – Administer
-Drupal – Structure
-Drupal – Build
-Drupal – Multilingual
-Drupal – Theme Guide
-Drupal – Mobile
-Drupal – Groups
+- Drupal – Understand
+- Drupal – Install
+- Drupal – Administer
+- Drupal – Structure
+- Drupal – Build
+- Drupal – Multilingual
+- Drupal – Theme Guide
+- Drupal – Mobile
+- Drupal – Groups
+
 Nodeone.se Özellikle muhteşem videolarıyla ünlüdür. Kesinlikle tavsiye ederim.
 Drupalgardens.com (Yazılar ve Videolar)
 drupalmodules.com Drupal eklentileri üzerine uzmanlaşmış bir site. Eklenti aramalarında otomatik tamamlamayı desteklemesi, sayfalamalarda ise ajax destekli olması Drupal.Org‘a göre çok daha hızlı bir şekilde istenen eklentilere ulaşıma olanak sağlıyor
