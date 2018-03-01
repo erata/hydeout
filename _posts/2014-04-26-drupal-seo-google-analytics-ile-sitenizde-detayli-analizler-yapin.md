@@ -1,10 +1,18 @@
-## A New Post
-
-Drupal SEO: Google Analytics ile Sitenizde Detaylı Analizler Yapın
-BY ERATA	26 OCAK 2018  LEAVE A COMMENT
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: 'Drupal SEO: Google Analytics ile Sitenizde Detaylı Analizler Yapın'
+categories:
+  - icerik-yonetim-sistemleri
+tags:
+  - drupal
+---
 Merhaba arkadaşlar. Günümüzde siteler için SEO olmazsa olmaz bir kavram olarak literatürde yerini aldı. Sitenin arama motorlarında en üst sıralarda bulunması ve arama motorlarının sitedeki değişimlerden anlık olarak haberdar edilmesi özellikle de firmalar/şirketler için ciddi bir önem arzetmeye başladı.
 
 Güzel bir SEO ise başlangıç rotası gerektirir ve SEO amacıyla yola çıkanlar tahminimce “tamamda aga nerden başlayalım!” diyerek rota çizme gayreti içerisinde olurlar. Kanımca bu durumda yapılacak en doğru şey, 20-best-drupal-modules-seo yazısında geçen eklentileri tek tek kurmaktan ziyade önce sitenin nabzını yoklamak ve ne yapmak gerekiyorsa ortaya çıkan sonuçlara göre karar vererek yapmak. Tabi bunun için bir site analiz aracı na ihtiyacınız olacak ki bu yazıda biz bu amaçla Google_Analytics irdeleyeceğiz.
+
+<!--more-->
 
 Google Analytic
 Resim: Google Analytics ile örnek bir site anlizi
