@@ -25,9 +25,7 @@ Item to display olarak 12 seçiyoruz.
 
 6 – Sırada ise işin püf noktası yani içeriğin ilk resmini galerinin kapak resmi olarak belirleme. Bunun için MULTIPLE FIELD SETTINGS menüsünde simple seperator kısmında yer alan Seperator alanın boşaltıyoruz yani virgülü siliyoruz. Sonra Display‘daki all ifadesini 1 olarak düzeltyoruz.
 
-
 Album bazlı galeri oluşturma: Son durumda Galeri views’inin görünümü
-
 
 Album bazlı galeri oluşturma: resim_galeri fotoğraf alanımızdaki işlemler
 
@@ -44,4 +42,4 @@ Eğer Galerilerin anasayfada değilde sadece Galeri sayfasında görünmesini is
 Umarım yararlı olmuştur.
 
 ### Kaynaklar:
-http://jamestombs.co.uk/2011-05-26/create-album-based-image-gallery-drupal-7-using-fields-and-views
+- http://jamestombs.co.uk/2011-05-26/create-album-based-image-gallery-drupal-7-using-fields-and-views
