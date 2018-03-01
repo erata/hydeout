@@ -25,9 +25,15 @@ Drupale eklenti kurulmadan önce oluşabilecek yan etkileri sonradan giderebilme
 Kuracağınız eklentinin kütüphanesinin yolunu düzgün veremiyor iseniz ve sites/all/libraries altına koyacağınız kütüphane kılasörünün ismi konusunda tereddütünüz varsa admin paneldeki reports başlığı altındaki status report seçeneğini tıklamanız ve bu raporları incelemeniz tavsiye edilir. Eğer kütüphane yolu yanlışsa buradaki raporlarda bu durum ifade edilir ve kütüphane ismi konusunda gerekli yönlendirmeler burada yapılır.
 
 ### Eklenti Kurulumu İle İlgili Tavsiye Yazılar
-https://drupal.org/documentation/install/modules-themes
-http://www.serdartokcan.com/content/drupal-eklentileri
-http://turkcedrupal.org/ders/eklenti-kurulumu-65
-Eklenti Kurulumu İle İlgili Tavsiye Videolar
-[video:http://www.youtube.com/watch?v=e7C_pbhO_ts#t=47] [video:http://vimeo.com/28723294]
+
+- https://drupal.org/documentation/install/modules-themes
+- http://www.serdartokcan.com/content/drupal-eklentileri
+- http://turkcedrupal.org/ders/eklenti-kurulumu-65
+
+### Eklenti Kurulumu İle İlgili Tavsiye Videolar
+
+{{include youtube.html id="e7C_pbhO_ts#t=47"}}
+
+{{include vimeo.html id=28723294}}
+
 Umarım yararlı olmuştur.
