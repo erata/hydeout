@@ -21,5 +21,6 @@ Bootstrapla her ne kadar bu kadar genek kabul görmüşse de internette onun kul
 Bootstrap piyasada saltanatını kurmuşsa da bootstrap vari frameworkler yok değil (1, 2). Ama şu bir gerçek ki bootstrap daha çok zaman kendinden söz ettireceğe benziyor.
 
 ### Tavsiye Kaynaklar:
-http://getbootstrap.com/
-http://www.hongkiat.com/blog/twitter-bootstrap/
+- http://getbootstrap.com/
+- http://www.hongkiat.com/blog/twitter-bootstrap/
+
