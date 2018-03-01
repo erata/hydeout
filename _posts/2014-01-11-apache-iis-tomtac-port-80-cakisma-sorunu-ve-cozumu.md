@@ -31,19 +31,19 @@ XAMPP Üzerindeki Apache Sunucusunun Hizmet Verdiği (Dinlediği) Portu Değişt
 XAMPP üzerinde Port Çakışması Mesajı
 
 XAMPP’de port değiştirmek için C:\xampp\apache\conf\httpd.conf yolunu izleyerek httpd.conf dosyasındaki listen 80 yazan yeri bulmalı ve 80 sayısını faklı bir sayı ile (örneğin 81) değiştirmeliyiz. Örnek bir resim aşağıda verilmiştir.
-
-![XAMPP üzerinde Apache Portunu Değiştirme]({{site.baseurl}}/http://2.bp.blogspot.com/-awBVExnnN8c/UR00ekCaqkI/AAAAAAAAALU/nstSwagIlvw/s1600/port.JPG)
+ 
+![XAMPP üzerinde Apache Portunu Değiştirme](http://2.bp.blogspot.com/-awBVExnnN8c/UR00ekCaqkI/AAAAAAAAALU/nstSwagIlvw/s1600/port.JPG)
 
 XAMPP üzerindeki Apache Server’in portunu nasıl değiştirebileceğimiz ve sonraki durumda uygulamamıza nasıl ulaşabileceğimiz aşağıdaki vidyoda gayet basit ve güzel bir şekilde anlatılmış.
 
 IIS (İnternet İnformation  Services) Portunu Değiştirme (Örneğin 82 olarak)
 IIS’de port değiştirmek için ilk önce Başlat»Çalıştır»inetmgr  yoluyla IIS Yöneticisini çalıştırmalıyız. Daha sonra Siteler altındaki Default Web Siteye sağ tıklıyoruz ve Bağlamaları Düzenleyi seçiyoruz. Örnek Resim aşağıda.
 
-![IIS Port Değiştirme - 1 ]({{site.baseurl}}/http://1.bp.blogspot.com/-sV7OZO4dvQE/UR02keQTdAI/AAAAAAAAALc/FfOlKoNAyLQ/s1600/iis+1.+a%C5%9Fama.JPG)
+![IIS Port Değiştirme - 1 ](http://1.bp.blogspot.com/-sV7OZO4dvQE/UR02keQTdAI/AAAAAAAAALc/FfOlKoNAyLQ/s1600/iis+1.+a%C5%9Fama.JPG)
 
 Gelen ekranda http ile başlayan satırı seçtikten sonra sağ taraftaki Düzenleyi seçiyoruz. Gelen ekranda ise Bağ Nok ile ifade edilen yerdeki 80 sayısını 82 ile değiştiryoruz, Tamam diyerek çıkıyoruz. Örnek resim aşağıda.
 
-![IIS Port Değiştirme - 2]({{site.baseurl}}/http://3.bp.blogspot.com/-1-jfI4GoVQA/UR06DkiHEUI/AAAAAAAAALk/ZkghEYCY9oI/s1600/iis+2.+a%C5%9Fama.JPG)
+![IIS Port Değiştirme - 2](http://3.bp.blogspot.com/-1-jfI4GoVQA/UR06DkiHEUI/AAAAAAAAALk/ZkghEYCY9oI/s1600/iis+2.+a%C5%9Fama.JPG)
 
 ### 2. Sunucuları birçok farklı port dinleyecek şekilde ayarlamak 
 
@@ -51,12 +51,12 @@ Gelen ekranda http ile başlayan satırı seçtikten sonra sağ taraftaki Düzen
 
 **Port Adresi Dinleme Ayarı için**
 
-> Listen 80
+Listen 80
 Listen 8000
 
 **IP Adresi Dinleme Ayarı için** 
 
-> Listen 192.0.2.1:80
+Listen 192.0.2.1:80
 Listen 192.0.2.5:8000
 
 şeklinde ayarlamalar yapabiliriz ilgili sunucu ayarında. Aşağıdaki resimden inceleyebilirsiniz Port ve IP adresi dinleme örneklerini.
@@ -87,12 +87,12 @@ Windows Görev Yöneticisinden -> İşlemler ve buradan ilgili iş parçacığı
 
 Port çakışmasıyla ilgili hazırlanmış örnek bir vidyo, XAMPP üzerindeki apache serverın çalışmama sorunu ele alınıyor. Sunucunun çalışmasını engelleyen program bulunarak kapatılıyor ve çalışması sağlanıyor. Bu şekilde port 80’i işgal eden uygulamalara SQL Server Reporting Services (MSSQLSERVER), **Web Deployment Agent Service**  (MsDepSvc) ya da **World Wide Web Publishing Service** verilebilir (Bkz.).  
 
-![Web Deployment Agent Service]({{site.baseurl}}/http://2.bp.blogspot.com/-9oHuzJAMHlM/Un_g8kK-90I/AAAAAAAAAUA/xHVLpHP6a3o/s640/web+development+agent.PNG)
+![Web Deployment Agent Service](http://2.bp.blogspot.com/-9oHuzJAMHlM/Un_g8kK-90I/AAAAAAAAAUA/xHVLpHP6a3o/s640/web+development+agent.PNG)
 
 Dinlenilen Portu Değiştirdikten Sonra Uygulamayı Nasıl Çalıştıracağız – Yeni Uygulama URL’si Ne Olacak?
 Portla ilgili ilk iki işlemde temel portu değiştirmeyi ve dinlenecek yeni portlar eklemeyi anlattık. Fakat bu işlemler sizin uygulamanızın çalıştığı URL adresini de değiştirecektir. Dolayısıyla çalıştığınız portu belirtir bir şekilde uygulamanıza ulaşabilirsiniz yeni durumda. Örneğin localhostta çalışıyorsanız:
 
-![80 portu kapalı olduğu için apache sever çalışmıyor]({{site.baseurl}}/http://2.bp.blogspot.com/-kwapSlgh_1Q/Un_o19COhkI/AAAAAAAAAUQ/Wo4_wuiSmdY/s640/apache+server.PNG)
+![80 portu kapalı olduğu için apache sever çalışmıyor](/http://2.bp.blogspot.com/-kwapSlgh_1Q/Un_o19COhkI/AAAAAAAAAUQ/Wo4_wuiSmdY/s640/apache+server.PNG)
 
 Önceden 80 nolu kullanırken localhost/drupal  şeklinde eriştiğiniz uygulamanıza portu 81 olarak değiştirirseniz artık localhost:81/drupal şeklinde erişmeye başlayacaksınız. Kısacası önceden yazdığınız uygulama adresindeki localhost ifadesinin önüne ekstradan kullanacağınız yeni portun adresini :port_no şeklinde yazarak localhost:port_no/uygulama ifadeisndeki gibi bir yapı elde edeceksiniz.
 
