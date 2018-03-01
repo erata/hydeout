@@ -27,8 +27,6 @@ Colorbox Galeri
 
 Colorbox Caption TokenResmin altında yer alan yazıları istediğniz gibi ayarlayabilirsiniz bir önceki resimdeki colorbox ayar kısmındaki Caption (Başlık) ayarı ile. Eğer caption kısmında verilen başlıklar ihtiyacınızı karşılamıyor ise Custom (with tokens) ile ifade edildiği gibi token eklentisiyle gelen değişkenleri kullanmak suretiyle istediğiniz özelleştirmeyi rahatlıkla yapabilirsiniz.
 
- 
-
 Bunun dışında colorbox ile açılan ekran görünümünü özelleştirmek için admin/config/media/colorbox ile veya admin/modules sayfasında colorbox eklentisini bulup configure seçeneği ile ayar yapacağınız yere ulaşarak size sunulan seçenekler ile istediğiniz görünüme kavuşabilirsiniz. Örneğin biz style kısmında Defaulttan Example 2‘ye geçiş yaptık.
 
 Colorbox Settings
