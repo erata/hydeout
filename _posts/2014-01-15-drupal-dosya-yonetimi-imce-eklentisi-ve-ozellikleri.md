@@ -42,4 +42,3 @@ imce_filefield ile drupalin temel dosya yükleme (default upload) kısmında dah
 imce_plupload ile çoklu resim yükleyebilme (multi upload)
 gibi ekstaradan özellikler de katmanız mümkündür. Gördüğünüz üzere bir dosya yönetim aracı olan IMCE ile çok farklı senaryoları rahatlıkla gerçekleştirebilme fırsatınız var.
 
-Not: *** ile verdiğim kısımlar IMCE‘deki en sevdiğim kısımlar. Özellikle kullanıcı rollerinin isteğe göre özelleştirilebilmesi hayati öneme sahip.
