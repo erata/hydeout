@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            WebRitmi
-tagline:          'An IT Blog'
+tagline:          'An IT Blog: To keep the rhythm of web '
 description:      'Web Dünyasının Ritmi'
 url:              http://webritmi.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -17,7 +17,7 @@ author:
   name:           'İbrahim Erata'
   url:            https://twitter.com/...
 
-paginate:         5
+paginate:         8
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
