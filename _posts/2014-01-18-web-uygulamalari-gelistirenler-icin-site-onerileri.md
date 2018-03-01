@@ -8,6 +8,8 @@ tags:
 ---
 Merhaba arkadaşlar. Web uygulamalarına olan merakımdan ötürü birbirinden farklı alanlarda birçok siteyi ziyaret etme ve inceleme fırsatım oldu. Bu sitelerden en beğendiklerimi belki sizler için de yararlı olabilir diyerek paylaşıyorum. Bu arada burada vereceğim listenin zamanla artabileceğini şimdiden hatırlatayım.
 
+<!--more-->
+
 Web uygulamaları hakkında genel istatistiki ve kategorik bilgiler almak için http://wappalyzer.com adresine uğrayıp web dünyasını kuş bakışı izleyebilirsiniz. Bu sayede Nekkkadarrrr çok web uygulaması olduğunu görüp küçük dilinizi yutabilirsiniz. Dolayısıyla aşağıda vereceğim tavsiye siteler bu kocaman web dünyasını tümüyle kucaklaya yetmeyecektir.
 
 ### Daha Çok Yazılımcılara Hitap Eden Siteler
