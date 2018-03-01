@@ -22,7 +22,7 @@ Entity, drupalin nesneye yönelik yaklaşımıdır. Her şey entity’den türey
 
 Aşağıdaki video entity, node ve diğer önemli yapılar üzerinde gayet net anlatımda bulunmuş.
 
-{% include youtube.html id="coephBu07Ks" }}
+{% include youtube.html id="coephBu07Ks" %}
 
 Özetle entity, drupalin devrimidir. Drupal 6’ya kadar “her şey bir node” idi. Drupal 7’den itibaren bu anlayış değişmeye başladığı gibi drupal 8’de entiy çok daha fazla hissedileceği açık ve net görülmekte. Drupal 8 eklentilerinin entity ağırlıkta oluşturulması bunu kanıtlar nitelikte.
 
@@ -30,4 +30,3 @@ Aşağıdaki video entity, node ve diğer önemli yapılar üzerinde gayet net a
 - https://www.drupal.org/node/1261744
 - http://evolvingweb.ca/story/drupal-7-entities-what-are-they-and-what-are-they-good
 - http://www.youtube.com/watch?v=coephBu07Ks
-
