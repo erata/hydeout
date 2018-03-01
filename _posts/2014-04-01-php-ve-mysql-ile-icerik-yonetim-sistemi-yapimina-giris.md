@@ -66,15 +66,16 @@ Nihaide, php-mysql-temelleri-icerik-yonetim-sistemi-yapisi-planlama sayfasındak
 Dikkat: MySQL ile yaptığınız veritabanı işlemlerinde Türkçe karakter sorunu yaşamanız kuvvetle muhtemel. Ondan dolayı çözüm adına şu yazıyı okumanızı tavsiye ederim.
 
 ### Kaynaklar:
-http://css-tricks.com/php-for-beginners-building-your-first-simple-cms/
-http://www.elated.com/articles/cms-in-an-afternoon-php-mysql/
-http://baylorrae.com/blog/2012/03/14/the-basics-of-creating-a-cms-with-php/
-https://gist.github.com/BaylorRae/3850401#file-index-preview-php
-https://www.udemy.com/make-a-cms/
-http://www.icms.info/
-http://www.freezecoders.com/2012/11/add-list-edit-delete-record-in-database-using-php.html
-http://www.seyretogren.com/ders/mysql-veri-tabani-ve-php-temelleri-5-icerik-yonetim-sistemi-cms-yapisi-tasarlama.html
-http://www.seyretogren.com/ders/mysql-veri-tabani-ve-php-temelleri-6-crud-uygulamari-create-read-update-delete.html
-http://www.seyretogren.com/video/php-mysql-temelleri-icerik-yonetim-sistemi-yapisi-planlama.html
-http://daveismyname.com/building-a-content-management-system-from-scratch-bp
-http://www.turkceteknik.com/goster.php?kid=284&k=php_mysql_-_veri_taban%C4%B1nda_t%C3%BCrk%C3%A7e_karakter_problemi_tam_%C3%83
+- http://css-tricks.com/php-for-beginners-building-your-first-simple-cms/
+- http://www.elated.com/articles/cms-in-an-afternoon-php-mysql/
+- http://baylorrae.com/blog/2012/03/14/the-basics-of-creating-a-cms-with-php/
+- https://gist.github.com/BaylorRae/3850401#file-index-preview-php
+- https://www.udemy.com/make-a-cms/
+- http://www.icms.info/
+- http://www.freezecoders.com/2012/11/add-list-edit-delete-record-in-database-using-php.html
+- http://www.seyretogren.com/ders/mysql-veri-tabani-ve-php-temelleri-5-icerik-yonetim-sistemi-cms-yapisi-tasarlama.html
+- http://www.seyretogren.com/ders/mysql-veri-tabani-ve-php-temelleri-6-crud-uygulamari-create-read-update-delete.html
+- http://www.seyretogren.com/video/php-mysql-temelleri-icerik-yonetim-sistemi-yapisi-planlama.html
+- http://daveismyname.com/building-a-content-management-system-from-scratch-bp
+- http://www.turkceteknik.com/goster.php?kid=284&k=php_mysql_-_veri_taban%C4%B1nda_t%C3%BCrk%C3%A7e_karakter_problemi_tam_%C3%83
+
