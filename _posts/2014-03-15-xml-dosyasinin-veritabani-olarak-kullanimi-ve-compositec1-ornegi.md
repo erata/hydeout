@@ -35,22 +35,23 @@ Evet, aldığım bu cevapla araştırmalarıma yeni bir yön vermiş oldum (Art�
 Ayrıca XML veritanı ile ilgili http://en.wikipedia.org/wiki/XML_database sayfasını ziyaret ettiğimde şaşkınlığım bir kat daha arttı. Öyle ki XML veritabanlarında sorgu yapabileceğimiz XQuery adında bir dil bile vardı bildiğimiz veritabanlarında SQL dili olduğu gibi. Dedim kendi kendime: Sen neymişsin be XML!
 
 ### Tavsiye Kaynaklar:
-http://tr.wikipedia.org/wiki/XML
-http://en.wikipedia.org/wiki/XML_database
-http://en.wikipedia.org/wiki/Document-oriented_database
-http://en.wikipedia.org/wiki/Database
-http://tr.wikipedia.org/wiki/NoSQL_(kavram)
-http://en.wikipedia.org/wiki/NoSQL
-http://www.btsoru.com/questions/9935/xml-dosyas-veritaban-olarak-kullanlabilir-mi
-http://forum.ceviz.net/genel-programlama/90333-sql-mi-xml-mi.html
-http://www.webmastersitesi.com/web-dersleri/59946-xml-veritabani-islemleri-ders-i.htm
-http://coder.digitaldunyam.net/gunluk-kullanim-icin-mini-not-uygulamasi/
-http://coder.digitaldunyam.net/xml-dosyasini-veritabani-olarak-kullanma/
-http://bilgiteknoloji.net/xml/xml15_internette_xml_kullanmak.asp
-http://www.webmastersitesi.com/web-dersleri/59947-xml-veritabani-islemleri-dersleri-ii.htm
-http://www.mzekiosmancik.com/tag/xml-veritabani/
-http://www.yazilimgunlugu.com/xml-datayi-okuma-listeleme-ve-yeni-kayit-ekleme-islemleri-makalesi/179.aspx
-http://www.mutasyon.net/makaleler.asp?id=26
-http://www.yazgelistir.com/makale/veritabani-yerine-xml-
-http://stackoverflow.com/questions/201568/when-would-i-use-xml-instead-of-sql
-http://www.bilisimakademi.net/yaziOku.asp?yaziID=288
+- http://tr.wikipedia.org/wiki/XML
+- http://en.wikipedia.org/wiki/XML_database
+- http://en.wikipedia.org/wiki/Document-oriented_database
+- http://en.wikipedia.org/wiki/Database
+- http://tr.wikipedia.org/wiki/NoSQL_(kavram)
+- http://en.wikipedia.org/wiki/NoSQL
+- http://www.btsoru.com/questions/9935/xml-dosyas-veritaban-olarak-kullanlabilir-mi
+- http://forum.ceviz.net/genel-programlama/90333-sql-mi-xml-mi.html
+- http://www.webmastersitesi.com/web-dersleri/59946-xml-veritabani-islemleri-ders-i.htm
+- http://coder.digitaldunyam.net/gunluk-kullanim-icin-mini-not-uygulamasi/
+- http://coder.digitaldunyam.net/xml-dosyasini-veritabani-olarak-kullanma/
+- http://bilgiteknoloji.net/xml/xml15_internette_xml_kullanmak.asp
+- http://www.webmastersitesi.com/web-dersleri/59947-xml-veritabani-islemleri-dersleri-ii.htm
+- http://www.mzekiosmancik.com/tag/xml-veritabani/
+- http://www.yazilimgunlugu.com/xml-datayi-okuma-listeleme-ve-yeni-kayit-ekleme-islemleri-makalesi/179.aspx
+- http://www.mutasyon.net/makaleler.asp?id=26
+- http://www.yazgelistir.com/makale/veritabani-yerine-xml-
+- http://stackoverflow.com/questions/201568/when-would-i-use-xml-instead-of-sql
+- http://www.bilisimakademi.net/yaziOku.asp?yaziID=288
+
