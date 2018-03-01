@@ -6,6 +6,7 @@ title: Drupalden Jekyll'ye Geçiş
 tags:
   - drupal
   - jekyll
+  - statik-site
 categories:
   - icerik-yonetim-sistemleri
 ---
