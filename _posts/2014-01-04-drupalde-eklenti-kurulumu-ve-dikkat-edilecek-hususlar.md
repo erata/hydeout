@@ -32,8 +32,8 @@ Kuracağınız eklentinin kütüphanesinin yolunu düzgün veremiyor iseniz ve s
 
 ### Eklenti Kurulumu İle İlgili Tavsiye Videolar
 
-{{include youtube.html id="e7C_pbhO_ts#t=47"}}
+{% include youtube.html id="e7C_pbhO_ts#t=47" %} 
 
-{{include vimeo.html id=28723294}}
+{% include vimeo.html id=28723294 %}
 
 Umarım yararlı olmuştur.
