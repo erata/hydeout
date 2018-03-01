@@ -61,8 +61,9 @@ birçok şey rahatlıkla yapılabilir.
 Günümüzde hazır içerik yönetim sistemlerine talep hiç olmadığı kadar artmışıtır. Fakat oldukça yaldızlı gözüken bu yazılımları kullanmak gerçekte o kadar da ışıltılı değildir. Yapılması gereklen ayarlamaların gereğince yapılamaması güvenlik ve hız sorunlarına davetiye çıkaracak ve başımızı ağrıtacaktır. Ayrıca hazır içerik yönetim sistemlerinin değişik açılardan avantajlılık ve dezavantajlılık gibi hususlarının olması, karar verme aşamasında düşünmeye sevketmektedir. Günümüzde hazır yönetim sistemlerinin ileride nereye doğru götüreceğini kestiremeyen birçoğu kendi içerik yönetim sistemini yazmaktadır. Diğer açıdan ise kendi yazdığımız içerik yönetim sistemlerinin, onlarca yüzlerce geliştirici ile desteklenmiş ve birçok açıdan güvenirliliği test edilmiş hazır içerik yönetimleri karşısında ne kadar başarılı olabileceği ayrı bir muamma olarak karşımızda durmaktadır. Bu aşamada şu soruya doğru cevap vermek gerekiyor: Tekerliği yeniden icat etmeye değer mi? Çünkü kendi yazdığımız içerik yönetim sistemi maliyeti artırıcı yönde etki yapacak.
 
 ### Kaynaklar:
-http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms
-http://en.wikipedia.org/wiki/List_of_content_management_systems
-http://mashable.com/2013/04/26/css-boilerplates-frameworks
-http://speckyboy.com/2011/11/17/15-responsive-css-frameworks-worth-considering
-http://tr.wikipedia.org/wiki/Web_sitesi
+- http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms
+- http://en.wikipedia.org/wiki/List_of_content_management_systems
+- http://mashable.com/2013/04/26/css-boilerplates-frameworks
+- http://speckyboy.com/2011/11/17/15-responsive-css-frameworks-worth-considering
+- http://tr.wikipedia.org/wiki/Web_sitesi
+
