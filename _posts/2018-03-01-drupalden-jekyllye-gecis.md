@@ -10,7 +10,7 @@ tags:
 categories:
   - icerik-yonetim-sistemleri
 ---
-Merhaba arkadaşlar. Uzun süre drupal ile haşır neşir olmuş biri olarak artık ben de [Jekyll](https://jekyllrb.com/) ile yazı yazanlardan biriyim. Drupal benim ilk olmasa da sevdiğim göz ağrılarımdan biriydi:) Ne varki drupal ile site geliştirmek ve daha da iyisini geliştirme çabaları esas amacın yani yazı yazmanın önüne geçti. En son edindiğim tecrübeler ile artık [Github Pages](https://pages.github.com/) üzerinde Jekyll statik site üretici kullanarak sitemi geliştirme konusunda karar kıldım ve iyi de yaptığımı düşünüyorum:) 
+Merhaba arkadaşlar. Uzun süre drupal ile haşır neşir olmuş biri olarak artık ben de [Jekyll](https://jekyllrb.com/) ile yazı yazanlardan biriyim. Drupal benim ilk olmasa da sevdiğim göz ağrılarımdan biriydi:) Ne varki drupal ile site geliştirmek ve daha da iyisini geliştirme çabaları esas amacın yani yazı yazmanın önüne geçti. En son edindiğim tecrübeler ile artık [Github Pages](https://pages.github.com/) üzerinde Jekyll statik site üretici kullanarak web sitemi geliştirme konusunda karar kıldım ve iyi de yaptığımı düşünüyorum:)  
 
 <!--more-->
 
