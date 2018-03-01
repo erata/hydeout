@@ -10,7 +10,7 @@ tags:
 categories:
   - icerik-yonetim-sistemleri
 ---
-Merhaba arkadaşlar. Uzun süre drupal ile haşır neşir olmuş biri olarak artık ben de [Jekyll](https://jekyllrb.com/) ile yazı yazanlardan biriyim. 
+Merhaba arkadaşlar. Uzun süre [drupal](https://www.drupal.org/) ile haşır neşir olmuş biri olarak artık ben de [Jekyll](https://jekyllrb.com/) ile yazı yazanlardan biriyim. 
 
 ![Github Pages - Jekyll - Drupal]({{site.baseurl}}/assets/media/hithub-pages-jekyll-drupal.png)
 
