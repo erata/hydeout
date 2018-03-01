@@ -10,12 +10,16 @@ tags:
 ---
 Merhaba arkadaşlar. Bu yazıda drupalin en can sıkıcı konularından biri olan yazı editörlerinden bahsedeceğiz. Bildiğiniz üzere drupal 8 e kadar yazı editörleri için İngilizcesi “out of box” denilen bir çözüm mevcut değildi. Dolayısıyla çözüm adına iki seçenek çıkmaktaydı. Bunlar: Yeterli düzeyde HTML ve CSS bilerek içeriğe kod üzerinden müdahale edebilmek ya da 3. parti yazı editörleri kullanmak (yani “out of box” çözüm İngilizcesi). [Drupalde kullanılan editöler ile ilgili genel bilgili için]
 
+<!--more-->
+
 drupal.org sitesinde yukarıda bahsettiğimiz çözümlerden ikincisi tercih edilerek bueditor kullanmıştır. Peki bueditor neden tercih edilmiştir dediğinizi duyar gibiyim.
 
-Neden Bueditor Kullanmalı?
+### Neden Bueditor Kullanmalı?
+
 bueditor,  wysiwyg editörlerinden biri değil yani gerçek manada bir editör de değil. Çünkü bueditör ile yapılan değişiklik görünüm olarak değilde HTML kodu (<b>, <i>, <img>, vb.) şeklinde görünüyor . Fakat, basit ama kullanışlı bir arayüzü var ve sisteme neredeyse hiç yük getirmiyor, birçok eklentiyle uyumlu bir şekilde çalışabiliyor. Bir editörden beklenilen temel gereksinimleri rahatlıkla karşılayabilecek button (düğme) setine sahip olmanın yanı sıra ek button setleri de rahatlıkla eklenebiliyor. markdowneditor eklentisiyle daha okunaklı bir görünüm elde edilebiliyor (HTML’in okunurluğu biraz zor). Ayrıca gelişmiş bir kullanıcı izin ayar kısmı var ve değişik yetkinlikte kullanıcılar tanımlayarak o haklar doğrultusunda editörü kullanabilmelerini sağlayabiliyoruz. [Bueditor’e dair detaylı bilgi için]
 
-Neden Wysiwyg Editörleri Kullanmalı?
+### Neden Wysiwyg Editörleri Kullanmalı?
+
 Wysiwyg editöler, yazılara hem kod üzerinden hem de görünüm üzerinden müdahale edebileceğimiz editörlerdir. Yazı üzerine verdiğimiz sitiller hem görünüm olarak belirir (Bueditorde kod şeklinde idi) ve son kullanıcıların çok rahatlıkla içerik girmelerine imkan verir.
 
 Bugün drupalde birçok wysiwyg editörü seçeneği mevcut ve seçim bayağı sancılı olabilir sizin için. Özellikle kalitesini tüm dünyada isbatlamış iki editör (Bakınız) olan CKEditör ve Tinymce arasında kalabilirsiniz. Normalde wysiwyg editörü olarak bunlar dışında birçok editör seçeneği mevcutsa da genel temayül bunlar üzerine. Ayrıca özellikle bu iki editör üzerine ciddi bir eklenti desteği var.
@@ -32,17 +36,18 @@ Sonuçta, wysiwyg eklentisiyle birçok editörü tekbir arayüz ile ekleme şans
 Wysiwyg ve CKEditor Kullanımında Dikkat!
 Aynı anda hem wysiwyg hem de ckeditor eklentilerini aktif etmeyin. Sonra çakışmalar yaşanıyor ve eklenilen editör düzgün çalışmıyor.
 
-Özetle:
+**Özetle:**
 Eğer CKEditor‘e karar kılmışsanız baştan Ckeditor eklentisiyle yola devam edin bu editöre özgü gelişmiş ayarlamalara izin verdiği için.  Yok ben her yazı formatında farklı bir editor kullanacağı diyorsanız Wysiwyg eklentisini kullanın. Fakat wysiwyg eklentisinin Ckeditor eklentisi kadar CKEditor‘e destek vermediğini baştan hatırlatayım. Eğer derseniz ki benim için önemli olan sistemin en az yükle en hızlı çalışması, yapılan değişikliğin anında görünüm olarak yansıması pek de önemli değil o zaman bueditor iyi bir seçenek olarak karşınızdadır. Kaldı ki bueditordeki HTML’in oluşturduğu okunurlulukla ilgili zorluğun markdowneditor ile çözülebileceğine yukarda değinmiştik.
 
 Drupal 8: CKEditor ve Satır İçi Editör Kullanımı (İnline Editing)
 Drupal 8 ile beraber CKEditor, temel sürümün içerisine dahil edildi. Fakat tek yenilik bu değil: inline editing denen yaklaşım da uygulamaya sokuldu ve böylece seçilen kısmi alanlar üzerindeki değişiklik yapılabilecek. Aşağıdaki örnek videoyu inceleyiniz.
 
-[video:http://www.youtube.com/watch?v=Dlh602DcW-A]
+{% include youtube.html id="Dlh602DcW-A" %}
 
 ### Kaynaklar:
-http://drupal.cocomore.com/blog/better-than-wysiwyg_bueditor-drupal-7_use-and-configuration
-http://brighternet.com/articles/review-of-drupal-rich-text-editors/
-http://drupalize.me/blog/201310/drupal-8-wysiwyg-and-line-editing
-https://drupal.org/node/208456
-http://www.youtube.com/watch?v=Dlh602DcW-A
+- http://drupal.cocomore.com/blog/better-than-wysiwyg_bueditor-drupal-7_use-and-configuration
+- http://brighternet.com/articles/review-of-drupal-rich-text-editors/
+- http://drupalize.me/blog/201310/drupal-8-wysiwyg-and-line-editing
+- https://drupal.org/node/208456
+- http://www.youtube.com/watch?v=Dlh602DcW-A
+
