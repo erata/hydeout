@@ -61,7 +61,7 @@ Listen 192.0.2.5:8000
 
 şeklinde ayarlamalar yapabiliriz ilgili sunucu ayarında. Aşağıdaki resimden inceleyebilirsiniz Port ve IP adresi dinleme örneklerini.
 
-Birçok Farklı Portu Dinlemek
+![Birçok Farklı Portu Dinlemek](http://3.bp.blogspot.com/-SJCawTBpVnQ/UR1ABHc0ZHI/AAAAAAAAALs/fO0XIU0pYkU/s1600/listen.JPG) 
 
 ### 3. Aynı anda tek bir sunucunun çalışyor olması sağlamak
 
