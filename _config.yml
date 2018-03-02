@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            WebRitmi
-tagline:          'An IT Blog: To keep the rhythm of web '
-description:      'Web Dünyasının Ritmi'
+tagline:          'An IT Blog to keep the rhythm of web ![]({{site.baseurl}}/assets/media/activity.svg)'
+description:      'Web Dünyasının Ritmi ![]({{site.baseurl}}/assets/media/activity.svg)'
 url:              http://webritmi.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
