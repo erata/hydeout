@@ -6,9 +6,9 @@ sidebar_link: true
 ---
 
 <p class="message">
-Merhaba, ben İbrahim Erata. 
+Merhaba, ben İbrahim Erata.<br> 
 
-Webi seven ve web ile ilgili değişik teknolojileri hayranlıkla takip eden biriyim ve bu sitede "web dünyasının ritmini ölçmek" sloganına yakışan yazılar paylaşmak niyetindeyim. Sitede web ile ilgili konular ön plana çıkacak olsa da bilişim alanındaki tüm konular kapsam dahilindedir. Umarım kendim ve sizler için faydalı paylaşımlar sunarım. 
+Web dünyasını seven ve yeni teknolojileri takip etmeye çalışan biri olarak bu sitede "web dünyasının ritmini ölçmek" sloganına yakışan yazılar paylaşmak niyetindeyim. Sitede web ile ilgili konular ön plana çıkacak olsa da bilişim alanındaki tüm konular kapsam dahilindedir. Umarım kendim ve sizler için faydalı paylaşımlar sunarım. <br>
 
 Saygılarımla,
 </p>
