@@ -15,8 +15,6 @@ Port 80 açkışması, 80 nolu port bir uygulama (sunucu) tarafından kullanırk
 
 <!--more-->
 
-{% include toc.html html=content %}
-
 ### Aynı Anda Farklı Sunucuları Bir Arada Çalıştırırsak Ne Olur?
 
 80 portu üzerinde bir çakışma yaşanacağı için portu elde tutan sunucu çalışmaya devam ederken diğer talepte bulunan sunucu (lar) port 80 çakışması hatası vereceklerdir. Dolayısıyla aynı anda birden çok sunucu ile çalışmak durumunda iseniz sizlere üç temel yaklaşım öneriyoruz:
