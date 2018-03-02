@@ -3,6 +3,7 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: Drupalden Jekyll'ye Geçiş
+toc: true
 tags:
   - drupal
   - jekyll
