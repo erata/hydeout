@@ -46,6 +46,10 @@ disqus:
 
 google_analytics: 'UA-38557310-1'
 
+toc:
+  min_level: 2 # default: 1
+  max_level: 5 # default: 6
+
 # languages: &languages
 #  - name: 'Türkçe'
 #    value: 'tr'
