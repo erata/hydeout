@@ -3,7 +3,6 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: Drupalden Jekyll'ye Geçiş
-toc: true
 tags:
   - drupal
   - jekyll
@@ -18,9 +17,6 @@ Merhaba arkadaşlar. Uzun süre [drupal](https://www.drupal.org/) ile haşır ne
 Drupal benim ilk olmasa da sevdiğim göz ağrılarımdan biriydi:) Ne varki drupal ile site geliştirmek ve daha da iyisini geliştirme çabaları esas amacın yani yazı yazmanın önüne geçti. En son edindiğim tecrübeler ile artık [Github Pages](https://pages.github.com/) üzerinde Jekyll statik site üretici kullanarak web sitemi geliştirme konusunda karar kıldım ve iyi de yaptığımı düşünüyorum:)  
 
 <!--more-->
-<a id="heading11" class="anchor" href="#heading1-1" aria-hidden="true">
-  <span class="octicon octicon-link">asd</span>
-</a>
 
 İlk site geliştirmeye düz HTML+CSS bilgimle başlamıştım. Zaman geçti Wordpress ile tanıştım ve hayran kaldım localde site geliştirdim. Sonra dedim başkası da vardır, Joomlaya geçtim. Yalnız Joomlaya bir türlü ısınamamıştım. Sonra Drupal'e atladım. At değiştirir gibi içerik yönetim sistemi değiştiriyordum:) Nasıl olduysa Drupal'e hayran kaldım ki önceki yazılarımın büyük bir çoğunluğu da Drupal üzerinedir. Drupal hakikaten çok sağlam bir içerik yönetim sistemi, ama ne yalan söyliyem bu ayarlarıyla uğraşmak bir noktadan sonra kabak tadı vermeye başladı. Belki kullandığım tema açığından, belki bir eklentiden, belki yanlış bir ayardan ya da siteyi  host ettiğim yerden olsa gerek site iki de bir göçüyordu. Virüs bi kere bulaşmaya görsün siteye nefes aldırmadı gitti:) Ben de yakın zamanlarda Github Pages'i araştırmaya başladım. Jekyll'yi duymuştum ama Drupal, Wordpress varken Jekyll de neymiş:) tarzı bir tavır içindeydim. Her neyse insan bilmediğinin düşmanıdır derler ya Jekyll yi öğrendikçe hayranlığım arttı ve zaten Drupal'den dili yanmış biri olarak (ki halen Drupal'i severim) Github Pages'e siteyi taşımaya karar verdim.
 
