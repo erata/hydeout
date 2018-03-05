@@ -28,7 +28,6 @@ Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript küt
 
 ![zebkit-component]({{site.baseurl}}/assets/media/zebkit-component.PNG)
 
-
 Zebkit bir [Fabric.js](http://fabricjs.com/) kadar bilinir değildir. Fakat konu HTML5 şekilleri çizimi noktasına geldiğinde birçok anlamda ihtiyacınızı Fabric.js'den daha fazla karşılayacaktır. Oldukça gelişmiş dokümantasyona sahip olan Zebkit dokümantasyonu da oldukça gelişmiştir. Siyah ve beyaz teması ve özelleştirmeye açık yapısı Zebkit'in tercih edilebilirliğini artırmaktadır.
 
 ![zebkit dokümantasyon](http://www.zebkit.org/light/public/images/api-light.png?400x400)
