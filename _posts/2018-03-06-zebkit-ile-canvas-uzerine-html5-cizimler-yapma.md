@@ -8,19 +8,9 @@ categories:
 tags:
   - zebkit
 ---
-## A New Post
+Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript kütüphanesini tanıtacağım. Zebkit, Canvas üzerine HTML5 öğeler çizmenizi sağlayan MVC bir javascript kütüphanesidir. Adı çok duyulmamış olmasına rağmen HTML5 öğeler çiziminde oldukça güçlü ve maharetlidir. Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Tek sayfa uygulamalara ve mobil uygulamalara da destek veren Zebkit hiyerarşik kullanımı ile nesneye yönelik yazılımın tadını almanızı sağlayacaktır. 
 
-<div class='img-left'>
-	![zebkit]({{site.baseurl}}/assets/media/zebkit.PNG)
-</div>
-
-Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Ayrıca tek sayfa ve mobil uygulama yapmaya destek vermektedir.
-
-Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript kütüphanesini tanıtacağım. Zebkit, Canvas üzerine HTML5 öğeler çizmenizi sağlayan MVC bir javascript kütüphanesidir. Adı çok duyulmamış olmasına rağmen HTML5 öğeler çiziminde oldukça güçlü ve maharetlidir. Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Ayrıca tek sayfa ve mobil uygulama yapmaya destek vermektedir.
-
-
-
- 
+![zebkit-component]({{site.baseurl}}/assets/media/zebkit-component.PNG)
 
 ```js
  zebkit.require("ui", "layout", function(ui, layout) {
@@ -37,4 +27,12 @@ Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript küt
 ```
 <!--more-->
 
-Zebkit bir [Fabric.js](http://fabricjs.com/) kadar bilinir değildir. Fakat konu HTML5 şekilleri çizimi noktasına geldiğinde birçok anlamda ihtiyacınızı Fabric.js'den daha fazla karşılayacaktır. Belki   
+Zebkit bir [Fabric.js](http://fabricjs.com/) kadar bilinir değildir. Fakat konu HTML5 şekilleri çizimi noktasına geldiğinde birçok anlamda ihtiyacınızı Fabric.js'den daha fazla karşılayacaktır. Oldukça gelişmiş dokümantasyona sahip olan Zebkit dokümantasyonu da oldukça gelişmiştir. Siyah ve beyaz teması ve özelleştirmeye açık yapısı Zebkit'in tercih edilebilirliğini artırmaktadır.
+
+![zebkit dokümantasyon](http://www.zebkit.org/light/public/images/api-light.png?400x400)
+
+Eğer canvas kullanrak bir proje geliştirecekseniz ve HTML5 elemanlarının oldukça sık kullanıldığı, icabında designer ekranında bu HTML5 öğelerini konumlandırabileceğiniz bir yapı geliştirmek istiyorsanız Zebkit sizin için çok uygun bir seçim olabilir. 
+
+Zebkit büyük bir proje olmasına karşın geliştirici/destek veren kitle biraz sınırlı kalmış gibi gözükmekte (şuan [Andrei Vishneuski](https://github.com/barmalei/zebkit) öncülüğünde proje ilerliyor) fakat kütüphaneyi kullanırken karşılaştığınız sorunlarınızı açtığınız hata raporları ile bildirmeniz durumunda kısa sürede cevap almaktasınız. 
+
+Umarım yararlı olmuştur.
