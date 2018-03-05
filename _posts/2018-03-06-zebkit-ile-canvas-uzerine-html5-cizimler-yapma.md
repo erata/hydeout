@@ -2,7 +2,7 @@
 layout: post
 published: true
 excerpt_separator: <!--more-->
-title: Zebkit ile Canvas Uzerine HTML5 Cizimler Yapma
+title: Zebkit ile Canvas Uzerine HTML5 Çizimler Yapma
 categories:
   - javascript
 tags:
