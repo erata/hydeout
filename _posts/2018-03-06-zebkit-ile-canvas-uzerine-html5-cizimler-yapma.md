@@ -10,6 +10,8 @@ tags:
 ---
 Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript kütüphanesini tanıtacağım. Zebkit, Canvas üzerine HTML5 öğeler çizmenizi sağlayan MVC bir javascript kütüphanesidir. Adı çok duyulmamış olmasına rağmen HTML5 öğeler çiziminde oldukça güçlü ve maharetlidir. Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Tek sayfa uygulamalara ve mobil uygulamalara da destek veren Zebkit hiyerarşik kullanımı ile nesneye yönelik yazılımın tadını almanızı sağlayacaktır. 
 
+<!--more-->
+
 ![zebkit-component]({{site.baseurl}}/assets/media/zebkit-component.PNG)
 
 ```js
@@ -25,7 +27,6 @@ Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript küt
         ...
     });
 ```
-<!--more-->
 
 Zebkit bir [Fabric.js](http://fabricjs.com/) kadar bilinir değildir. Fakat konu HTML5 şekilleri çizimi noktasına geldiğinde birçok anlamda ihtiyacınızı Fabric.js'den daha fazla karşılayacaktır. Oldukça gelişmiş dokümantasyona sahip olan Zebkit dokümantasyonu da oldukça gelişmiştir. Siyah ve beyaz teması ve özelleştirmeye açık yapısı Zebkit'in tercih edilebilirliğini artırmaktadır.
 
