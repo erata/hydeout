@@ -10,13 +10,11 @@ tags:
 ---
 ## A New Post
 
-<div class='pull-left style="border: 1px solid black; padding: 15px;">
-![zebkit]({{site.baseurl}}/assets/media/zebkit.PNG)
+<div class='img-left'>
+	![zebkit]({{site.baseurl}}/assets/media/zebkit.PNG)
 </div>
 
 Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Ayrıca tek sayfa ve mobil uygulama yapmaya destek vermektedir.
-
-.left[![zebkit]({{site.baseurl}}/assets/media/zebkit.PNG)]
 
 Merhaba arkadaşlar. Bu yazımda [zebkit](http://www.zebkit.org) javascript kütüphanesini tanıtacağım. Zebkit, Canvas üzerine HTML5 öğeler çizmenizi sağlayan MVC bir javascript kütüphanesidir. Adı çok duyulmamış olmasına rağmen HTML5 öğeler çiziminde oldukça güçlü ve maharetlidir. Designer modunda HTML5 öğleri istediğiniz konuma yerleştirme şansına sahipsiniz. Ayrıca tek sayfa ve mobil uygulama yapmaya destek vermektedir.
 
