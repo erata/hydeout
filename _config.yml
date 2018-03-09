@@ -29,6 +29,10 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
+  
+whitelist:
+  - jekyll-redirect-from  
 
 # Custom vars
 version:            3.5.3
