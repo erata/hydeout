@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-video-filter-fitvids-ve-tinymce-ile-esnek-boyutlu-video-ekleme/    
 ---
 Merhaba arkadaşlar. Bugün sizlerle drupalde nasıl esnek bir şekilde değişik internet ortamlarındaki videoları (youtube, vimeo, dailymotion, flickr, vb.) esnek bir şekilde (responsive) sitemize eklemesini göstermiş olacağım. İlgili eklentileri ekledikten sonra ve gerekli ayarları yaptıktan sonra siz de benim gibi internet ortamındaki farklı video kaynaklarını boyut duyarlı yani responsive bir şekilde ve sadece ilgili videonun url’sini ve istediğiniz boyut ölçüsünü girerek elde edeceksiniz. Lafı fazla uzatmadan bu iş için gerekli eklentilerden ve ayarlamalardan bahsedeyim.
 
