@@ -8,6 +8,8 @@ categories:
   - icerik-yonetim-sistemleri
   - veritabani
 youtubeId: jofNR_WkoCE
+redirect_from:
+  - /2018/01/01/php-ve-mysql-ile-icerik-yonetim-sistemi-yapimi-oneriler/ 
 ---
 Merhaba arkadaşlar. PHP ve MySQL ile İçerik Yönetim Sistemi Yapımına Giriş yazımızda içerik yönetim sistemi nasıl yapılıra dair kavramsal çerçevede birkaç noktaya değinmiştik. Bu yazıda ise içerik yönetim sistemi yapımında işinize yarayabilcek bazı noktalara değineceğim.
 
