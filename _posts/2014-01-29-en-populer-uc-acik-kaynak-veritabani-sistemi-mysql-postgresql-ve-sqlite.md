@@ -9,6 +9,8 @@ tags:
   - postgresql
   - sqlite
   - mysql
+redirect_from:
+  - /2018/01/01/en-populer-uc-acik-kaynak-veritabani-sistemi-mysql-postgresql-ve-sqlite/   
 ---
 Merhaba arkadaşlar. Bu yazıda sizlerle açık kaynak veritabanı sistemlerinden en popüler üçünü ele alacağız. Her ne kadar biz burada üç tanesini ele alacak olsak da piyasada onlarca veritabanı sistemi olduğunu, bunlar içinde de hatırı sayılır sayıda açık kaynak veritabanı sistemi olduğunu baştan belirtelim.
 
