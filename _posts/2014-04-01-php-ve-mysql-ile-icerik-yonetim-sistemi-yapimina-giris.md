@@ -8,6 +8,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - mysql
+redirect_from:
+  - /2018/01/01/php-ve-mysql-ile-icerik-yonetim-sistemi-yapimina-giris/      
 ---
 Merhaba arkadaşlar. Web sitesi yapımı ile ilgilenen birçoğumuz genelde içerik yönetim sistemlerini tercih etmekteyiz. Tabi bunun için geçerli bir çok sebebimiz var kendimize göre (örneğin şu yazıma bakabilirsiniz).  Ayrıca dünya geneli yapılan sitelerin genelinde içerik yönetim sistemleri kullanılmakta ve yeni içerik yönetim sistemleri gün be gün piyasaya sürülmekte. Birçoğumuz kod düzeyinde olmasa da Blogger gibi platformlar vasıtasıyla içerik yönetim sistemlerini kullanmakta. Birçoğumuz ise farklı birçok içerik yönetim sistemlerini kurup evirip çevirmekte ve bin takla atabilmekte. Ben bunu kullanarak site yapıyorum, o şunu kullanarak site yapıyor lafları etrafta uçuşmakta. Her neyse esas mevzu bu değildi çok dalmışım:D
 
