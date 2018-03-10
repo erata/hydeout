@@ -10,6 +10,7 @@ tags:
   - ' sql-server-compact '
   - access
 redirect_from:
+  - /article/populer-uc-gomulu-veritabani-sistemi-sqlite-sql-server-compact-ve-access
   - /2018/01/01/populer-uc-gomulu-veritabani-sistemi-sqlite-sql-server-compact-ve-access/    
 ---
 Merhaba arkadaşlar. Bu yazıda, yazılım geliştiricilerin oldukça çok kullandıkları üç gömülü (embeded) veritanı sistemine değineceğiz: SQLite, SQL Server Compact ve Access.
