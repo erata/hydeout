@@ -7,6 +7,8 @@ categories:
   - veritabani
 tags:
   - sqlserver
+redirect_from:
+  - /2018/01/01/sql-serverda-performans-indeks-ile-sorgularini-hizlandirin/   
 ---
 Merhaba arkadaşlar. Bu yazıda küçük çapta bir SQL Server sorgusunu nasıl optimize edebiliriz ona değinmeye çalışacağım.
 
