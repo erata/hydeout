@@ -7,6 +7,8 @@ categories:
   - javascript
 tags:
   - modernizr
+redirect_from:
+  - /2018/01/01/modernizr-neden-kullanilir/    
 ---
 Modernizr günümüzün sık kullanılan javascript frameworklerinden biri, Wappalyzer’e göre ise jQuery’den sonra en fazla kullanılanı. Ne işlev yaptığı ise kendi sayfasındaki açıklama ile “Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser”  yani kullanıcıların kullandıkları tarayıcıların CSS3 ve HTML5’in hangi özelliklerini desteklediğini tespit eden bir javascript kütüphanesidir.
 
