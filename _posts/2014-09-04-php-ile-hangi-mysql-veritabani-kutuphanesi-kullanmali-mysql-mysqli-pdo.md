@@ -10,6 +10,8 @@ tags:
   - php
   - pdo
   - mysqli
+redirect_from:
+  - /2018/01/01/php-ile-hangi-mysql-veritabani-kutuphanesi-kullanmali-mysql-mysqli-pdo/   
 ---
 Merhaba arkadaşlar. Bu yazıda PHP ile kullanabileceğimiz MySQL kütüphanelerinden ve kodlama yaparken hangi kütüphaneyi tercih etmemiz gerektiğinden bahsedeğim.
 
