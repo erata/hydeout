@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-syntax-highlighter-kullanarak-kodlari-renklendirme/   
 ---
 Merhaba arkadaşlar. Bugün drupal 7’de kodların daha göz alımlı gösterilmesi konusunu ele alacağız. Tabi ki bu işlev için biçilmiş kaftan olan syntaxhighlighter eklentisinin nasıl kurulacağından ve wysiwyg ile entegre tinymce editörü ile nasıl kullanılacağından bahsedeceğiz.
 
