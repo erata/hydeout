@@ -9,7 +9,8 @@ tags:
   - iis
   - tomtac
 redirect_from:
-  - /2018/01/01/apache-iis-tomtac-port-80-cakisma-sorunu-ve-cozumu/ 
+  - /2018/01/01/apache-iis-tomtac-port-80-cakisma-sorunu-ve-cozumu/
+  - /2018/01/26/apache-iis-tomtac-port-80-cakisma-sorunu-ve-cozumu
 ---
 Merhaba arkadaşlar. Bugün sizlerle web uygulamaları geliştirme sürecinde sıklıkla karşılaştığımız sorunlardan birinden bahsedeceğim: port 80 çakışması.
 
