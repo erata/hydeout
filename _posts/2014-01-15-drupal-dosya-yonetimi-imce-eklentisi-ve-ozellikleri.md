@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-dosya-yonetimi-imce-eklentisi-ve-ozellikleri/    
 ---
 IMCE eklentisi şuan drupalde en çok kullanılan dosya yönetim aracıdır. Elfinder gibi zorlu rakipleri olsa da IMCE‘nin, farklı platformlar ile rahat çalışılabilmesi ve farklı durumlara yönelik farklı ayarlamaların yapılabilmesi onu IMCE drupalin vazgeçilmezlerinden biri haline getirmiştir.
 
