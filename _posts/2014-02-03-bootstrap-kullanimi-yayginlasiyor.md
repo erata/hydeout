@@ -7,6 +7,8 @@ categories:
   - html-css
 tags:
   - bootstrap
+redirect_from:
+  - /2018/01/01/bootstrap-kullanimi-yayginlasiyor/   
 ---
 Merhaba arkadaşlar. Bir zamanlar web uygulamaları ve web tasarımları geliştirenler için en büyük handigaplardan biri uygulamada veya tasarımda kullanılan Javascript, HTML ve CSS’in tüm tarayıcılarda sorunsuz bir şekilde çalışmamasıydı. Geliştirilen bir uygulamanın tüm tarayıcılarda çalışabilmesi için türlü taklalar atılıyordu. Özellikle İnternet Explorer, tasarımcıların korkulu rüyasıydı. Derken… 
 
