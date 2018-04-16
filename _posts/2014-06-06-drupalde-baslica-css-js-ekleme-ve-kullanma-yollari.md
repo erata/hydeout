@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-baslica-css-js-ekleme-ve-kullanma-yollari/   
 ---
 Merhaba arkadaşlar. Bu yazıda, başlıca CSS ve JS ekleme yollarından bahsedeceğiz. Drupal’i biraz kurcalayanlar Drupal’de birçok CSS ve JS ekleme seçeneğinin olduğunu görecektir. Haliyle bu durum sitede performansı önceleyenler için oldukça büyük bir soru işaretine dönüşerek “Hangisini Kullanmalıyım?” sorusunu sıklıkla gündeme getirecektir. Şimdi sözü uzatmadan başlıca CSS ve JS kullanım yollarından ve neye göre tercih edilmesi gerektiğinden bahsedelim. Bu yazıyı yazarken kaynak olarak özellikle bu yazıdan yararlandığımı belirteyim.
 
