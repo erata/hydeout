@@ -9,6 +9,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-bir-views-uzerine-coklu-goruntu-ekleme-ve-goruntu-kapsamlarini-belirleme-override-block-or-page-in-multiple-displays/    
 ---
 Merhaba arkadaşlar. Bugün sizlerle bir views oluştururken dikkat etmemiz gereken hususlardan birine değineceğiz. Özetle konu, views kapsamını belirlemekle ilgili. Yani yapacağımız değişikliklerin sadece o an üzerinde çalıştığımız öğede (blok, sayfa, ek, vb.) mi etkili olacağı ya da aynı views içerisindeki diğer öğeleri etkileyip etkilemeyeceği, işte esas konumuz bu.
 
