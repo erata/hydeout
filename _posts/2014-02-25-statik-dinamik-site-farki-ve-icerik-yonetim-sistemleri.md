@@ -9,7 +9,7 @@ tags:
   - statik-site
   - dinamik-site
 redirect_from:
-  - /2018/01/01/2014-02-25-statik-dinamik-site-farki-ve-icerik-yonetim-sistemleri/   
+  - /2018/01/01/statik-dinamik-site-farki-ve-icerik-yonetim-sistemleri/   
 ---
 Merhaba arkadaşlar. Bu yazıda statik site ve dinamik site nedir sorusuna cevap aralayacağız ve tabi ki içerik yönetim sistemlerinden bahsedeceğiz.
 
