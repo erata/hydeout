@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-eklenti-kurulumu-ve-dikkat-edilecek-hususlar/    
 ---
 Merhaba arkadaşlar. Bu yazıda temel olarak drupaldeki eklenti kurulumuna ve eklenti kurarken nelere dikkat etmemiz gerektiği hususlarına değineceğim.
 
