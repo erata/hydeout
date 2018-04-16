@@ -9,6 +9,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7-imce-ve-file-field-sources-eklentileriyle-dosyalarin-yeniden-kullanimi/      
 ---
 Merhaba arkadaşlar. Bu yazıda, Drupal 7’de mevcut kaynakların nasıl yeniden kullanılabileceğine değineceğim. Bu iş için biçilmiş kaftan ise imce ve file field sourcess eklentileri. Imce eklentisine bir yazımızda değinmiştik. Bu eklentiler vasıtasıyla daha önceden yüklemiş olduğumuz (upload) dosyalara standart dosya/resim yükleme  bölümünden ulaşıp dosyaya referans vererek aynı dosyanın tekrar yüklenmesinin önüne geçmiş oluyoruz ve yeniden kullanımı sağlamış oluyoruz. Böylece kaynaktan tasarruf sağladığımız gibi dosya yönetimini de kolaylaştırmış oluyoruz.
 
