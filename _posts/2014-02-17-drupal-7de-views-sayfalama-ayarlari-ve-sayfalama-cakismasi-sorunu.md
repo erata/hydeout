@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-views-sayfalama-ayarlari-ve-sayfalama-cakismasi-sorunu/   
 ---
 Merhaba arkadaşlar. Bu yazıda views sayfalama ayarlarına ve birden çok views kullanım durumunda olası sayfalayıcı çakışmalarına nasıl bir çözüm bulacağımıza değineceğiz. Bu arada anlatım, tam sayfalama (full pager) seçeneğine göre yapılmıştır.
 
