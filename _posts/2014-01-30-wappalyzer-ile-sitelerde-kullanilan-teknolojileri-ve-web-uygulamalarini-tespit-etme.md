@@ -9,6 +9,8 @@ categories:
   - gelistirme-araclari
 tags:
   - wappalyzer
+redirect_from:
+  - /2018/01/01/wappalyzer-ile-sitelerde-kullanilan-teknolojileri-ve-web-uygulamalarini-tespit-etme/     
 ---
 Merhaba arkadaşlar. Bu yazıda, özellikle  web uygulamaları geliştirenler için faydalı olacağını düşündüğüm bir uygulumayı tanıtacağım: Wappalyzer.
 
