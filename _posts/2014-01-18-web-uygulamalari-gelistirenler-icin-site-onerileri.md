@@ -5,6 +5,8 @@ excerpt_separator: <!--more-->
 title: Web Uygulamaları Geliştirenler İçin Site Önerileri
 tags:
   - kaynak-oneri
+redirect_from:
+  - /2018/01/01/web-uygulamalari-gelistirenler-icin-site-onerileri/   
 ---
 Merhaba arkadaşlar. Web uygulamalarına olan merakımdan ötürü birbirinden farklı alanlarda birçok siteyi ziyaret etme ve inceleme fırsatım oldu. Bu sitelerden en beğendiklerimi belki sizler için de yararlı olabilir diyerek paylaşıyorum. Bu arada burada vereceğim listenin zamanla artabileceğini şimdiden hatırlatayım.
 
