@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - composite-c1
+redirect_from:
+  - /2018/01/01/xml-dosyasinin-veritabani-olarak-kullanimi-ve-compositec1-ornegi/     
 ---
 Merhaba arkadaşlar. Bu yazıda XML dosyalarının farklı bir kullanımından yani veritabanı olarak kullanımından bahsedeceğiz. Sanki XML dosyaları veritabanı olarak kullanılmaz, napıyon? der olduğunuzu duyar gibiyim. Evet, yaptığım araştırmalar ve okuduğum onlarca yazı XML dosyalarının veritabanı olarak kullanılabileceğini ortaya koyuyor. Kanıt mı istiyorsunuz o zaman Composite C1 içerik yönetim sisteminin veritabanı olarak XML dosyalarını kullandığını söyliyeyim. Örneğin aşağıdaki resimde  Composite C1 deki  blog yazılarının XML veritabanında nasıl tutulduğu görünmektedir.
 
