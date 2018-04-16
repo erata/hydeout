@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-css-ile-foto-galeri-yapimi/  
 ---
 Merhaba arkadaşlar. Bugün sizlere drupalde ekstradan bir modül kullanmaksızın basit bir galeri yapımını göstereceğim. Olay ise temel olarak herhangi içerik türünde galeri şeklinde görünmesini istediğiniz resim alanına biraz sitil vermekten ibaret.
 
