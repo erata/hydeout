@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-nesneye-yonelik-yaklasim-nodeden-entitye-gecis/  
 ---
 Merhaba arkadaşlar. Bu yazıda son zamanlar drupalde üzerinde çokça durulan bir kavram üzerinde duracağız: Entity.
 
