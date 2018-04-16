@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - liferay
+redirect_from:
+  - /2018/01/01/liferay-portal-platformuna-giris/   
 ---
 Merhaba arkadaşlar. Bu yazıda j2ee ile geliştirilmiş açık kaynak web portal platformu olan Liferay‘i konu alacağız.
 
