@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7-icerik-yayinlama-ve-kaydetme-secenekleri-ve-ek-talepler/    
 ---
 Merhaba arkadaşlar. Drupalin çekirdek sürümünde temel ihtiyaçlarımızı karşılayacak içerik kaydetme ve yayınlama seçenekleri mevcuttur. Fakat bazı durumlar bu seçenekleri yetersiz kılmaktadır. Dolayısıyla biz ilk önce çekirdek sürümyle sunulan kaydetme ve yayınlama seçeneklerini ele alacağız. Sonra bu seçeneklerin hangi durumlarda yetersiz kaldığına değinerek ve çözümler sunmaya çalışacağız.
 
