@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-css-colorbox-ve-views-ile-album-bazli-foto-galeri-olusturma/   
 ---
 Merhaba arkadaşlar. Bu yazıda views ile nasıl album bazlı foto galeri yapılır onu göstereceğiz.  Bu yazıyı hazırlarken şu kaynaktan esinlendiği belirteyim ki isteyenler bir de oradan incelesin. Bu arada konuya başlamadan önce Drupal 7’de CSS İle Foto-Galeri Yapımı ve Drupal 7’de Colorbox Eklentisi Yardımıyla Foto-Galeri Oluşturma yazılarını okumanızda fayda var çünkü bu yazı önceki iki yazı ile ortaya çıkan yapının üzerine kurulu.
 
