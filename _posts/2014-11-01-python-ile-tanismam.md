@@ -5,6 +5,8 @@ excerpt_separator: <!--more-->
 title: Python ile Tanışmam
 tags:
   - python
+redirect_from:
+  - /2018/01/01/python-ile-tanismam/     
 ---
 Merhaba arkadaşlar. Bugün TUTEV‘in Ankara’daki python seminerine katıldım. Tabi amacım derinlemesine bir giriş değil sadece bir keşif, farkındalığımı artırmaya yönelik bir serüvendi.
 
