@@ -7,6 +7,8 @@ categories:
   - gelistirme-araclari
 tags:
   - webmatrix
+redirect_from:
+  - /2018/01/01/webmatrix-ile-web-uygulamalari-gelistirme/     
 ---
 Merhaba arkadaşlar. Bugün sizlere web uygulamaları geliştirme sırasında çok faydalı olacağını düşündüğüm bir programdan bahsedeceğim: WebMatrix. Bildiğiniz üzere piyasada bir sürü web uygulaması var ki bunların kimi Windows tabanlı sunucularda çalışıyor kimi ise Linux tabanlı işletim sistemlerinde. Windows işletim sistemli bir bilgisayar kullandığımız düşünürseniz biz Linux tabanlı sunucuda çalışan uygulamar için XAMPP, WAMP Server, Easy PHP tarzı bütünleşik programlar kurarak hallediyoz. Benzer bir şekilde Windows sunucu ihtiyacını ise IIS kurarrak hallediyoruz. Peki hiç düşündünüz mü acaba hem Linux hem de Windows sunucu ihtiyacımızı gideren tek bir uygulama var mıdır diye (Çünkü diğer türlü XAMPP ve IIS olmak üzere en az iki uygulama kurmalıyız).  İşte WebMatrix tam bu anda devreye giriyor ve farklı platformlarlar için bir şemsiye görevi görerek tek bir çatı altında gerek ASP.NET ve  PHP ile yazılımış uygulamaları tek bir arayüzden test etmemize olanak veriyor.
 
