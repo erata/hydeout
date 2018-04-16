@@ -3,6 +3,8 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: ' SQLServer’da Saklı Yordam (Stored Procedure) Tanımlama ve Kullanma'
+redirect_from:
+  - /2018/01/01/sqlserverda-sakli-yordam-stored-procedure-tanimlama-ve-kullanma/
 ---
 Merhaba arkadaşlar. Bu yazıda veritabanı ile ilgili önemli kavramlardan birine Saklı Yordama (Stored Procedure) değineceğiz. Birçok yerde sp yani stored procedure şeklinde ifade edilen kavrama açıklık getirmeye çalışacağız.
 
