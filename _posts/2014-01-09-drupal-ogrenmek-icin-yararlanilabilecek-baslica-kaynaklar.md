@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-ogrenmek-icin-yararlanilabilecek-baslica-kaynaklar/   
 ---
 Merhaba arkadaşlar. Drupal: Açık Kaynak Dünyasının Parlayan Yıldızı yazısında belirttiğim üzere drupalin kendini öğrenmek (çekirdek sürümündeki halini) kolay olsa da ihtiyaçlarımız doğrultusunda gerekli eklentileri bulmak ve bunları doğru bir şekilde kullanmasını bilmek, drupalin kendini öğrenmekten daha zor bir süreçtir. İşte bu süreci daha rahat atlatabilmede takip ettiğiniz kaynakların önemi çok büyüktür. Bu amaçla sizlerin öğrenmesinde olumlu yönde katkı sağlayabileceği düşündüğümüz kaynakları sunuyoruz.
 
