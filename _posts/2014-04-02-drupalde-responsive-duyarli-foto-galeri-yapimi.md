@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-responsive-duyarli-foto-galeri-yapimi/  
 ---
 Merhaba arkadaşlar. Günümüz tasarım yaklaşımlarında responsive (duyarlı) tasarım oldukça önemli bir yer tutuyor. Hal böyle olunca responsive yapılarında bu yaklaşım çerçevesinde önemi daha da bir artıyor. Tasarımı responsive (duyarlı) olan bir sitenin içeriklerinin de bu çerçevede duyarlı olması gerekiyor ki güzel bir sonuç ortaya çıksın. İşte bu yaklaşım içerisinde kritik önem arzeden önemli bir husus foto/video galeri yapımı hususu. Gerek resimlerin gerekse de videoların boyutlarının ekran çözünürlüğüne bağlı olarak yeniden ayarlanması özellikle günümüz mobil teknolojisindeki artan kullanım ivmesi düşünüldüğünde oldukça önemli olduğu anlaşılır diye düşünüyorum.
 
