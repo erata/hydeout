@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupalde-spam-kullanici-kayitlari-ve-spam-yorumlari-onleme/      
 ---
 Spam, ticari ya da diğer amaçlarla isteğimiz dışında gelen mesajlardır. Reklam ve propaganda yapma  amacıyla kullanılabilirler.  Günümüzde kullanıcı etkileşiminin yoğun olduğu sitelerin en büyük sıkıntılarından biridir. Özellikle forum siteleri gibi gerek kullanıcı kayıtlarının çok olduğu gerekse de mesajlaşmanın çok olduğu sitelerin en büyük baş ağrılarından biridir. Peki baş edilemez mi?
 
