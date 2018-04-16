@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-seo-google-analytics-ile-sitenizde-detayli-analizler-yapin/    
 ---
 Merhaba arkadaşlar. Günümüzde siteler için SEO olmazsa olmaz bir kavram olarak literatürde yerini aldı. Sitenin arama motorlarında en üst sıralarda bulunması ve arama motorlarının sitedeki değişimlerden anlık olarak haberdar edilmesi özellikle de firmalar/şirketler için ciddi bir önem arzetmeye başladı.
 
