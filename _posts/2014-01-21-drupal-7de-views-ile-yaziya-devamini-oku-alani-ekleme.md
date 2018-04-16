@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-views-ile-yaziya-devamini-oku-alani-ekleme/   
 ---
 Merhaba arkadaşlar. Bugün sizlerle drupalde views kullanarak bir yazıya nasıl “devamını oku” alanı ekleriz onu göreceğiz. Hemen konuya girersek, views ile yazıya “devamını oku” eklemenin temel olarak iki yolu olduğunu baştan söyleyelim. Ve her iki yolda da bir alan ekleme (ya Content:Link ya da Content:Nid) ile bu işi yapıyoruz.
 
