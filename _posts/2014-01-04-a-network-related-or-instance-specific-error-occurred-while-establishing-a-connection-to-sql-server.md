@@ -7,6 +7,8 @@ categories:
   - veritabani
 tags:
   - sqlserver
+redirect_from:
+  - /2018/01/01/a-network-related-or-instance-specific-error-occurred-while-establishing-a-connection-to-sql-server/   
 ---
 > TITLE: Connect to Server
   Cannot connect to xx.xxx.xxx.xx\MSSQLSERVER.
