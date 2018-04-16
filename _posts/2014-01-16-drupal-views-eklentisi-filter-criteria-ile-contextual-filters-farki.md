@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-views-eklentisi-filter-criteria-ile-contextual-filters-farki/      
 ---
 Merhaba arkadaşlar. Bugün sizlerle views’ın sıklıkla karıştırılan iki öğesini ele alacağız: Filter Criteria (Temel Filtreleme Kriteri) ile Contextual Filters (İçeriğe Göre Filtreleme). Fakat bu iki öğenin yaptığı iş, tür açısından benzer nitelikte olduğundan birçoğumuz tarafından karıştırılabiliyor. Özellikle de Contextual Filters konusunda ciddi bir bilgi eksikliği söz konusu olduğundan bu durum içinden çıkılmaz bir hal alabiliyor. Bu yazıyı esasında “Contextual Filters” öğesinin biraz daha anlaşılmasına  katkıda bulunmak amacıyla ele alıyorum.
 
