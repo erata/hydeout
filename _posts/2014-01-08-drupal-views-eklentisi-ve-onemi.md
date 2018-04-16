@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-views-eklentisi-ve-onemi/     
 ---
 Merhaba arkadaşlar. Bugün sizlere drupaldeki Views eklentisinden ve neden drupal için çok önemli bir eklenti olduğundan bahsedeceğim.
 
