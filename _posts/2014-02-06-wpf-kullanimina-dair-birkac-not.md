@@ -7,6 +7,8 @@ categories:
   - csharp
 tags:
   - wpf
+redirect_from:
+  - /2018/01/01/wpf-kullanimina-dair-birkac-not/    
 ---
 Merhaba arkadaşlar. Bu yazıyı, WPF kullanırken takılabileceğimiz bazı noktalarda yardımcı olabiliceği düşüncesiyle ele alıyorum.
 
