@@ -9,6 +9,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - composite-c1
+redirect_from:
+  - /2018/01/01/composite-c1-acik-kaynak-microsoft-tabanli-icerik-yonetim-sistemi-ve-tercih-sebepleri/   
 ---
 Merhaba arkadaşlar. Bu yazıda sizlere Windows tabanlı bir içerik yönetimi olan Composite C1‘den bahsedeceğim. Bildiğiniz üzere şuan piyasada irili ufaklı onlarca içerik yönetim sistemi var gerek ücretli gerekse ücretsiz. Peki o kadar içerik yönetim sistemi arasından [Composite C1](https://c1.orckestra.com/)’in dikkatimi çekmesindeki sebepler ne? İşte bu yazıda Composite C1’i tercih sebebi yapabilecek özelliklere değineceğim
 
