@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-yazi-editorleri-ve-editor-secimi-bueditor-ckeditor-ve-tinymce/   
 ---
 Merhaba arkadaşlar. Bu yazıda drupalin en can sıkıcı konularından biri olan yazı editörlerinden bahsedeceğiz. Bildiğiniz üzere drupal 8 e kadar yazı editörleri için İngilizcesi “out of box” denilen bir çözüm mevcut değildi. Dolayısıyla çözüm adına iki seçenek çıkmaktaydı. Bunlar: Yeterli düzeyde HTML ve CSS bilerek içeriğe kod üzerinden müdahale edebilmek ya da 3. parti yazı editörleri kullanmak (yani “out of box” çözüm İngilizcesi). [Drupalde kullanılan editöler ile ilgili genel bilgili için]
 
