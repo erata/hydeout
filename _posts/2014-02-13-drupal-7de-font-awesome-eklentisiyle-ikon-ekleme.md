@@ -7,6 +7,8 @@ categories:
   - icerik-yonetim-sistemleri
 tags:
   - drupal
+redirect_from:
+  - /2018/01/01/drupal-7de-font-awesome-eklentisiyle-ikon-ekleme/     
 ---
 Merhaba arkadaşlar. Günümüz web uygulamalarında ikon kullanımı oldukça yaygınlaştı. Şöyle bir araştırayım dediğinizde siteniz için kullanabileceğiniz onlarca bedava ikon paketini bulmanız içten bile değil. İşte bu yazıda drupal ile entegre çalışabilen meşhur ikon paketlerinden birini yani Font Awesome‘u ele alacağız. Font Awesome,  4.0.3 versiyonuyla şuan 369 ikonu barındırmakta ve zamanla da daha yeni ikonlar eklenmekte olan bir ücretsiz ikon paketi. Font Awesome; Web uygulamaları, form kontrolleri, para birimleri, yazı editörleri, yönler, video player, meşhur siteler ve medya gibi değişik kategorilerde tatmin edecek boyutta ikona ev sahipliği yapmaktadır. Kısacası web uygulamalar için gerekli temel ikonları içerdiği rahatlıkla söylenebilir.
 
