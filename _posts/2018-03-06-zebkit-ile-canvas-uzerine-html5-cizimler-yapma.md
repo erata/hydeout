@@ -27,7 +27,7 @@ Zebkit, canvas üzerine HTML5 öğeleri çizmenizi sağlayan MVC tabanlı bir ja
 ```
 
 [video link](https://youtu.be/iWowJBRMtpc?t=90s)
-[image link](![zebkit-component]({{site.baseurl}}/assets/media/zebkit-component.PNG))
+[image link]({{site.baseurl}}/assets/media/zebkit-component.PNG)
 
 ![zebkit-component]({{site.baseurl}}/assets/media/zebkit-component.PNG)
 
