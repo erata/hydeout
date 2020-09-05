@@ -141,6 +141,10 @@ prose:
           options:
             - name: "Angular"
               value: "angular" 
+            - name: "Angular 9"
+              value: "angular-9" 
+            - name: "Angular 10"
+              value: "angular-10"  
             - name: "Ionic"
               value: "ionic"  
             - name: "Drupal"
