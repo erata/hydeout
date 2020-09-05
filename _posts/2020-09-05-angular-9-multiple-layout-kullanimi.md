@@ -13,9 +13,8 @@ tags:
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
 Örnek site yapimiz su sekilde:
-[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="400"/>](site-yapi.PNG)
-![site-yapi.PNG]({{site.baseurl}}/assets/media/site-yapi.PNG =250x)
-![site-yapi.PNG]({{site.baseurl}}/assets/media/site-yapi.PNG){:height="700px" width="400px"}
+[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="40%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
+![site-yapi.PNG]({{site.baseurl}}/assets/media/site-yapi.PNG){:height="40%" width="40%"}
 
 **app-routing.mudule.ts**
 
