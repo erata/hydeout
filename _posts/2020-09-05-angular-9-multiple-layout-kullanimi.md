@@ -17,13 +17,14 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
 
 **app-routing.mudule.ts**
 
-> import { NgModule } from '@angular/core';
-> import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
-> import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
-> import {AuthGaurdService} from "./services/auth-guard.service";
-> import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/landing-page-layout.component";
+{% highlight typescript %}
+import { NgModule } from '@angular/core';
+import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
+import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
+import {AuthGaurdService} from "./services/auth-guard.service";
+import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/landing-page-layout.component";
 
->  const routes: Routes = [
+ const routes: Routes = [
   {
     path: '',
     loadChildren: () = import('./modules/site/site.module').then(m = m.SiteModule),
@@ -44,30 +45,29 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
   }
 ];
 
-> @NgModule({
+@NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: false, onSameUrlNavigation: 'reload', preloadingStrategy: PreloadAllModules})],
   exports: [ RouterModule ]
 })
-> export class AppRoutingModule { }
-
+export class AppRoutingModule { }
+{% endhighlight %}
 
 Anasayfa icin iki sablon kullandik. 
 
 **site-routing.mudule.ts**
+{% highlight typescript %}
+import { NgModule } from '@angular/core';
 
-> import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
-> import { Routes, RouterModule } from '@angular/router';
+import {SignupComponent} from "./signup/signup.component";
+import {LoginComponent} from "./login/login.component";
+import {PostsListComponent} from "./posts-list/posts-list.component";
+import {PostDetailsComponent} from "./post-details/post-details.component";
+import {DefaultLayoutComponent} from "../../shared/layout/guest/layout/default-layout.component";
+import {LandingPageLayoutComponent} from "../../shared/layout/guest/core-layout/landing-page-layout.component";
 
-> import {SignupComponent} from "./signup/signup.component";
-> import {LoginComponent} from "./login/login.component";
-> import {PostsListComponent} from "./posts-list/posts-list.component";
-> import {PostDetailsComponent} from "./post-details/post-details.component";
-> import {DefaultLayoutComponent} from "../../shared/layout/guest/layout/default-layout.component";
-> import {LandingPageLayoutComponent} from "../../shared/layout/guest/core-layout/landing-page-layout.component";
-
-
-> const routes: Routes = [
+const routes: Routes = [
   {
     path: '',
     component: DefaultLayoutComponent,
@@ -85,8 +85,8 @@ Anasayfa icin iki sablon kullandik.
       { path: 'signup', component: SignupComponent }
     ]
   },
-
 ];
+{% endhighlight %}
 
 ![site-anasayfa.PNG]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
 
@@ -96,17 +96,18 @@ Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin gör�
 
 **dashboard-routing.mudule.ts**
 
-> import { NgModule } from '@angular/core';
+{% highlight typescript %}
+import { NgModule } from '@angular/core';
 
-> import { Routes, RouterModule } from '@angular/router';
-> import {AddPostComponent} from "./add-post/add-post.component";
-> import {EditPostComponent} from "./edit-post/edit-post.component";
-> import {ListComponent} from "./list/list.component";
-> import {EditUserComponent} from "./edit-user/edit-user.component";
-> import {AuthorisedLayoutComponent} from "../../shared/layout/authorised/authorised-layout/authorised-layout.component";
-> import {AuthorisedCoreLayoutComponent} from "../../shared/layout/authorised/authorised-core-layout/authorised-core-layout.component";
+import { Routes, RouterModule } from '@angular/router';
+import {AddPostComponent} from "./add-post/add-post.component";
+import {EditPostComponent} from "./edit-post/edit-post.component";
+import {ListComponent} from "./list/list.component";
+import {EditUserComponent} from "./edit-user/edit-user.component";
+import {AuthorisedLayoutComponent} from "../../shared/layout/authorised/authorised-layout/authorised-layout.component";
+import {AuthorisedCoreLayoutComponent} from "../../shared/layout/authorised/authorised-core-layout/authorised-core-layout.component";
 
-> const routes: Routes = [
+const routes: Routes = [
   {
     path: '',
     component: AuthorisedLayoutComponent,
@@ -126,11 +127,12 @@ Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin gör�
   },
 ];
 
-> @NgModule({
+@NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-> export class DashboardRoutingModule { }
+export class DashboardRoutingModule { }
+{% endhighlight %}
 
 ![site-dashboard.PNG]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
