@@ -109,7 +109,7 @@ prose:
             - name: "Javascript"
               value: "javascript"
             - name: "Angular"
-              value: "Angular"  
+              value: "angular"  
             - name: "HTML&CSS"
               value: "html-css"  
             - name: "Mobil Programlama"
