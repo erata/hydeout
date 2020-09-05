@@ -97,8 +97,9 @@ export class SiteRoutingModule { }
 
 {% endhighlight %}
 
-**default-layout.component.html** dosyamiz su sekilde:
+Site anasayfamiz default-layout u kullanmakta ve görünümü asagidaki gibi:
 
+**default-layout.component.html** dosyamiz su sekilde:
 {% highlight html %}
 <site-navbar></site-navbar>
 <div class="container mb-5">
@@ -115,6 +116,20 @@ export class SiteRoutingModule { }
 {% endhighlight %}
 
 [<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+
+Sitede landing-page layoutunu kullanan signup component i ve ekran görünümü asagidaki gibi:
+
+**landing-page.layout.html**
+{% highlight html %}
+<site-navbar></site-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-12 my-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+{% endhighlight %}
 
 [<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
 
