@@ -10,20 +10,20 @@ tags:
   - Angular 9
   - Angular routing
 ---
-Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde component bazli bir routing yapisi kurgulayabiliriz **app-routing.mudule.ts** de. Fakat sadelik kullanim kolayligi acisindan modüler yapi uygulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
+Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
 Örnek site yapimiz su sekilde:
 ![site-yapi.PNG]({{site.baseurl}}/assets/media/site-yapi.PNG)
 
-import { NgModule } from '@angular/core';
-import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
-import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
-import {AuthGaurdService} from "./services/auth-guard.service";
-import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/landing-page-layout.component";
-
 **app-routing.mudule.ts**
 
-> const routes: Routes = [
+> import { NgModule } from '@angular/core';
+> import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
+> import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
+> import {AuthGaurdService} from "./services/auth-guard.service";
+> import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/landing-page-layout.component";
+
+>  const routes: Routes = [
   {
     path: '',
     loadChildren: () = import('./modules/site/site.module').then(m = m.SiteModule),
@@ -44,11 +44,11 @@ import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/land
   }
 ];
 
-@NgModule({
+> @NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: false, onSameUrlNavigation: 'reload', preloadingStrategy: PreloadAllModules})],
   exports: [ RouterModule ]
 })
-export class AppRoutingModule { }
+> export class AppRoutingModule { }
 
 
 Anasayfa icin iki sablon kullandik. 
@@ -57,17 +57,17 @@ Anasayfa icin iki sablon kullandik.
 
 > import { NgModule } from '@angular/core';
 
-import { Routes, RouterModule } from '@angular/router';
+> import { Routes, RouterModule } from '@angular/router';
 
-import {SignupComponent} from "./signup/signup.component";
-import {LoginComponent} from "./login/login.component";
-import {PostsListComponent} from "./posts-list/posts-list.component";
-import {PostDetailsComponent} from "./post-details/post-details.component";
-import {DefaultLayoutComponent} from "../../shared/layout/guest/layout/default-layout.component";
-import {LandingPageLayoutComponent} from "../../shared/layout/guest/core-layout/landing-page-layout.component";
+> import {SignupComponent} from "./signup/signup.component";
+> import {LoginComponent} from "./login/login.component";
+> import {PostsListComponent} from "./posts-list/posts-list.component";
+> import {PostDetailsComponent} from "./post-details/post-details.component";
+> import {DefaultLayoutComponent} from "../../shared/layout/guest/layout/default-layout.component";
+> import {LandingPageLayoutComponent} from "../../shared/layout/guest/core-layout/landing-page-layout.component";
 
 
-const routes: Routes = [
+> const routes: Routes = [
   {
     path: '',
     component: DefaultLayoutComponent,
@@ -98,15 +98,15 @@ Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin gör�
 
 > import { NgModule } from '@angular/core';
 
-import { Routes, RouterModule } from '@angular/router';
-import {AddPostComponent} from "./add-post/add-post.component";
-import {EditPostComponent} from "./edit-post/edit-post.component";
-import {ListComponent} from "./list/list.component";
-import {EditUserComponent} from "./edit-user/edit-user.component";
-import {AuthorisedLayoutComponent} from "../../shared/layout/authorised/authorised-layout/authorised-layout.component";
-import {AuthorisedCoreLayoutComponent} from "../../shared/layout/authorised/authorised-core-layout/authorised-core-layout.component";
+> import { Routes, RouterModule } from '@angular/router';
+> import {AddPostComponent} from "./add-post/add-post.component";
+> import {EditPostComponent} from "./edit-post/edit-post.component";
+> import {ListComponent} from "./list/list.component";
+> import {EditUserComponent} from "./edit-user/edit-user.component";
+> import {AuthorisedLayoutComponent} from "../../shared/layout/authorised/authorised-layout/authorised-layout.component";
+> import {AuthorisedCoreLayoutComponent} from "../../shared/layout/authorised/authorised-core-layout/authorised-core-layout.component";
 
-const routes: Routes = [
+> const routes: Routes = [
   {
     path: '',
     component: AuthorisedLayoutComponent,
@@ -126,11 +126,11 @@ const routes: Routes = [
   },
 ];
 
-@NgModule({
+> @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class DashboardRoutingModule { }
+> export class DashboardRoutingModule { }
 
 ![site-dashboard.PNG]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
