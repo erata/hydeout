@@ -52,7 +52,7 @@ import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/land
 export class AppRoutingModule { }
 {% endhighlight %}
 
-Anasayfa icin iki sablon kullandik: DefaultLayoutComponent ve LandingPageLayoutComponent. 
+Anasayfa (SiteModule) icin iki sablon kullandik: _DefaultLayoutComponent_ ve _LandingPageLayoutComponent_. 
 
 **site-routing.mudule.ts**
 {% highlight typescript %}
@@ -64,8 +64,9 @@ import {SignupComponent} from "./signup/signup.component";
 import {LoginComponent} from "./login/login.component";
 import {PostsListComponent} from "./posts-list/posts-list.component";
 import {PostDetailsComponent} from "./post-details/post-details.component";
-import {DefaultLayoutComponent} from "../../shared/layout/guest/layout/default-layout.component";
-import {LandingPageLayoutComponent} from "../../shared/layout/guest/core-layout/landing-page-layout.component";
+import {DefaultLayoutComponent} from "../../shared/layout/guest/default-layout/default-layout.component";
+import {LandingPageLayoutComponent} from "../../shared/layout/guest/landing-page-layout/landing-page-layout.component";
+
 
 const routes: Routes = [
   {
@@ -85,10 +86,18 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent }
     ]
   },
+
 ];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class SiteRoutingModule { }
+
 {% endhighlight %}
 
-default-layout.component.html dosyamiz su sekilde:
+**default-layout.component.html** dosyamiz su sekilde:
 
 {% highlight html %}
 <site-navbar></site-navbar>
@@ -151,7 +160,7 @@ const routes: Routes = [
 export class DashboardRoutingModule { }
 {% endhighlight %}
 
-authorised-layout.component.html dosyamiz ise su sekilde:
+**authorised-layout.component.html** dosyamiz ise su sekilde:
 
 {% highlight html %}
 <app-authorised-navbar></app-authorised-navbar>
