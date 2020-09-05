@@ -3,18 +3,17 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: Angular 9 – Multiple Layout Kullanimi
-categories:
-  - Angular
 tags:
   - angular
   - Angular 9
   - Angular routing
+categories:
+  - Angular
 ---
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
 Örnek site yapimiz su sekilde:
-[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="40%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
-![site-yapi.PNG]({{site.baseurl}}/assets/media/site-yapi.PNG){:height="40%" width="40%"}
+[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
 
 **app-routing.mudule.ts**
 
@@ -53,7 +52,7 @@ import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/land
 export class AppRoutingModule { }
 {% endhighlight %}
 
-Anasayfa icin iki sablon kullandik. 
+Anasayfa icin iki sablon kullandik: DefaultLayoutComponent ve LandingPageLayoutComponent. 
 
 **site-routing.mudule.ts**
 {% highlight typescript %}
@@ -89,9 +88,26 @@ const routes: Routes = [
 ];
 {% endhighlight %}
 
-![site-anasayfa.PNG]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+default-layout.component.html dosyamiz su sekilde:
 
-![site-anasayfa-signup.PNG]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
+{% highlight html %}
+<site-navbar></site-navbar>
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-8">   
+      <router-outlet></router-outlet>      
+    </div>
+    <div class="col-md-4">
+      <site-sidebar></site-sidebar>
+    </div>
+  </div>
+</div>
+<site-footer></site-footer>
+{% endhighlight %}
+
+[<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+
+[<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
 
 Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin görünebilmesi icin sisteme giris yapmak gerekiyor (login).
 
@@ -135,12 +151,31 @@ const routes: Routes = [
 export class DashboardRoutingModule { }
 {% endhighlight %}
 
+authorised-layout.component.html dosyamiz ise su sekilde:
+
+{% highlight html %}
+<app-authorised-navbar></app-authorised-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <app-authorised-sidebar></app-authorised-sidebar>
+    </div>
+    <div class="col-md-9 my-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+{% endhighlight %}
+
+Site yönetim sayfasinin karsilama ekrani asagidaki gibi:
 ![site-dashboard.PNG]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
+Site yönetim panelinde farkli bi layout kullanan yazi ekleme componenti asagidaki gibi:
 ![site-dashboard-add.PNG]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
 
 URL hatasi (sayfa bulunamadi durumu) hem site hem de yönetim paneli icin gerekli bir durum olacagi icin app-routing.module.ts kapsaminda ele aldik.
 
-![site-page-not-found.PNG]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
+sayfa bulunamadi görünümü asagidaki gibi:
+[<img src="{{site.baseurl}}/assets/media/site-page-not-found.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
 
 Umarim yararli olmustur.
