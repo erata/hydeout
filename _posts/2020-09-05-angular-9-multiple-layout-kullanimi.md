@@ -175,8 +175,7 @@ const routes: Routes = [
 export class DashboardRoutingModule { }
 {% endhighlight %}
 
-**authorised-layout.component.html** dosyamiz ise su sekilde:
-
+Site yönetim sayfasinin karsilama ekrani asagidaki gibi (authorised-default-layout):
 {% highlight html %}
 <app-authorised-navbar></app-authorised-navbar>
 <div class="container">
@@ -190,11 +189,19 @@ export class DashboardRoutingModule { }
   </div>
 </div>
 {% endhighlight %}
-
-Site yönetim sayfasinin karsilama ekrani asagidaki gibi:
 [<img src="{{site.baseurl}}/assets/media/site-dashboard.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
-Site yönetim panelinde farkli bi layout kullanan yazi ekleme componenti asagidaki gibi:
+Site yönetim panelinde authorised-landing-page-layout u kullanan yazi ekleme componenti asagidaki gibi:
+{% highlight html %}
+<app-authorised-navbar></app-authorised-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-12 my-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+{% endhighlight %}
 [<img src="{{site.baseurl}}/assets/media/site-dashboard-add.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
 
 URL hatasi (sayfa bulunamadi durumu) hem site hem de yönetim paneli icin gerekli bir durum olacagi icin app-routing.module.ts kapsaminda ele aldik.
