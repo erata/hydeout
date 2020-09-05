@@ -108,6 +108,8 @@ prose:
           options:
             - name: "Javascript"
               value: "javascript"
+            - name: "Angular"
+              value: "Angular"  
             - name: "HTML&CSS"
               value: "html-css"  
             - name: "Mobil Programlama"
