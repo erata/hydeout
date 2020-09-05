@@ -10,8 +10,6 @@ tags:
   - Angular 9
   - Angular routing
 ---
-## Angular 9 – Multiple Layout Kullanımı
-
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde component bazli bir routing yapisi kurgulayabiliriz **app-routing.mudule.ts** de. Fakat sadelik kullanim kolayligi acisindan modüler yapi uygulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
 Örnek site yapimiz su sekilde:
@@ -143,5 +141,3 @@ URL hatasi (sayfa bulunamadi durumu) hem site hem de yönetim paneli icin gerekl
 ![site-page-not-found.PNG]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
 
 Umarim yararli olmustur.
-
-
