@@ -13,7 +13,7 @@ categories:
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
 Örnek site yapimiz su sekilde:
-[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="40%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
 
 **app-routing.mudule.ts**
 
@@ -114,9 +114,9 @@ export class SiteRoutingModule { }
 <site-footer></site-footer>
 {% endhighlight %}
 
-[<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
 
-[<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
 
 Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin görünebilmesi icin sisteme giris yapmak gerekiyor (login).
 
@@ -177,14 +177,14 @@ export class DashboardRoutingModule { }
 {% endhighlight %}
 
 Site yönetim sayfasinin karsilama ekrani asagidaki gibi:
-![site-dashboard.PNG]({{site.baseurl}}/assets/media/site-dashboard.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-dashboard.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
 Site yönetim panelinde farkli bi layout kullanan yazi ekleme componenti asagidaki gibi:
-![site-dashboard-add.PNG]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-dashboard-add.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
 
 URL hatasi (sayfa bulunamadi durumu) hem site hem de yönetim paneli icin gerekli bir durum olacagi icin app-routing.module.ts kapsaminda ele aldik.
 
 sayfa bulunamadi görünümü asagidaki gibi:
-[<img src="{{site.baseurl}}/assets/media/site-page-not-found.PNG" width="30%"/>]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
+[<img src="{{site.baseurl}}/assets/media/site-page-not-found.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
 
 Umarim yararli olmustur.
