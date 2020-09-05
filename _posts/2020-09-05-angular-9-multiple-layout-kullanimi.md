@@ -5,10 +5,10 @@ excerpt_separator: <!--more-->
 title: Angular 9 – Multiple Layout Kullanimi
 tags:
   - angular
-  - Angular 9
-  - Angular routing
+  - angular-9
+  - angular-routing
 categories:
-  - Angular
+  - angular
 ---
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. **PageNotFound** mesaji icin ise bir component kullanacagiz.
 
