@@ -1,8 +1,7 @@
 <figure>
     {% if include.url %}
     <a href="{{ include.url }}">
-    {% endif %}
-    {% if include.src %}
+    {% else %}
     <a href="{{ site.baseurl }}/assets/media/{{ include.src }}">
     {% endif %}
     <img
@@ -13,12 +12,7 @@
         {% endif %}
     max-width="{{ include.width }}"     
     alt="{{ include.alt }}">
-    {% if include.src %}
-    </a>
-    {% endif %}
-    {% if include.url %}
-    </a>
-    {% endif %}    
+    </a>   
     {% if include.caption %}
         <figcaption>{{ include.description }}</figcaption>
     {% endif %}
