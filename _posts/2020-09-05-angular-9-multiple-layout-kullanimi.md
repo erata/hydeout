@@ -16,7 +16,7 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
     src="site-yapi.PNG"
     alt="site-yapi.PNG"
     description="Örnek site yapimiz bu sekildedir."
-    width="50%"
+    width="100px"
 %}
 
 **app-routing.mudule.ts** dosya icerigimiz su sekildedir:
