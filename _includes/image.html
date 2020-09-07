@@ -1,6 +1,4 @@
-{% assign figure_width = include.width %}
-
-<figure class="figure-image" style="width:{{ figure_width | default: 60%  }}">
+<figure class="figure-image" style="width:{{ include.width | default: "60%"  }}">
     {% if include.url %}
     <a href="{{ include.url }}">
     {% else %}
