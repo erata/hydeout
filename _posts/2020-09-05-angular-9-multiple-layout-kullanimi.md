@@ -14,7 +14,7 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
 
 {% include image.html url="{{site.baseurl}}/assets/media/site-yapi.PNG"
 max-width="50%" file="{{site.baseurl}}/assets/media/site-yapi.PNG" alt="Jekyll logo"
-caption="Örnek site yapimiz bu sekildedir" %}
+caption="Örnek site yapimiz bu sekildedir." %}
 
 
 **app-routing.mudule.ts**
