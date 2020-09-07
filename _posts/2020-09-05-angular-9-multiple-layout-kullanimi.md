@@ -12,6 +12,8 @@ categories:
 ---
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan lazy-loading seklinde yüklenen modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. PageNotFound mesaji icin ise bir component kullanacagiz.
 
+{% include image.html file="site-yapi.PNG" description="This is an image." %}
+
 [<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="60%" title="Örnek site yapimiz bu sekildedir"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
 
 {% include image.html 
