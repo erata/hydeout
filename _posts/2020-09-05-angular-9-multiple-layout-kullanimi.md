@@ -17,7 +17,8 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
     <img 
         src="{{site.baseurl}}/assets/media/site-yapi.PNG" 
         alt="site-yapi.PNG"
-    >
+        width="50%"
+        >
 </a>
   <figcaption>Örnek site yapimiz bu sekildedir.</figcaption>
 </figure>
