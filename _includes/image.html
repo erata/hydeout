@@ -1,10 +1,10 @@
-<figure class="image">
+<figure>
     {% if include.url %}
     <a href="{{ include.url }}">
     {% else %}
     <a href="{{ site.baseurl }}/assets/media/{{ include.src }}">
     {% endif %}
-    <img
+    <img class="scaled"
         {% if include.srcabs %}
             src="{{ include.srcabs }}"
         {% else %}
