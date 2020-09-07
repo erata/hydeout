@@ -17,24 +17,24 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
   <figcaption>Örnek site yapimiz bu sekildedir</figcaption>
 </figure>
 
-**app-routing.mudule.ts**
+**app-routing.mudule.ts** dosya icerigimiz su sekildedir:
 
 {% highlight typescript %}
 import { NgModule } from '@angular/core';
 import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
 import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
 import {AuthGaurdService} from "./services/auth-guard.service";
-import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/landing-page-layout.component";
+import {LandingPageLayoutComponent} from "./shared/layout/guest/landing-page-layout/landing-page-layout.component";
 
- const routes: Routes = [
+const routes: Routes = [
   {
     path: '',
-    loadChildren: () = import('./modules/site/site.module').then(m = m.SiteModule),
+    loadChildren: () => import('./modules/site/site.module').then(m => m.SiteModule),
     data: { preload: true }
   },
   {
     path: 'dashboard',
-    loadChildren: () = import(`./modules/dashboard/dashboard.module`).then(m = m.DashboardModule),
+    loadChildren: () => import(`./modules/dashboard/dashboard.module`).then(m => m.DashboardModule),
     canActivate:[AuthGaurdService],
     data: { preload: true }
   },
@@ -54,9 +54,9 @@ import {LandingPageLayoutComponent} from "./shared/layout/guest/core-layout/land
 export class AppRoutingModule { }
 {% endhighlight %}
 
-Anasayfa (SiteModule) icin iki sablon kullandik: _DefaultLayoutComponent_ ve _LandingPageLayoutComponent_. 
+Görüldügü üzere **app-routing.mudule.ts** dosyamiz **SiteModule** ve **DashboardModule** featured module kullanimi ile oldukca sade bir görünüme kavustu.
+Simdi ilk olarak SiteModule routing mekanizmasini ele alalim. **site-routing.mudule.ts** asagidaki gibidir: 
 
-**site-routing.mudule.ts**
 {% highlight typescript %}
 import { NgModule } from '@angular/core';
 
@@ -96,12 +96,11 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class SiteRoutingModule { }
-
 {% endhighlight %}
 
-Site anasayfamiz default-layout u kullanmakta ve görünümü asagidaki gibi:
+Anasayfa icin kullandigimiz SiteModule component’leri iki ayri sablon kullaniyor: **DefaultLayoutComponent** ve **LandingPageLayoutComponent**. Simdi bu layoutlari ve layoutlara özgü ciktimizi ele alalim.
+**default-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
 
-**default-layout.component.html** dosyamiz su sekilde:
 {% highlight html %}
 <site-navbar></site-navbar>
 <div class="container mb-5">
@@ -117,11 +116,13 @@ Site anasayfamiz default-layout u kullanmakta ve görünümü asagidaki gibi:
 <site-footer></site-footer>
 {% endhighlight %}
 
-[<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+<figure class="image">
+  [<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
+  <figcaption>default-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
+</figure>
 
-Sitede landing-page layoutunu kullanan signup component i ve ekran görünümü asagidaki gibi:
+**landing-page-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
 
-**landing-page.layout.html**
 {% highlight html %}
 <site-navbar></site-navbar>
 <div class="container">
@@ -133,11 +134,12 @@ Sitede landing-page layoutunu kullanan signup component i ve ekran görünümü 
 </div>
 {% endhighlight %}
 
-[<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
+<figure class="image">
+ [<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
+  <figcaption>landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
+</figure>
 
-Yönetim panelinde de iki sablon kullandik. DashboardModule bilesenlerinin görünebilmesi icin sisteme giris yapmak gerekiyor (login).
-
-**dashboard-routing.mudule.ts**
+Ikinci olarak **DashboardModule** routing mekanizmasini ele alalim. **dashboard-routing.mudule.ts** asagidaki gibidir:
 
 {% highlight typescript %}
 import { NgModule } from '@angular/core';
@@ -147,13 +149,13 @@ import {AddPostComponent} from "./add-post/add-post.component";
 import {EditPostComponent} from "./edit-post/edit-post.component";
 import {ListComponent} from "./list/list.component";
 import {EditUserComponent} from "./edit-user/edit-user.component";
-import {AuthorisedLayoutComponent} from "../../shared/layout/authorised/authorised-layout/authorised-layout.component";
-import {AuthorisedCoreLayoutComponent} from "../../shared/layout/authorised/authorised-core-layout/authorised-core-layout.component";
+import {AuthorisedDefaultLayoutComponent} from "../../shared/layout/authorised/authorised-default-layout/authorised-default-layout.component";
+import {AuthorisedLandingPageLayoutComponent} from "../../shared/layout/authorised/authorised-landing-page-layout/authorised-landing-page-layout.component";
 
 const routes: Routes = [
   {
     path: '',
-    component: AuthorisedLayoutComponent,
+    component: AuthorisedDefaultLayoutComponent,
     children: [
       { path: '',  component: ListComponent },
       { path: 'user/edit', component: EditUserComponent },
@@ -161,7 +163,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    component: AuthorisedCoreLayoutComponent,
+    component: AuthorisedLandingPageLayoutComponent,
     children: [
       { path: 'post/add', component: AddPostComponent },
       { path: 'post/edit/:id', component: EditPostComponent },
@@ -177,7 +179,9 @@ const routes: Routes = [
 export class DashboardRoutingModule { }
 {% endhighlight %}
 
-Site yönetim sayfasinin karsilama ekrani asagidaki gibi (authorised-default-layout):
+Yönetim paneli icin kullandigimiz **DashboardModule** component’leri iki ayri sablon kullaniyor: **AuthorisedDefaultLayoutComponent** ve **AuthorisedLandingPageLayoutComponent**. Simdi bu layoutlari ve layoutlara özgü ciktimizi ele alalim.
+**authorised-default-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
+
 {% highlight html %}
 <app-authorised-navbar></app-authorised-navbar>
 <div class="container">
@@ -191,9 +195,14 @@ Site yönetim sayfasinin karsilama ekrani asagidaki gibi (authorised-default-lay
   </div>
 </div>
 {% endhighlight %}
-[<img src="{{site.baseurl}}/assets/media/site-dashboard.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard.PNG)
 
-Site yönetim panelinde authorised-landing-page-layout u kullanan yazi ekleme componenti asagidaki gibi:
+<figure class="image">
+ [<img src="{{site.baseurl}}/assets/media/site-dashboard.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard.PNG)
+  <figcaption>authorised-default-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
+</figure>
+
+**authorised-landing-page-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
+
 {% highlight html %}
 <app-authorised-navbar></app-authorised-navbar>
 <div class="container">
@@ -204,11 +213,28 @@ Site yönetim panelinde authorised-landing-page-layout u kullanan yazi ekleme co
   </div>
 </div>
 {% endhighlight %}
+
+<figure class="image">
 [<img src="{{site.baseurl}}/assets/media/site-dashboard-add.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
+  <figcaption>authorised-landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
+</figure>
 
-URL hatasi (sayfa bulunamadi durumu) hem site hem de yönetim paneli icin gerekli bir durum olacagi icin app-routing.module.ts kapsaminda ele aldik.
+Ücüncü olarak URL hatasi (PageNotFound durumu) icin app-routing.module.ts dosyamizda layout olarak landing-page-layout.component.html dosyasini kullandik. Örnek görüntü asagidaki gibidir:
 
-sayfa bulunamadi görünümü asagidaki gibi:
+<figure class="image">
 [<img src="{{site.baseurl}}/assets/media/site-page-not-found.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
+  <figcaption>Sayfa bulunamadi ekrani</figcaption>
+</figure>
+
+Görüldügü üzere Angular routing mekanizmasinda lazy-loading modül kullanimi ile routing mekanizmasi alt modüllere yayilarak daha sade ve yönetilebilir uygulamalar yapmak mümkün. Ayrica lazy-load modüllerde güvenlik ayari yapmak da oldukca kolay. Örnegin asagidakiki kod parcasinda DashboardModule icin AuthGaurdService güvenlik kontrolünü tek satirda ( canActivate:[AuthGaurdService])ekledik. Böylece “/dashboard/..” ile devam eden tüm sayfalar kullanicinin sisteme giris yapmasina tabi olarak calisacak.
+
+{% highlight typscript %}
+{
+    path: 'dashboard',
+    loadChildren: () => import(`./modules/dashboard/dashboard.module`).then(m => m.DashboardModule),
+    canActivate:[AuthGaurdService],
+    data: { preload: true }
+  },
+{% endhighlight %}
 
 Umarim yararli olmustur.
