@@ -14,6 +14,12 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
 
 [<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="60%" title="Örnek site yapimiz bu sekildedir"/>]({{site.baseurl}}/assets/media/site-yapi.PNG)
 
+{% include image.html 
+url="{{site.baseurl}}/assets/media/site-yapi.PNG"
+max-width="60%" 
+file="{{site.baseurl}}/assets/media/site-yapi.PNG" alt="site-yapi.PNG"
+caption="Örnek site yapimiz bu sekildedir." %}
+
 **app-routing.mudule.ts**
 
 {% highlight typescript %}
