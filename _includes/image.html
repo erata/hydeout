@@ -1,4 +1,4 @@
-<figure>
+<figure class="image">
     {% if include.url %}
     <a href="{{ include.url }}">
     {% endif %}
@@ -6,11 +6,12 @@
         {% if include.srcabs %}
             src="{{ include.srcabs }}"
         {% else %}
-            src="{{ include.url }}"
+            src="{{ site.baseurl }}/assets/images/{{ include.src }}"
         {% endif %}
-    alt="{{ include.alt }}">
+        alt="{{ include.alt }}"
+        max-width="{{ include.width }}"     
+    >        
     {% if include.url %}
-    width="include.width"    
     </a>
     {% endif %}
     {% if include.caption %}
