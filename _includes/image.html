@@ -1,4 +1,4 @@
-<figure>
+<figure class="image">
     {% if include.url %}
     <a href="{{ include.url }}">
     {% else %}
@@ -9,11 +9,16 @@
             src="{{ include.srcabs }}"
         {% else %}
             src="{{ site.baseurl }}/assets/media/{{ include.src }}"
+        {% endif %}      
+         width="{{ include.width }}"
+        {% if include.alt.empty? %}
+            alt="{{ include.src }}"
+        {% else %}
+            alt="{{ include.alt }}"
         {% endif %}
-    width="{{ include.width }}"     
-    alt="{{ include.alt }}">
+    >
     </a>   
-    {% if include.caption %}
+    {% if include.description %}
         <figcaption>{{ include.description }}</figcaption>
     {% endif %}
 </figure>
