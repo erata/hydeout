@@ -1,7 +1,4 @@
-<!-- Bkz. https://jekyllrb.com/docs/includes -->
-<figure>
-   <a href="{{ include.url }}">
-      <img src="{{ include.file }}" style="max-width: {{ include.max-width }};" alt="{{ include.alt }}"/>
-   </a>
-   <figcaption>{{ include.caption }}</figcaption>
-</figure>
+[<img src="{{site.baseurl}}/assets/media/{{ include.file }}" width="60%"/>]({{site.baseurl}}/assets/media/{{ include.file }})
+
+<img src="{{site.baseurl}}/assets/media/{{ include.file }}" alt="{{ include.description }}">  
+<span class="caption">{{ include.description }}</span>
