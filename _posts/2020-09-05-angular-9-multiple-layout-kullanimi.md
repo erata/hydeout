@@ -12,10 +12,7 @@ categories:
 ---
 Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 404 sayfasi var. Normalde **app-routing.mudule.ts** de component bazli bir routing yapisi kurgulayabiliriz. Fakat sadelik ve kullanim kolayligi acisindan lazy-loading seklinde yüklenen modüler bir yapi kurgulayacagiz. Anasayfa bilesenlerini **SiteModule** altinda toplayacagiz. Site yönetim ile ilgili bilesenleri ise **DashboardModule** de toplayacagiz. PageNotFound mesaji icin ise bir component kullanacagiz.
 
-{% include image.html
-    src="site-yapi.PNG" width="50%"
-    description="Örnek site yapimiz bu sekildedir."
-%}
+{% include image.html src="site-yapi.PNG" description="Örnek site yapimiz bu sekildedir." %}
 
 **app-routing.mudule.ts** dosya icerigimiz su sekildedir:
 
@@ -116,10 +113,7 @@ Anasayfa icin kullandigimiz SiteModule component’leri iki ayri sablon kullaniy
 <site-footer></site-footer>
 {% endhighlight %}
 
-<figure class="image">
-  [<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa.PNG)
-  <figcaption>default-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
-</figure>
+{% include image.html src="site-anasayfa.PNG" description="default-layout kullanimi sonucu olusan ciktimiz bu sekildedir." %}
 
 **landing-page-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
 
@@ -134,10 +128,7 @@ Anasayfa icin kullandigimiz SiteModule component’leri iki ayri sablon kullaniy
 </div>
 {% endhighlight %}
 
-<figure class="image">
- [<img src="{{site.baseurl}}/assets/media/site-anasayfa-signup.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-anasayfa-signup.PNG)
-  <figcaption>landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
-</figure>
+{% include image.html src="site-anasayfa-signup.PNG" description="landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir." %}
 
 Ikinci olarak **DashboardModule** routing mekanizmasini ele alalim. **dashboard-routing.mudule.ts** asagidaki gibidir:
 
@@ -196,10 +187,7 @@ Yönetim paneli icin kullandigimiz **DashboardModule** component’leri iki ayri
 </div>
 {% endhighlight %}
 
-<figure class="image">
- [<img src="{{site.baseurl}}/assets/media/site-dashboard.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard.PNG)
-  <figcaption>authorised-default-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
-</figure>
+{% include image.html src="site-dashboard.PNG" description="authorised-default-layout kullanimi sonucu olusan ciktimiz bu sekildedir." %}
 
 **authorised-landing-page-layout.component.html** dosyamiz ve kullanim sonucu olusan ekran görüntüsü asagidaki gibidir:
 
@@ -214,17 +202,11 @@ Yönetim paneli icin kullandigimiz **DashboardModule** component’leri iki ayri
 </div>
 {% endhighlight %}
 
-<figure class="image">
-[<img src="{{site.baseurl}}/assets/media/site-dashboard-add.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-dashboard-add.PNG)
-  <figcaption>authorised-landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir</figcaption>
-</figure>
+{% include image.html src="site-dashboard-add.PNG" description="authorised-landing-page-layout kullanimi sonucu olusan ciktimiz bu sekildedir." %}
 
 Ücüncü olarak URL hatasi (PageNotFound durumu) icin app-routing.module.ts dosyamizda layout olarak landing-page-layout.component.html dosyasini kullandik. Örnek görüntü asagidaki gibidir:
 
-<figure class="image">
-[<img src="{{site.baseurl}}/assets/media/site-page-not-found.PNG" width="60%"/>]({{site.baseurl}}/assets/media/site-page-not-found.PNG)
-  <figcaption>Sayfa bulunamadi ekrani</figcaption>
-</figure>
+{% include image.html src="site-page-not-found.PNG" description="Sayfa bulunamadi ekrani." %}
 
 Görüldügü üzere Angular routing mekanizmasinda lazy-loading modül kullanimi ile routing mekanizmasi alt modüllere yayilarak daha sade ve yönetilebilir uygulamalar yapmak mümkün. Ayrica lazy-load modüllerde güvenlik ayari yapmak da oldukca kolay. Örnegin asagidakiki kod parcasinda DashboardModule icin AuthGaurdService güvenlik kontrolünü tek satirda ( canActivate:[AuthGaurdService])ekledik. Böylece “/dashboard/..” ile devam eden tüm sayfalar kullanicinin sisteme giris yapmasina tabi olarak calisacak.
 
