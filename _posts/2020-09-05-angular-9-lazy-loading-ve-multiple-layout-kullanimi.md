@@ -52,6 +52,7 @@ export class AppRoutingModule { }
 {% endhighlight %}
 
 Görüldügü üzere **app-routing.mudule.ts** dosyamiz **SiteModule** ve **DashboardModule** featured module kullanimi ile oldukca sade bir görünüme kavustu.
+<!--more-->
 Simdi ilk olarak SiteModule routing mekanizmasini ele alalim. **site-routing.mudule.ts** asagidaki gibidir: 
 
 {% highlight typescript %}
