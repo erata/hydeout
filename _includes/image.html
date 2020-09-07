@@ -1,16 +1,12 @@
-{{site.baseurl}}
-{{site.baseurl}}/assets/media/site-anasayfa.PNG
-{{site.baseurl}}/assets/media/site-anasayfa.PNG
-<img src="{{site.baseurl}}/assets/media/site-anasayfa.PNG">
 <figure>
-    {% if include.url %}
-    <a href="{{ include.url }}">
+    {% if include.src %}
+    <a href="{{ site.baseurl }}/assets/media/{{ include.src }}">
     {% endif %}
     <img
         {% if include.srcabs %}
             src="{{ include.srcabs }}"
         {% else %}
-            src="{{ site.baseurl }}/assets/images/{{ include.src }}"
+            src="{{ site.baseurl }}/assets/media/{{ include.src }}"
         {% endif %}
     max-width="{{ include.width }}"     
     alt="{{ include.alt }}">
