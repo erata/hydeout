@@ -1,20 +1,19 @@
-<figure class="image">
-    {% if include.url %}
-    <a href="{{ include.url }}">
-    {% endif %}
-    <img
-        {% if include.srcabs %}
-            src="{{ include.srcabs }}"
-        {% else %}
-            src="{{ site.baseurl }}/assets/media/{{ include.src }}"
-        {% endif %}
-        alt="{{ include.alt }}"
-        max-width="{{ include.width }}"     
-    >        
-    {% if include.url %}
-    </a>
-    {% endif %}
-    {% if include.caption %}
-        <figcaption>{{ include.description }}</figcaption>
-    {% endif %}
-</figure>
+
+<!-- Details in https://blog.webjeda.com/instant-jekyll-search -->
+<!-- Html Elements for Search -->
+<div id="search-container">
+  <input type="text" id="search-input" placeholder="ara..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'ara...'">
+  <ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="../../assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '../../search.json'
+})
+</script>
