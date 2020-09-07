@@ -23,6 +23,13 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
   <figcaption>Örnek site yapimiz bu sekildedir.</figcaption>
 </figure>
 
+{% include image.html
+    src="site-yapi.PNG" 
+    url="{{site.baseurl}}/assets/media/site-yapi.PNG"
+    alt="site-yapi.PNG" 
+    caption="Örnek site yapimiz bu sekildedir."
+%}
+
 <!--
 <figure class="image">
   [<img src="{{site.baseurl}}/assets/media/site-yapi.PNG" width="50%"/>]({{site.baseurl}}/assets/media/site-yapi.PNG}})
