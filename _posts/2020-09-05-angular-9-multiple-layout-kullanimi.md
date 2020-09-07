@@ -25,10 +25,10 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
 -->
 
 {% include image.html
-    src="site-yapi.PNG" <!-- absolute URL to image file -->
-    url="{{site.baseurl}}/assets/media/site-yapi.PNG" <!-- destination url -->
+    src="site-yapi.PNG"
+    url="{{site.baseurl}}/assets/media/site-yapi.PNG"
     alt="Jekyll's logo" <!-- alt text -->
-    description="Örnek site yapimiz bu sekildedir." <!-- Caption -->
+    description="Örnek site yapimiz bu sekildedir."
     width="50%"
 %}
 
