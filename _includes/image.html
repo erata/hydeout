@@ -11,7 +11,7 @@
             src="{{ site.baseurl }}/assets/media/{{ include.src }}"
         {% endif %}      
          width="{{ include.width }}"
-        {% if include.alt.empty? %}
+        {% if include.alt.blank? %}
             alt="{{ include.src }}"
         {% else %}
             alt="{{ include.alt }}"
