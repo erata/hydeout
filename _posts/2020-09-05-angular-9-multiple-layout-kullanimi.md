@@ -24,11 +24,7 @@ Bir site yapiyoruz. Sitede anasayfa bilesenleri, yönetim paneli ve ek olarak 40
 </figure>
 
 {% include image.html
-    src="site-yapi.PNG" <!-- absolute URL to image file -->
-    url="{{site.baseurl}}/assets/media/site-yapi.PNG" <!-- destination url -->
-    alt="Jekyll's logo" <!-- alt text -->
-    description="Örnek site yapimiz bu sekildedir." <!-- Caption -->
-    width="50%"
+    
 %}
 
 <!--
