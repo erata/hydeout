@@ -1,4 +1,7 @@
-<figure class="figure-image">
+{% assign figure_width = include.width %}
+{{ figure_width | default: 50% }}
+
+<figure class="figure-image" style="width:{{ figure_width }}">
     {% if include.url %}
     <a href="{{ include.url }}">
     {% else %}
@@ -10,7 +13,6 @@
         {% else %}
             src="{{ site.baseurl }}/assets/media/{{ include.src }}"
         {% endif %}      
-         width="{{ include.width }}"
         {% if include.alt.blank? %}
             alt="{{ include.src }}"
         {% else %}
