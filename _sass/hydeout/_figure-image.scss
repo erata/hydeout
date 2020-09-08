@@ -5,6 +5,7 @@
   border: thin silver solid;
   padding: 0.5em;
   margin: 0.5em auto;
+  witdt: 90%;
 }
 .figure-image img.scaled {
   width: 100%;
@@ -16,4 +17,9 @@
 
 .figure-image figcaption {
   background-color: #F9F9F9;
+}
+
+@media (min-width: $large-breakpoint) {
+   width: 75%;
+   font-size: smalller;
 }
