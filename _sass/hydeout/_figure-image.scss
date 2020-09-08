@@ -5,7 +5,7 @@
   border: thin silver solid;
   padding: 0.5em;
   margin: 0.5em auto;
-  width: 70%;
+  width: 90%;
 }
 .figure-image img.scaled {
   width: 100%;
@@ -20,8 +20,7 @@
 }
 
 @media (max-width: $large-breakpoint) {
-  .figure-image{
-    width: 100%;
+  .figure-image{  
     font-size: small;
   }
 }
