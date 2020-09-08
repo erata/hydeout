@@ -1,7 +1,7 @@
 <figure class="figure-image">
     {% if include.url %}
     <a href="{{ include.url }}">
-    {% else %}
+    {% else if include.src %}
     <a href="{{ site.baseurl }}/assets/media/{{ include.src }}">
     {% endif %}
     <img class="scaled"
@@ -10,13 +10,15 @@
         {% else %}
             src="{{ site.baseurl }}/assets/media/{{ include.src }}"
         {% endif %}      
-        {% if include.alt.blank? %}
-            alt="{{ include.src }}"
-        {% else %}
+        {% if include.alt %}
             alt="{{ include.alt }}"
+        {% else %}
+            alt="{{ include.description | include.src }}"
         {% endif %}
     >
+    {% if include.url or include.src %}        
     </a>   
+    {% endif %}        
     {% if include.description %}
         <figcaption>{{ include.description }}</figcaption>
     {% endif %}
