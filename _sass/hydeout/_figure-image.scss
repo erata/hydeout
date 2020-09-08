@@ -1,11 +1,11 @@
 .figure-image {
   text-align: center;
-  font-size: medium;
+  font-size: smaller;
   text-indent: 0;
   border: thin silver solid;
   padding: 0.5em;
   margin: 0.5em auto;
-  width: 90%;
+  width: 70%;
 }
 .figure-image img.scaled {
   width: 100%;
@@ -22,6 +22,6 @@
 @media (max-width: $large-breakpoint) {
   .figure-image{
     width: 100%;
-    font-size: smalller;
+    font-size: small;
   }
 }
