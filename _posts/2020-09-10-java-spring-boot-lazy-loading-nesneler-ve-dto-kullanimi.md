@@ -128,6 +128,7 @@ public class Post implements Serializable {
         this.user = user;
     }
 }
+<!--more-->
 
 ````
 **Category Entity sinifimiz:**
