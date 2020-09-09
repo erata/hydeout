@@ -17,7 +17,7 @@ Bu yazida DTO (Data transfer Object) seklinde bilinen veri transfer nesnelerinin
 Direk somut bir örnek üzerinden meseleyi anlatmak gerekirse ilk önce projemdeki **Post**, **Category** ve **Comment** tablolari icin Entity iliskisi kurdum.
 
 **Post Entity sinifimiz:**
-````java
+```java
 package blog.model;
 
 import lombok.*;
@@ -128,9 +128,9 @@ public class Post implements Serializable {
         this.user = user;
     }
 }
+```
 <!--more-->
 
-````
 **Category Entity sinifimiz:**
 ```java
 package blog.model;
@@ -174,6 +174,7 @@ public class Category implements Serializable {
     }
 }
 ```
+
 **Comment Entity sinifimiz:**
 ```java
 package blog.model;
@@ -236,7 +237,6 @@ public class Comment implements Serializable {
     }
 }
 ```
-
 Kod örneklerinden de görüldügü üzere Post tablomuz Comment tablosu ile **one-to-many** iliskisine sahip, Category tablosu ile **many-to-many** iliskisne sahip ve User ile  **many-to-one** iliskisine sahip.
 
 Hibernate temel ayarlarinda 
@@ -244,6 +244,7 @@ Hibernate temel ayarlarinda
 - ManyToOne: EAGER
 - ManyToMany: LAZY
 - OneToOne: EAGER
+
 seklinde yüklenmeye sahip([Bkz.](https://stackoverflow.com/a/26601720/2007859)). Dolayisiyla **ManyToOne** ve **OneToOne** iliskisili nesnelerine Lazy Loading uygulamak icin Entity nesne iliskisinde belirtmek gerekmektedir @ManyToOne(fetch = FetchType.LAZY) gibi.
 
 Simdi esas mevzumuza gelecek olursak yukaridaki Entity siniflari ile olusturdugum bir projede ilk basta DTO nesnesi kullanmadan dogrudan nesneler ile islem yapmakta idim. Entity nesnesinin Controller katmaninda kullanmam ise Hibernate hatalar girdabina girmeme yol acti. LazyInitializationException hatasi bunlardan en bilinen. Bu hatayi cözmek icin alternatif bircok yol mevcut. Kimisi Entity nesne üzerinde bir takim degisiklikler yaparken kimisi application.properties dosyasina hibernate in ilkleme sorununu görece cözmek icin bazi parametreler eklemekte. Bu yazi kapsaminda ise bizim önerecegimiz yöntem DTO nesneleri kullanmak.
@@ -261,6 +262,3 @@ DTO nesneleri kullanmak bize bircok fayda saglayacaktir:
 Benim DTO nesnesi kullanmam Hibernate hatalarina karsi esnek bir cözüm arayisi idi. DTO kullanimin Hibernate kaynakli hatalara cözüm oldugu gibi zamanla degisen ve farkli cevaplar vermesi de gerek farkli sürümlü apiler icin de güzel bir cözüm olacagini gördüm. 
  
 Umarim yararli olmustur.
- 
- 
-
