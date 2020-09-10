@@ -14,9 +14,9 @@ Merhabalar.
 
 Bu yazida DTO (Data transfer Object) seklinde bilinen veri transfer nesnelerinin Spring Boot uygulamalarinda ne kadar elzem olduguna deginmeye calisacagim.
 
-Direk somut bir örnek üzerinden meseleyi anlatmak gerekirse ilk önce projemdeki **Post**, **Category** ve **Comment** tablolari icin Entity iliskisi kurdum.
+Somut bir örnek üzerinden meseleyi anlatmak gerekirse projemdeki **Post**, **Category** ve **Comment** tablolari icin Entity iliskilerine bakalim.
 
-**Post Entity sinifimiz:**
+**Post** Entity sinifimiz:
 ```java
 package blog.model;
 
@@ -131,7 +131,7 @@ public class Post implements Serializable {
 ```
 <!--more-->
 
-**Category Entity sinifimiz:**
+**Category** Entity sinifimiz:
 ```java
 package blog.model;
 
@@ -175,7 +175,7 @@ public class Category implements Serializable {
 }
 ```
 
-**Comment Entity sinifimiz:**
+**Comment** Entity sinifimiz:
 ```java
 package blog.model;
 
@@ -245,19 +245,52 @@ Hibernate temel ayarlarinda
 - ManyToMany: LAZY
 - OneToOne: EAGER
 
-seklinde yüklenmeye sahip([Bkz.](https://stackoverflow.com/a/26601720/2007859)). Dolayisiyla **ManyToOne** ve **OneToOne** iliskisili nesnelerine Lazy Loading uygulamak icin Entity nesne iliskisinde belirtmek gerekmektedir @ManyToOne(fetch = FetchType.LAZY) gibi.
-
+seklinde yüklenmeye sahip([Bkz.](https://stackoverflow.com/a/26601720/2007859)). Dolayisiyla **ManyToOne** ve **OneToOne** iliskisili nesnelerine Lazy Loading uygulamak icin Entity nesne iliskisinde belirtmek gerekmektedir: 
+```java
+@ManyToOne(fetch = FetchType.LAZY)
+```
 Simdi esas mevzumuza gelecek olursak yukaridaki Entity siniflari ile olusturdugum bir projede ilk basta DTO nesnesi kullanmadan dogrudan nesneler ile islem yapmakta idim. Entity nesnesinin Controller katmaninda kullanmam ise Hibernate hatalar girdabina girmeme yol acti. LazyInitializationException hatasi bunlardan en bilinen. Bu hatayi cözmek icin alternatif bircok yol mevcut. Kimisi Entity nesne üzerinde bir takim degisiklikler yaparken kimisi application.properties dosyasina hibernate in ilkleme sorununu görece cözmek icin bazi parametreler eklemekte. Bu yazi kapsaminda ise bizim önerecegimiz yöntem DTO nesneleri kullanmak.
 
 DTO nesneleri kullanmak bize bircok fayda saglayacaktir:
 - Normalde basit sade olmasi gereken Entity nesneleri farkli amaclarla eklenen kod parcalari ile zamanla yönetilemez hale gelmektedir. Iste DTO nesnleri, Entit nesneleri üzerine eklenen farkli amacli kod parca yükünü üzerine alarak Entity nesnelerinin sade ve basit kalmasi icin birebir.
-- DTO kullanimi ile Controller-Servis-Repository arasindaki iliskiyi daha bagimsiz yapma sansimiz olmakta. 
+- DTO kullanimi ile Controller-Servis-Repository arasindaki iliskiyi daha bagimsiz yapma sansimiz olmakta. Repository ile Servis katmani arasinda Entity kullanirken Servis ile Controller katmanlarinda DTO kullaniyoruz. Bu ise Entity katman bagimliligini oldukca azaltmakta ve Entity ile gelen verinin yerine farkli kaynaktan bir veri kullaniminin önünü acmakta. 
 - DTO kullanimi ile Controller a istenen büyüklükte ve kücüklükte veri saglmaka oldukca basit hale gelmekte. Mesela bir apiniz var ve farkli Entity tablolarinin farkli alanlarini iceriyor. Bu is icin DTO bicilmis kaftan.
 - Yillanmis projelerinizde DTO kullanmiyorsaniz veri degisikligine karsi uygulamaniz oldukca kirilgan olacaktir. Tabi sorunlari asmak her zaman mümkün olsa da harcanan isgücü ve zaman kaybi oldukca maaliyetli olma ihtimali var. 
 
  ![dto nesneleri.PNG]({{site.baseurl}}/assets/media/dto nesneleri.PNG)
  
- DTO kullanimi ile api ihtiyacina uygun cevabi hazirmak ve dönmek oldukca kolaylasacaktir. Tabi bunun icin Servis katmaninda Entity nesnenizden gelen verileri DTO nesnenize mapping ile aktarmak gerekecektir. Bu mapping islemi tekrar gibi gözükse de ilerleyen asamadaki farkli ihtiyaclara uygun cözümler üretmede iki de bir Entity nesnesi ile oynamanizin önünü kesecektir.
+DTO kullanimi ile api ihtiyacina uygun cevabi hazirmak ve dönmek oldukca kolaylasacaktir. Tabi bunun icin Servis katmaninda Entity nesnenizden gelen verileri DTO nesnenize mapping ile aktarmak gerekecektir. Bu mapping islemi tekrar gibi gözükse de ilerleyen asamadaki farkli ihtiyaclara uygun cözümler üretmede iki de bir Entity nesnesi ile oynamanizin önünü kesecektir.
+
+Asagidaki DTO farkli tablolardan alanlar icermektedir. Servis katmaninda farkli tablo verileri ile bu DTO yu kullanarak apiye özgü cevaplar sunduk. 
+```java
+package blog.service.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class PostDetailsView implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    private String id;
+    private String title;
+    private String content;
+    private Boolean isPublished;
+    private Date createdAt;
+    private Date updatedAt;
+    private String username;
+    private List<CommentDto> comments = new ArrayList<>();
+    private List<String> categories = new ArrayList<>();
+}
+```
  
 Benim DTO nesnesi kullanmam Hibernate hatalarina karsi esnek bir cözüm arayisi idi. DTO kullanimin Hibernate kaynakli hatalara cözüm oldugu gibi zamanla degisen ve farkli cevaplar vermesi de gerek farkli sürümlü apiler icin de güzel bir cözüm olacagini gördüm. 
  
