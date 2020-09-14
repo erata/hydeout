@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            WebRitmi
-tagline:          'An IT Blog to keep trace of web rhythm'
+tagline:          'Web Dünyasının Ritmi'
 description:      'Web Dünyasının Ritmi'
 url:              http://webritmi.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
