@@ -2,7 +2,7 @@
 layout: post
 published: true
 excerpt_separator: <!--more-->
-title: Ingilizce-Turkce ya da Almanca-Turkce Ceviri Eklentileri ve Uygulamalari
+title: Ingilizce-Türkçe ya da Almanca-Türkçe Çeviri Eklentileri ve Uygulamaları
 tags:
   - Chrome
   - Eklenti
