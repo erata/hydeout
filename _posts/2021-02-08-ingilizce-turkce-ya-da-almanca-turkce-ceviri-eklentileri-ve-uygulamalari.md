@@ -19,7 +19,7 @@ tags:
 categories:
   - Yararli Araclar
 ---
-Merhaba dostlar. Dil öğrenimi uzun zaman alan bir süreçtir ve öğrenim sırasında ufak tefek seylere takılmak motivasyon kaybına yol açabilmektedir. Motivasyonu en cek bozan seyin basinda ise tek tek sözlükten kelime anlamina bakmak, sonra az ileride ayni kelimenin anlamina tekrar bakmak, ve unutursan daha ileride tekrar bir kez daha bakmak oldukça can sıkıcı. Iste bu yüzden bu ceviri sürecini asgari düzeye indirmek dil öğrenimi sirasinda oldukça motivasyonunuzun artmasini saglayacaktir.
+Merhaba dostlar. Dil öğrenimi uzun zaman alan bir süreçtir ve öğrenim sırasında ufak tefek seylere takılmak motivasyon kaybına yol açabilmektedir. Motivasyonu en cok bozan seyin basinda ise tek tek sözlükten kelime anlamina bakmak, sonra az ileride ayni kelimenin anlamina tekrar bakmak, ve unutursan daha ileride tekrar bir kez daha bakmak oldukça can sıkıcı. Iste bu yüzden bu ceviri sürecini asgari düzeye indirmek dil öğrenimi sirasinda oldukça motivasyonunuzun artmasini saglayacaktir.
 
 Bu yazida Transover, [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb/), [Sesli Sözlük](https://chrome.google.com/webstore/detail/sesli-s%C3%B6zl%C3%BCk-dictionary/onboincchibngddijgpjgjllofjceifa), [Kindle Cloud Reader Translate](https://chrome.google.com/webstore/detail/kindle-cloud-reader-trans/ipalacjfeejceeogpnfaijpadginmfhk) eklentileri yani sira farkli ortamlarda (Calibre Epub viewer, Amazon Cloud Reader, Cloud ortamlar...) pratik ceviri yapabilmenizi saglayacak bilgiler sunulacaktir.
 
