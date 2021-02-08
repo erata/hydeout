@@ -3,6 +3,21 @@ layout: post
 published: true
 excerpt_separator: <!--more-->
 title: Ingilizce-Turkce ya da Almanca-Turkce Ceviri Eklentileri ve Uygulamalari
+tags:
+  - Chrome
+  - Eklenti
+  - Transover
+  - Google Translate
+  - Sesli Sozluk
+  - OCR Text Detection Tool
+  - Calibre
+  - Epub Viewer
+  - Amazon
+  - Kindle
+  - Kindle Cloud Reader Translate
+  - Amazon Cloud
+categories:
+  - Yararli Araclar
 ---
 Merhaba dostlar. Dil öğrenimi uzun zaman alan bir süreçtir ve öğrenim sırasında ufak tefek seylere takılmak motivasyon kaybına yol açabilmektedir. Motivasyonu en cek bozan seyin basinda ise tek tek sözlükten kelime anlamina bakmak, sonra az ileride ayni kelimenin anlamina tekrar bakmak, ve unutursan daha ileride tekrar bir kez daha bakmak oldukça can sıkıcı. Iste bu yüzden bu ceviri sürecini asgari düzeye indirmek dil öğrenimi sirasinda oldukça motivasyonunuzun artmasini saglayacaktir.
 
